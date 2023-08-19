@@ -1,0 +1,3575 @@
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b0edfb1f0>, 'f_min': -1.5536216160971121, 'obj': <function get_config.<locals>.f at 0x7f3b0edfb280>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b0edfb310>, <function get_config.<locals>.g_2 at 0x7f3b0edfb5e0>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b0edf2dc0>, <function get_config.<locals>.<lambda> at 0x7f3b0edf2dc0>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b0edf2f70>, <function get_config.<locals>.<lambda> at 0x7f3b0edf2f70>], 'init_safe_points': array([[ 4.06060606, 81.81818182]]), 'init_points': array([[ 5.        , 96.06060606]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b0ede29a0>, <GPy.kern.src.rbf.RBF object at 0x7f3b0edf6d60>, <GPy.kern.src.rbf.RBF object at 0x7f3b0edf6cd0>], 'active_points': [array([[ 6.06060606, 70.3030303 ],
+       [ 6.        , 70.60606061],
+       [ 5.90909091, 71.21212121],
+       [ 5.75757576, 71.51515152],
+       [ 5.78787879, 71.81818182],
+       [ 5.27272727, 74.24242424],
+       [ 5.12121212, 75.15151515],
+       [ 4.27272727, 81.51515152]]), array([[ 6.72727273, 96.66666667]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.2077501  -0.56782793]]
+[[1.45866029 0.        ]]
+lcb2 step 1.
+[[2.82924763e-04 7.28508453e+00]]
+[[8.00464218e-08 5.30724566e+01]]
+lcb2 step 2.
+[[  0.68671582 -13.91396984]]
+[[0.47157861 0.        ]]
+lcb2 step 3.
+[[-0.72344783  4.11380698]]
+[[ 0.         16.92340783]]
+lcb2 step 4.
+[[ 0.52986669 -3.18156521]]
+[[0.28075871 0.        ]]
+lcb2 step 5.
+[[ 0.20951102 -6.31765144]]
+[[0.04389487 0.        ]]
+lcb2 step 6.
+[[ 1.05038129 -6.14759628]]
+[[1.10330086 0.        ]]
+lcb2 step 7.
+[[ 0.23047635 -2.58512328]]
+[[0.05311935 0.        ]]
+lcb2 step 8.
+[[ 0.02131731 -3.96270586]]
+[[0.00045443 0.        ]]
+lcb2 step 9.
+[[ 0.79072444 -1.57444112]]
+[[0.62524514 0.        ]]
+lcb2 step 10.
+[[ 0.02757156 -2.95176674]]
+[[0.00076019 0.        ]]
+lcb2 step 11.
+[[ 0.02124233 -2.24524886]]
+[[0.00045124 0.        ]]
+lcb2 step 12.
+[[0.82702095 3.73162908]]
+[[ 0.68396365 13.92505562]]
+lcb2 step 13.
+[[ 0.00950015 -3.29923741]]
+[[9.02528776e-05 0.00000000e+00]]
+lcb2 step 14.
+[[-0.25112118 -0.55415905]]
+[[0. 0.]]
+lcb2 step 15.
+[[ 1.10835006 -4.25274573]]
+[[1.22843986 0.        ]]
+lcb2 step 16.
+[[0.59108224 0.4506064 ]]
+[[0.34937822 0.20304612]]
+lcb2 step 17.
+[[-0.15028302 -0.48239947]]
+[[0. 0.]]
+lcb2 step 18.
+[[-0.01476756 -2.73781504]]
+[[0. 0.]]
+lcb2 step 19.
+[[ 0.48933624 -2.48383106]]
+[[0.23944996 0.        ]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.3798195519427376 and 0.9998967568566139
+Constrs mean and sd ranges: [0.07299898 2.03511499] and [0.99989676 0.99989676]
+Obj mean and sd ranges: 2.7224556798415303 and 0.9982543781041735
+Constrs mean and sd ranges: [0.46140508 5.24447372] and [0.99825438 0.99825438]
+Obj mean and sd ranges: 2.722190264679403 and 0.9981944474927239
+Constrs mean and sd ranges: [ 0.68711488 13.52836251] and [0.99819445 0.99819445]
+Obj mean and sd ranges: 3.612784541036804 and 0.9837242077477314
+Constrs mean and sd ranges: [ 1.41050922 13.53843233] and [0.98372421 0.98372421]
+Obj mean and sd ranges: 15.35026747333414 and 0.8935145738358035
+Constrs mean and sd ranges: [ 1.40963905 18.38632578] and [0.89351457 0.89351457]
+Obj mean and sd ranges: 15.516887881067483 and 0.8775623527950455
+Constrs mean and sd ranges: [ 1.33086921 21.66149233] and [0.87756235 0.87756235]
+Obj mean and sd ranges: 15.720975325381739 and 0.877540981879147
+Constrs mean and sd ranges: [ 1.9388541  21.74906979] and [0.87754098 0.87754098]
+Obj mean and sd ranges: 15.89441826084536 and 0.8561162944814465
+Constrs mean and sd ranges: [ 1.94416047 21.71638772] and [0.85611629 0.85611629]
+Obj mean and sd ranges: 16.048728637441847 and 0.846486711667965
+Constrs mean and sd ranges: [ 1.9441038  21.80458382] and [0.84648671 0.84648671]
+Obj mean and sd ranges: 15.94273697902318 and 0.8464134576916102
+Constrs mean and sd ranges: [ 1.94373254 22.10782725] and [0.84641346 0.84641346]
+Obj mean and sd ranges: 15.855161249477788 and 0.8417752228947802
+Constrs mean and sd ranges: [ 1.95275274 22.15502141] and [0.84177522 0.84177522]
+Obj mean and sd ranges: 15.890616070609088 and 0.5346274112892083
+Constrs mean and sd ranges: [ 1.9675654  22.26472405] and [0.53462741 0.53462741]
+Obj mean and sd ranges: 15.906388068709816 and 0.5346566999443148
+Constrs mean and sd ranges: [ 1.96766821 22.2330888 ] and [0.5346567 0.5346567]
+Obj mean and sd ranges: 15.482063229777538 and 0.5083599647721229
+Constrs mean and sd ranges: [ 1.96658935 22.12452126] and [0.50835996 0.50835996]
+Obj mean and sd ranges: 15.393425695655482 and 0.47710621634198197
+Constrs mean and sd ranges: [ 1.97391709 22.1887869 ] and [0.47710622 0.47710622]
+Obj mean and sd ranges: 15.403203357246355 and 0.47711918875750275
+Constrs mean and sd ranges: [ 1.97523063 22.21201435] and [0.47711919 0.47711919]
+Obj mean and sd ranges: 15.42464024110065 and 0.45899441960546694
+Constrs mean and sd ranges: [ 1.97224456 22.16901474] and [0.45899442 0.45899442]
+Obj mean and sd ranges: 15.424411830363795 and 0.4590021545137162
+Constrs mean and sd ranges: [ 1.97266216 22.13504991] and [0.45900215 0.45900215]
+Obj mean and sd ranges: 15.412211728216867 and 0.4376727351718918
+Constrs mean and sd ranges: [ 1.96485981 22.14711728] and [0.43767274 0.43767274]
+Obj mean and sd ranges: 15.412836256308978 and 0.4376780137919562
+Constrs mean and sd ranges: [ 1.96464817 22.13369119] and [0.43767801 0.43767801]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b04b77040>, 'f_min': -1.5611225877764308, 'obj': <function get_config.<locals>.f at 0x7f3b04b77700>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b04b77790>, <function get_config.<locals>.g_2 at 0x7f3b04b77820>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b0edfb820>, <function get_config.<locals>.<lambda> at 0x7f3b0edfb820>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b0edfb0d0>, <function get_config.<locals>.<lambda> at 0x7f3b0edfb0d0>], 'init_safe_points': array([[ 4.06060606, 81.51515152]]), 'init_points': array([[ 4.03030303, 91.51515152]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04b67b20>, <GPy.kern.src.rbf.RBF object at 0x7f3b04b70d00>, <GPy.kern.src.rbf.RBF object at 0x7f3b04b70160>], 'active_points': [array([[ 5.54545455, 73.03030303],
+       [ 5.15151515, 75.45454545],
+       [ 4.96969697, 76.36363636],
+       [ 4.90909091, 76.96969697],
+       [ 4.81818182, 77.57575758],
+       [ 4.33333333, 81.51515152],
+       [ 4.18181818, 81.81818182],
+       [ 4.09090909, 83.03030303]]), array([[ 4.81818182, 83.33333333],
+       [ 6.18181818, 92.72727273]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.21588614 -0.62167338]]
+[[1.4783791 0.       ]]
+lcb2 step 1.
+[[-0.00781933  7.31593243]]
+[[ 0.         53.52286732]]
+lcb2 step 2.
+[[  0.67683572 -13.66883874]]
+[[0.45810659 0.        ]]
+lcb2 step 3.
+[[-0.71911343  4.00774914]]
+[[ 0.         16.06205316]]
+lcb2 step 4.
+[[ 0.52995012 -3.37019834]]
+[[0.28084713 0.        ]]
+lcb2 step 5.
+[[ 0.17666531 -6.07016871]]
+[[0.03121063 0.        ]]
+lcb2 step 6.
+[[ 1.02816239 -6.15409037]]
+[[1.05711789 0.        ]]
+lcb2 step 7.
+[[ 0.21391448 -2.55283897]]
+[[0.04575941 0.        ]]
+lcb2 step 8.
+[[ 0.7406119  -1.21642774]]
+[[0.54850598 0.        ]]
+lcb2 step 9.
+[[ 0.03238004 -3.87853066]]
+[[0.00104847 0.        ]]
+lcb2 step 10.
+[[ 0.03462872 -3.04985567]]
+[[0.00119915 0.        ]]
+lcb2 step 11.
+[[-0.02329665 -3.39656662]]
+[[0. 0.]]
+lcb2 step 12.
+[[-0.0939972  -0.62499052]]
+[[0. 0.]]
+lcb2 step 13.
+[[-0.21632369 -0.59194167]]
+[[0. 0.]]
+lcb2 step 14.
+[[ 0.00622638 -3.59036938]]
+[[3.87677522e-05 0.00000000e+00]]
+lcb2 step 15.
+[[ 0.01799456 -3.67562707]]
+[[0.0003238 0.       ]]
+lcb2 step 16.
+[[0.49167522 6.36094831]]
+[[ 0.24174452 40.46166345]]
+lcb2 step 17.
+[[0.41004672 1.33831525]]
+[[0.16813831 1.7910877 ]]
+lcb2 step 18.
+[[-0.0115299  -2.68821426]]
+[[0. 0.]]
+lcb2 step 19.
+[[-0.00855523 -2.38277931]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.4466437218723232 and 0.9998970979083149
+Constrs mean and sd ranges: [0.074694   1.88695397] and [0.9998971 0.9998971]
+Obj mean and sd ranges: 6.495015212470038 and 0.9998965868941544
+Constrs mean and sd ranges: [0.28397863 8.73841391] and [0.99989659 0.99989659]
+Obj mean and sd ranges: 6.268337236666698 and 0.9998624146683712
+Constrs mean and sd ranges: [ 0.67384875 14.53706053] and [0.99986241 0.99986241]
+Obj mean and sd ranges: 6.270779640110613 and 0.9907620888178283
+Constrs mean and sd ranges: [ 1.52897186 14.53770755] and [0.99076209 0.99076209]
+Obj mean and sd ranges: 15.679488125288481 and 0.9408057475384223
+Constrs mean and sd ranges: [ 1.53948252 17.05468061] and [0.94080575 0.94080575]
+Obj mean and sd ranges: 15.731097204009556 and 0.9400956040166484
+Constrs mean and sd ranges: [ 1.51358463 21.03751005] and [0.9400956 0.9400956]
+Obj mean and sd ranges: 15.716334471523297 and 0.8702147575211557
+Constrs mean and sd ranges: [ 1.54369209 21.04764602] and [0.87021476 0.87021476]
+Obj mean and sd ranges: 15.752307425705261 and 0.8700400167060441
+Constrs mean and sd ranges: [ 1.9616363  20.99636851] and [0.87004002 0.87004002]
+Obj mean and sd ranges: 15.75556456429771 and 0.8667901082588864
+Constrs mean and sd ranges: [ 1.96263208 20.94650901] and [0.86679011 0.86679011]
+Obj mean and sd ranges: 15.75744937662371 and 0.6809934615264164
+Constrs mean and sd ranges: [ 1.98251808 21.0045126 ] and [0.68099346 0.68099346]
+Obj mean and sd ranges: 15.686008888901544 and 0.6758969131139543
+Constrs mean and sd ranges: [ 1.9823635  22.44116937] and [0.67589691 0.67589691]
+Obj mean and sd ranges: 15.673153422583628 and 0.6324307695234611
+Constrs mean and sd ranges: [ 2.01583804 22.44265753] and [0.63243077 0.63243077]
+Obj mean and sd ranges: 15.799128687020396 and 0.6300577287102476
+Constrs mean and sd ranges: [ 2.01278965 22.44917954] and [0.63005773 0.63005773]
+Obj mean and sd ranges: 15.799359962773913 and 0.6300870177389022
+Constrs mean and sd ranges: [ 2.01382697 22.41200029] and [0.63008702 0.63008702]
+Obj mean and sd ranges: 15.684351042833722 and 0.6288666522075093
+Constrs mean and sd ranges: [ 2.01346259 22.38768649] and [0.62886665 0.62886665]
+Obj mean and sd ranges: 15.688025316843017 and 0.6288796276291511
+Constrs mean and sd ranges: [ 2.01189385 22.30749768] and [0.62887963 0.62887963]
+Obj mean and sd ranges: 15.49723541511105 and 0.4342099182769055
+Constrs mean and sd ranges: [ 2.01248741 22.25259101] and [0.43420992 0.43420992]
+Obj mean and sd ranges: 15.496692354262876 and 0.43421765325123285
+Constrs mean and sd ranges: [ 2.01285135 22.24366442] and [0.43421765 0.43421765]
+Obj mean and sd ranges: 15.490264416985806 and 0.3939978687081223
+Constrs mean and sd ranges: [ 2.01188003 22.25578717] and [0.39399787 0.39399787]
+Obj mean and sd ranges: 15.489418484479131 and 0.3940031473394708
+Constrs mean and sd ranges: [ 2.01200475 22.25852666] and [0.39400315 0.39400315]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b04b77430>, 'f_min': -1.5565987746354417, 'obj': <function get_config.<locals>.f at 0x7f3b04b77b80>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b04b77af0>, <function get_config.<locals>.g_2 at 0x7f3b04b77a60>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b0edfb700>, <function get_config.<locals>.<lambda> at 0x7f3b0edfb700>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b0edfbca0>, <function get_config.<locals>.<lambda> at 0x7f3b0edfbca0>], 'init_safe_points': array([[ 4.03030303, 80.90909091]]), 'init_points': array([[ 5.45454545, 96.66666667]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04b70d30>, <GPy.kern.src.rbf.RBF object at 0x7f3b04b70d90>, <GPy.kern.src.rbf.RBF object at 0x7f3b04b17be0>], 'active_points': [array([[ 6.03030303, 70.3030303 ],
+       [ 5.90909091, 70.90909091],
+       [ 5.63636364, 72.42424242],
+       [ 5.57575758, 72.72727273],
+       [ 5.48484848, 73.03030303],
+       [ 5.39393939, 73.93939394],
+       [ 4.48484848, 79.6969697 ],
+       [ 4.36363636, 80.60606061],
+       [ 4.3030303 , 80.90909091],
+       [ 4.33333333, 80.90909091],
+       [ 4.        , 83.93939394]]), array([[ 4.63636364, 82.12121212],
+       [ 4.81818182, 83.33333333],
+       [ 5.57575758, 88.18181818]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22902834 -0.39808743]]
+[[1.51051066 0.        ]]
+lcb2 step 1.
+[[1.89059121e-03 7.28038384e+00]]
+[[3.57433513e-06 5.30039888e+01]]
+lcb2 step 2.
+[[  0.65668123 -13.65920226]]
+[[0.43123023 0.        ]]
+lcb2 step 3.
+[[-0.71115311  4.04114685]]
+[[ 0.         16.33086789]]
+lcb2 step 4.
+[[ 0.48399387 -3.11546398]]
+[[0.23425006 0.        ]]
+lcb2 step 5.
+[[ 0.17486599 -5.88210485]]
+[[0.03057811 0.        ]]
+lcb2 step 6.
+[[ 1.02844811 -6.13534939]]
+[[1.05770551 0.        ]]
+lcb2 step 7.
+[[ 0.19073274 -2.44560584]]
+[[0.03637898 0.        ]]
+lcb2 step 8.
+[[ 0.75029581 -1.19424185]]
+[[0.5629438 0.       ]]
+lcb2 step 9.
+[[ 0.0101381  -3.74998704]]
+[[0.00010278 0.        ]]
+lcb2 step 10.
+[[ 0.03834761 -3.10779085]]
+[[0.00147054 0.        ]]
+lcb2 step 11.
+[[ 0.01537869 -3.56529499]]
+[[0.0002365 0.       ]]
+lcb2 step 12.
+[[-0.10112937  0.322904  ]]
+[[0.         0.10426699]]
+lcb2 step 13.
+[[ 0.06393113 -4.36473711]]
+[[0.00408719 0.        ]]
+lcb2 step 14.
+[[ 0.0117221  -2.81552367]]
+[[0.00013741 0.        ]]
+lcb2 step 15.
+[[-0.01260569 -3.04168885]]
+[[0. 0.]]
+lcb2 step 16.
+[[-0.02763082 -3.3177283 ]]
+[[0. 0.]]
+lcb2 step 17.
+[[ 0.00767331 -3.75547847]]
+[[5.88797364e-05 0.00000000e+00]]
+lcb2 step 18.
+[[-0.02053764 -3.37455301]]
+[[0. 0.]]
+lcb2 step 19.
+[[  0.84540299 -10.82871975]]
+[[0.71470622 0.        ]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.3492733329491478 and 0.9998980678449519
+Constrs mean and sd ranges: [0.13266721 1.61183863] and [0.99989807 0.99989807]
+Obj mean and sd ranges: 6.251724485559505 and 0.9998902453015838
+Constrs mean and sd ranges: [0.14473399 8.05957357] and [0.99989025 0.99989025]
+Obj mean and sd ranges: 6.137903768895911 and 0.9998507362003173
+Constrs mean and sd ranges: [ 0.66378521 14.4428703 ] and [0.99985074 0.99985074]
+Obj mean and sd ranges: 6.138671186451616 and 0.9782700868522123
+Constrs mean and sd ranges: [ 1.46885115 14.44374134] and [0.97827009 0.97827009]
+Obj mean and sd ranges: 15.457896448082241 and 0.9252597948270542
+Constrs mean and sd ranges: [ 1.4759178  16.96845261] and [0.92525979 0.92525979]
+Obj mean and sd ranges: 15.593999200300363 and 0.9239676945889824
+Constrs mean and sd ranges: [ 1.40501927 21.14209652] and [0.92396769 0.92396769]
+Obj mean and sd ranges: 15.620929452303773 and 0.8711955661458074
+Constrs mean and sd ranges: [ 1.43193128 21.13980444] and [0.87119557 0.87119557]
+Obj mean and sd ranges: 15.740258699519094 and 0.8711743456879325
+Constrs mean and sd ranges: [ 1.96789079 21.09104554] and [0.87117435 0.87117435]
+Obj mean and sd ranges: 15.757539582360378 and 0.8676504520793735
+Constrs mean and sd ranges: [ 1.96843978 21.02763425] and [0.86765045 0.86765045]
+Obj mean and sd ranges: 15.75943484461199 and 0.6757799001261292
+Constrs mean and sd ranges: [ 1.9898409  21.11193725] and [0.6757799 0.6757799]
+Obj mean and sd ranges: 15.6408074013459 and 0.6711553041538431
+Constrs mean and sd ranges: [ 1.98971104 22.21252863] and [0.6711553 0.6711553]
+Obj mean and sd ranges: 15.633717497357996 and 0.5749633316208571
+Constrs mean and sd ranges: [ 2.02210859 22.1941076 ] and [0.57496333 0.57496333]
+Obj mean and sd ranges: 15.66904583056196 and 0.5687308661546584
+Constrs mean and sd ranges: [ 2.01913401 22.19218128] and [0.56873087 0.56873087]
+Obj mean and sd ranges: 15.66794768622998 and 0.5687601552882399
+Constrs mean and sd ranges: [ 2.02061003 22.17230072] and [0.56876016 0.56876016]
+Obj mean and sd ranges: 15.647277341589227 and 0.5187485644317545
+Constrs mean and sd ranges: [ 2.02308091 22.12581651] and [0.51874856 0.51874856]
+Obj mean and sd ranges: 15.647662261481088 and 0.5187615399644979
+Constrs mean and sd ranges: [ 2.02307616 22.10491747] and [0.51876154 0.51876154]
+Obj mean and sd ranges: 15.56996033136701 and 0.5182725413343607
+Constrs mean and sd ranges: [ 2.02430781 22.16357983] and [0.51827254 0.51827254]
+Obj mean and sd ranges: 15.56911213472128 and 0.5182802763376146
+Constrs mean and sd ranges: [ 2.02319641 22.16625956] and [0.51828028 0.51828028]
+Obj mean and sd ranges: 15.382947311045779 and 0.38872871035722123
+Constrs mean and sd ranges: [ 2.02100906 22.09306861] and [0.38872871 0.38872871]
+Obj mean and sd ranges: 15.385521449487214 and 0.3887339889170386
+Constrs mean and sd ranges: [ 2.02046517 22.06956561] and [0.38873399 0.38873399]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b04b77dc0>, 'f_min': -1.567547406094869, 'obj': <function get_config.<locals>.f at 0x7f3b04b77d30>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b04b77ca0>, <function get_config.<locals>.g_2 at 0x7f3b04b77c10>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b0edfb160>, <function get_config.<locals>.<lambda> at 0x7f3b0edfb160>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b04b77280>, <function get_config.<locals>.<lambda> at 0x7f3b04b77280>], 'init_safe_points': array([[ 4.06060606, 81.21212121]]), 'init_points': array([[ 5.27272727, 79.39393939]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04ad28e0>, <GPy.kern.src.rbf.RBF object at 0x7f3b04b30fa0>, <GPy.kern.src.rbf.RBF object at 0x7f3b04aa5d60>], 'active_points': [array([[ 6.06060606, 70.3030303 ],
+       [ 6.03030303, 70.60606061],
+       [ 5.72727273, 71.81818182],
+       [ 5.57575758, 72.72727273],
+       [ 5.3030303 , 74.24242424],
+       [ 4.87878788, 76.96969697],
+       [ 4.63636364, 78.48484848],
+       [ 4.57575758, 79.09090909],
+       [ 4.51515152, 79.39393939]]), array([[ 4.48484848, 81.21212121],
+       [ 4.54545455, 81.51515152],
+       [ 5.        , 84.54545455]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.21530523 -0.59790329]]
+[[1.47696681 0.        ]]
+lcb2 step 1.
+[[-1.95118326e-04  7.34273483e+00]]
+[[ 0.         53.91575481]]
+lcb2 step 2.
+[[  0.66575229 -13.49004975]]
+[[0.44322611 0.        ]]
+lcb2 step 3.
+[[-0.71121313  4.03617492]]
+[[ 0.         16.29070797]]
+lcb2 step 4.
+[[ 0.50611857 -3.2583268 ]]
+[[0.25615601 0.        ]]
+lcb2 step 5.
+[[ 0.17774875 -5.95703267]]
+[[0.03159462 0.        ]]
+lcb2 step 6.
+[[ 1.04086051 -6.23502367]]
+[[1.08339061 0.        ]]
+lcb2 step 7.
+[[ 0.19425151 -2.30546277]]
+[[0.03773365 0.        ]]
+lcb2 step 8.
+[[ 0.75143121 -1.27333977]]
+[[0.56464887 0.        ]]
+lcb2 step 9.
+[[ 0.01627814 -3.85939295]]
+[[0.00026498 0.        ]]
+lcb2 step 10.
+[[ 0.03901428 -3.18889516]]
+[[0.00152211 0.        ]]
+lcb2 step 11.
+[[ 0.01046368 -3.58132496]]
+[[0.00010949 0.        ]]
+lcb2 step 12.
+[[-0.2428273   4.40308146]]
+[[ 0.         19.38712636]]
+lcb2 step 13.
+[[-0.22233072  1.71724764]]
+[[0.         2.94893945]]
+lcb2 step 14.
+[[ 0.53060224 -0.76289475]]
+[[0.28153874 0.        ]]
+lcb2 step 15.
+[[-0.45587653  1.59882727]]
+[[0.         2.55624863]]
+lcb2 step 16.
+[[-0.21405007  6.43597162]]
+[[ 0.         41.42173075]]
+lcb2 step 17.
+[[0.24059441 7.56681509]]
+[[ 0.05788567 57.25669067]]
+lcb2 step 18.
+[[ 0.08339861 -1.32428878]]
+[[0.00695533 0.        ]]
+lcb2 step 19.
+[[-0.02562759 -3.34718771]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.4262164113427844 and 0.9998974078596566
+Constrs mean and sd ranges: [0.10463631 1.56748429] and [0.99989741 0.99989741]
+Obj mean and sd ranges: 5.939986120431035 and 0.9998746308270802
+Constrs mean and sd ranges: [0.10465391 7.80642642] and [0.99987463 0.99987463]
+Obj mean and sd ranges: 5.835634712926177 and 0.9998315885167225
+Constrs mean and sd ranges: [ 0.65316243 14.54990317] and [0.99983159 0.99983159]
+Obj mean and sd ranges: 5.836590542493287 and 0.9688914479399103
+Constrs mean and sd ranges: [ 1.44615791 14.55117765] and [0.96889145 0.96889145]
+Obj mean and sd ranges: 15.474504601694875 and 0.914658542586941
+Constrs mean and sd ranges: [ 1.45034108 17.38944052] and [0.91465854 0.91465854]
+Obj mean and sd ranges: 15.608785133216397 and 0.9120785605832776
+Constrs mean and sd ranges: [ 1.38024895 21.37366966] and [0.91207856 0.91207856]
+Obj mean and sd ranges: 15.750778692291627 and 0.9095461723060627
+Constrs mean and sd ranges: [ 1.94199478 21.37217423] and [0.90954617 0.90954617]
+Obj mean and sd ranges: 15.769165976170669 and 0.8935155078649768
+Constrs mean and sd ranges: [ 1.94668198 21.32439144] and [0.89351551 0.89351551]
+Obj mean and sd ranges: 15.821681187022222 and 0.8529112312694541
+Constrs mean and sd ranges: [ 1.95444553 21.32432174] and [0.85291123 0.85291123]
+Obj mean and sd ranges: 15.824140256037833 and 0.6633010804028503
+Constrs mean and sd ranges: [ 1.97282201 21.41754252] and [0.66330108 0.66330108]
+Obj mean and sd ranges: 15.728240345709242 and 0.6600101978678734
+Constrs mean and sd ranges: [ 1.97196955 22.23462171] and [0.6600102 0.6600102]
+Obj mean and sd ranges: 15.702614618855245 and 0.5246772173022082
+Constrs mean and sd ranges: [ 2.00191728 22.21094534] and [0.52467722 0.52467722]
+Obj mean and sd ranges: 15.610452450527111 and 0.4728186223957035
+Constrs mean and sd ranges: [ 2.00397636 22.16110889] and [0.47281862 0.47281862]
+Obj mean and sd ranges: 15.599820177613424 and 0.4728479113329717
+Constrs mean and sd ranges: [ 2.00379828 22.17541345] and [0.47284791 0.47284791]
+Obj mean and sd ranges: 15.59660170062245 and 0.4661998947377857
+Constrs mean and sd ranges: [ 1.99980371 22.1710875 ] and [0.46619989 0.46619989]
+Obj mean and sd ranges: 15.598039154217645 and 0.4613866107533099
+Constrs mean and sd ranges: [ 1.99977622 22.16401668] and [0.46138661 0.46138661]
+Obj mean and sd ranges: 15.501319455843744 and 0.46015620614299246
+Constrs mean and sd ranges: [ 1.99911673 22.26717758] and [0.46015621 0.46015621]
+Obj mean and sd ranges: 15.50090026777977 and 0.4601691816480657
+Constrs mean and sd ranges: [ 1.99913816 22.29400064] and [0.46016918 0.46016918]
+Obj mean and sd ranges: 15.672889252488407 and 0.45997818113250394
+Constrs mean and sd ranges: [ 2.00076176 22.32962675] and [0.45997818 0.45997818]
+Obj mean and sd ranges: 15.675636177578497 and 0.45998591603697836
+Constrs mean and sd ranges: [ 2.00105117 22.35890726] and [0.45998592 0.45998592]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b04a203a0>, 'f_min': -1.5890194319903308, 'obj': <function get_config.<locals>.f at 0x7f3b04a20af0>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b04a20b80>, <function get_config.<locals>.g_2 at 0x7f3b04a20c10>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b04b77160>, <function get_config.<locals>.<lambda> at 0x7f3b04b77160>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b04b77310>, <function get_config.<locals>.<lambda> at 0x7f3b04b77310>], 'init_safe_points': array([[ 4.        , 80.60606061]]), 'init_points': array([[ 5.        , 95.75757576]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04ac96d0>, <GPy.kern.src.rbf.RBF object at 0x7f3b04ab9eb0>, <GPy.kern.src.rbf.RBF object at 0x7f3b04a25fa0>], 'active_points': [array([[ 6.12121212, 70.        ],
+       [ 6.        , 70.60606061],
+       [ 5.72727273, 72.12121212],
+       [ 5.63636364, 72.42424242],
+       [ 5.57575758, 72.72727273],
+       [ 5.51515152, 73.33333333],
+       [ 5.3030303 , 74.24242424],
+       [ 5.24242424, 74.84848485],
+       [ 5.06060606, 76.06060606],
+       [ 4.39393939, 80.3030303 ],
+       [ 4.27272727, 81.51515152]]), array([[ 5.66666667, 89.09090909],
+       [ 6.03030303, 91.51515152]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22141018 -0.50802695]]
+[[1.49184282 0.        ]]
+lcb2 step 1.
+[[3.36540606e-03 7.24769720e+00]]
+[[1.13259580e-05 5.25291147e+01]]
+lcb2 step 2.
+[[  0.65908898 -13.50100415]]
+[[0.43439828 0.        ]]
+lcb2 step 3.
+[[-0.7080561   4.19344409]]
+[[ 0.         17.58497333]]
+lcb2 step 4.
+[[ 0.45514584 -3.30930555]]
+[[0.20715773 0.        ]]
+lcb2 step 5.
+[[ 0.18014911 -5.94704501]]
+[[0.0324537 0.       ]]
+lcb2 step 6.
+[[ 1.03659977 -6.22962517]]
+[[1.07453908 0.        ]]
+lcb2 step 7.
+[[ 0.18385264 -2.29871279]]
+[[0.03380179 0.        ]]
+lcb2 step 8.
+[[ 0.73590355 -1.46045644]]
+[[0.54155404 0.        ]]
+lcb2 step 9.
+[[ 0.01610013 -3.65627645]]
+[[0.00025921 0.        ]]
+lcb2 step 10.
+[[ 0.03309933 -3.33877843]]
+[[0.00109557 0.        ]]
+lcb2 step 11.
+[[ 0.12242084 -0.68052125]]
+[[0.01498686 0.        ]]
+lcb2 step 12.
+[[-0.0043186  -3.47434768]]
+[[0. 0.]]
+lcb2 step 13.
+[[-0.01242799 -3.38940247]]
+[[0. 0.]]
+lcb2 step 14.
+[[-0.0149735  -3.24056924]]
+[[0. 0.]]
+lcb2 step 15.
+[[-0.02219409 -3.39843123]]
+[[0. 0.]]
+lcb2 step 16.
+[[-0.00824768 -3.39658218]]
+[[0. 0.]]
+lcb2 step 17.
+[[-0.01334822 -3.37378155]]
+[[0. 0.]]
+lcb2 step 18.
+[[-0.00858518 -3.28925359]]
+[[0. 0.]]
+lcb2 step 19.
+[[-0.02179672 -3.32030735]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.3510584622344308 and 0.9998985650715018
+Constrs mean and sd ranges: [0.16475522 1.45749857] and [0.99989857 0.99989857]
+Obj mean and sd ranges: 6.394146948377785 and 0.9998918031621294
+Constrs mean and sd ranges: [0.1738667  7.88622657] and [0.9998918 0.9998918]
+Obj mean and sd ranges: 6.279711110457556 and 0.9998523204186601
+Constrs mean and sd ranges: [ 0.72157726 14.61142801] and [0.99985232 0.99985232]
+Obj mean and sd ranges: 6.280434370731802 and 0.9790284974288855
+Constrs mean and sd ranges: [ 1.50981012 14.61213154] and [0.9790285 0.9790285]
+Obj mean and sd ranges: 15.444370195726387 and 0.9275613108042843
+Constrs mean and sd ranges: [ 1.51626231 17.05380159] and [0.92756131 0.92756131]
+Obj mean and sd ranges: 15.589596937557104 and 0.9259744209776067
+Constrs mean and sd ranges: [ 1.4584688  21.21754922] and [0.92597442 0.92597442]
+Obj mean and sd ranges: 15.612700941244674 and 0.8694058270154235
+Constrs mean and sd ranges: [ 1.48369783 21.21326964] and [0.86940583 0.86940583]
+Obj mean and sd ranges: 15.740879603456143 and 0.8693854849840439
+Constrs mean and sd ranges: [ 1.94460178 21.16196925] and [0.86938548 0.86938548]
+Obj mean and sd ranges: 15.763452412899213 and 0.8656322553623006
+Constrs mean and sd ranges: [ 1.9451696  21.08667276] and [0.86563226 0.86563226]
+Obj mean and sd ranges: 15.765199445611426 and 0.6735735558221152
+Constrs mean and sd ranges: [ 1.96430953 21.161404  ] and [0.67357356 0.67357356]
+Obj mean and sd ranges: 15.599798831041667 and 0.6684240083342144
+Constrs mean and sd ranges: [ 1.96391443 22.15591745] and [0.66842401 0.66842401]
+Obj mean and sd ranges: 15.598217689366615 and 0.5770569011743947
+Constrs mean and sd ranges: [ 1.98873286 22.13953068] and [0.5770569 0.5770569]
+Obj mean and sd ranges: 15.706128236750398 and 0.5723593061139894
+Constrs mean and sd ranges: [ 1.98546593 22.15358529] and [0.57235931 0.57235931]
+Obj mean and sd ranges: 15.70371778659667 and 0.5723885952786878
+Constrs mean and sd ranges: [ 1.98799054 22.14746711] and [0.5723886 0.5723886]
+Obj mean and sd ranges: 15.692822756500721 and 0.5247675550664518
+Constrs mean and sd ranges: [ 1.98968109 22.10571521] and [0.52476756 0.52476756]
+Obj mean and sd ranges: 15.69425740697481 and 0.524780530619899
+Constrs mean and sd ranges: [ 1.99017377 22.10167907] and [0.52478053 0.52478053]
+Obj mean and sd ranges: 15.606218792098188 and 0.5243440062135121
+Constrs mean and sd ranges: [ 1.99146993 22.13426   ] and [0.52434401 0.52434401]
+Obj mean and sd ranges: 15.602058710643519 and 0.5243517412214278
+Constrs mean and sd ranges: [ 1.99213731 22.14539743] and [0.52435174 0.52435174]
+Obj mean and sd ranges: 15.393192813572778 and 0.3850290949260135
+Constrs mean and sd ranges: [ 1.9901565  22.07242545] and [0.38502909 0.38502909]
+Obj mean and sd ranges: 15.394263995029519 and 0.38503437348179803
+Constrs mean and sd ranges: [ 1.98964719 22.05241349] and [0.38503437 0.38503437]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b04a20430>, 'f_min': -1.5636605606009315, 'obj': <function get_config.<locals>.f at 0x7f3b04a20940>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b04a209d0>, <function get_config.<locals>.g_2 at 0x7f3b04a20a60>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b04b77940>, <function get_config.<locals>.<lambda> at 0x7f3b04b77940>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b04b77f70>, <function get_config.<locals>.<lambda> at 0x7f3b04b77f70>], 'init_safe_points': array([[ 4.06060606, 81.51515152]]), 'init_points': array([[ 5.39393939, 97.87878788]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04a89970>, <GPy.kern.src.rbf.RBF object at 0x7f3b04a89400>, <GPy.kern.src.rbf.RBF object at 0x7f3b04b43730>], 'active_points': [array([[ 6.03030303, 70.60606061],
+       [ 5.78787879, 71.51515152],
+       [ 5.81818182, 71.51515152],
+       [ 5.72727273, 71.81818182],
+       [ 5.45454545, 73.33333333],
+       [ 5.27272727, 74.54545455],
+       [ 5.3030303 , 74.54545455],
+       [ 4.75757576, 77.87878788],
+       [ 4.60606061, 79.09090909],
+       [ 4.42424242, 80.        ],
+       [ 4.42424242, 80.3030303 ],
+       [ 4.36363636, 80.90909091],
+       [ 4.12121212, 82.72727273],
+       [ 4.06060606, 83.33333333]]), array([[ 4.15151515, 79.09090909]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22640567 -0.42738379]]
+[[1.50407086 0.        ]]
+lcb2 step 1.
+[[-0.02684713  7.33973024]]
+[[ 0.      53.87164]]
+lcb2 step 2.
+[[  0.67483907 -13.77105591]]
+[[0.45540777 0.        ]]
+lcb2 step 3.
+[[-0.73163956  4.16144686]]
+[[ 0.         17.31763998]]
+lcb2 step 4.
+[[ 0.50967392 -3.13967691]]
+[[0.2597675 0.       ]]
+lcb2 step 5.
+[[ 0.18538949 -6.08869791]]
+[[0.03436926 0.        ]]
+lcb2 step 6.
+[[ 1.02422671 -6.21010945]]
+[[1.04904036 0.        ]]
+lcb2 step 7.
+[[ 0.22258332 -2.58459121]]
+[[0.04954333 0.        ]]
+lcb2 step 8.
+[[ 0.74559406 -1.2583947 ]]
+[[0.5559105 0.       ]]
+lcb2 step 9.
+[[ 0.03802664 -3.91943742]]
+[[0.00144603 0.        ]]
+lcb2 step 10.
+[[ 0.02504198 -3.12612219]]
+[[0.0006271 0.       ]]
+lcb2 step 11.
+[[-0.02437769 -3.09174713]]
+[[0. 0.]]
+lcb2 step 12.
+[[-0.06951612 -1.49834389]]
+[[0. 0.]]
+lcb2 step 13.
+[[0.85209312 3.70498856]]
+[[ 0.72606268 13.72694023]]
+lcb2 step 14.
+[[-0.25443715 -0.43640621]]
+[[0. 0.]]
+lcb2 step 15.
+[[ 0.0088819  -3.30404899]]
+[[7.88880613e-05 0.00000000e+00]]
+lcb2 step 16.
+[[ 0.59449702 -2.2097039 ]]
+[[0.35342671 0.        ]]
+lcb2 step 17.
+[[ 1.02094085 -3.36927202]]
+[[1.04232022 0.        ]]
+lcb2 step 18.
+[[ 0.00633539 -2.6101423 ]]
+[[4.01371217e-05 0.00000000e+00]]
+lcb2 step 19.
+[[-1.45225267e-03 -3.15785583e+00]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.4055788312211448 and 0.9998970979083149
+Constrs mean and sd ranges: [0.10715694 1.67666825] and [0.9998971 0.9998971]
+Obj mean and sd ranges: 5.8905225948232065 and 0.9998823441915539
+Constrs mean and sd ranges: [0.11081361 8.01481475] and [0.99988234 0.99988234]
+Obj mean and sd ranges: 5.757992555479813 and 0.999840258197053
+Constrs mean and sd ranges: [ 0.6768134  14.60351795] and [0.99984026 0.99984026]
+Obj mean and sd ranges: 5.758124426372643 and 0.9741509466801456
+Constrs mean and sd ranges: [ 1.44588929 14.60483841] and [0.97415095 0.97415095]
+Obj mean and sd ranges: 15.497447616295696 and 0.9172332111520156
+Constrs mean and sd ranges: [ 1.45093435 17.32411831] and [0.91723321 0.91723321]
+Obj mean and sd ranges: 15.596746936359825 and 0.9162081909600999
+Constrs mean and sd ranges: [ 1.38311413 21.38300533] and [0.91620819 0.91620819]
+Obj mean and sd ranges: 15.715235515845379 and 0.9128386611407951
+Constrs mean and sd ranges: [ 1.94124271 21.3488108 ] and [0.91283866 0.91283866]
+Obj mean and sd ranges: 15.724712305869609 and 0.8991872005155206
+Constrs mean and sd ranges: [ 1.94592839 21.29875159] and [0.8991872 0.8991872]
+Obj mean and sd ranges: 15.77338557665234 and 0.8516950816468748
+Constrs mean and sd ranges: [ 1.95330154 21.2988031 ] and [0.85169508 0.85169508]
+Obj mean and sd ranges: 15.779280263131017 and 0.6675003866162915
+Constrs mean and sd ranges: [ 1.97090209 21.38949742] and [0.66750039 0.66750039]
+Obj mean and sd ranges: 15.689920185260373 and 0.6641571729937894
+Constrs mean and sd ranges: [ 1.97009765 22.24704385] and [0.66415717 0.66415717]
+Obj mean and sd ranges: 15.671163955568932 and 0.5373206908976242
+Constrs mean and sd ranges: [ 2.0020523  22.23242551] and [0.53732069 0.53732069]
+Obj mean and sd ranges: 15.534982504766933 and 0.48535698311911724
+Constrs mean and sd ranges: [ 2.00440843 22.19433678] and [0.48535698 0.48535698]
+Obj mean and sd ranges: 15.52736020016053 and 0.48538627204858903
+Constrs mean and sd ranges: [ 2.00513398 22.20157056] and [0.48538627 0.48538627]
+Obj mean and sd ranges: 15.563914236519956 and 0.4785187625606317
+Constrs mean and sd ranges: [ 2.00098343 22.21159578] and [0.47851876 0.47851876]
+Obj mean and sd ranges: 15.523511960029964 and 0.47249563572908315
+Constrs mean and sd ranges: [ 2.00068986 22.21082907] and [0.47249564 0.47249564]
+Obj mean and sd ranges: 15.45088304901 and 0.47133238361006746
+Constrs mean and sd ranges: [ 2.00050246 22.32762594] and [0.47133238 0.47133238]
+Obj mean and sd ranges: 15.450131584687796 and 0.4713453590522321
+Constrs mean and sd ranges: [ 1.99993666 22.29588416] and [0.47134536 0.47134536]
+Obj mean and sd ranges: 15.55350993172836 and 0.47123575995802985
+Constrs mean and sd ranges: [ 2.00827994 22.28220536] and [0.47123576 0.47123576]
+Obj mean and sd ranges: 15.552876793314141 and 0.4712434948349066
+Constrs mean and sd ranges: [ 2.00880361 22.26292715] and [0.47124349 0.47124349]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b04a204c0>, 'f_min': -1.5543099386184607, 'obj': <function get_config.<locals>.f at 0x7f3b04a20160>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b04a20e50>, <function get_config.<locals>.g_2 at 0x7f3b04a20ee0>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b04b77ee0>, <function get_config.<locals>.<lambda> at 0x7f3b04b77ee0>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b04b77550>, <function get_config.<locals>.<lambda> at 0x7f3b04b77550>], 'init_safe_points': array([[ 4.06060606, 80.90909091]]), 'init_points': array([[ 4.78787879, 72.72727273]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b0e920f10>, <GPy.kern.src.rbf.RBF object at 0x7f3b0e9202e0>, <GPy.kern.src.rbf.RBF object at 0x7f3b04a598e0>], 'active_points': [array([[ 6.12121212, 70.        ],
+       [ 6.03030303, 70.3030303 ],
+       [ 5.78787879, 71.81818182],
+       [ 5.72727273, 72.12121212],
+       [ 5.66666667, 72.42424242],
+       [ 5.06060606, 75.75757576],
+       [ 4.81818182, 77.27272727],
+       [ 4.60606061, 78.78787879],
+       [ 4.27272727, 81.51515152],
+       [ 4.09090909, 83.03030303],
+       [ 4.06060606, 83.33333333]]), array([[ 4.75757576, 83.03030303],
+       [ 4.78787879, 83.03030303]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.23073008 -0.5341108 ]]
+[[1.51469652 0.        ]]
+lcb2 step 1.
+[[0.01856441 7.33769804]]
+[[3.44637232e-04 5.38418125e+01]]
+lcb2 step 2.
+[[  0.65670457 -13.4776012 ]]
+[[0.43126089 0.        ]]
+lcb2 step 3.
+[[-0.72911901  4.15590271]]
+[[ 0.         17.27152731]]
+lcb2 step 4.
+[[ 0.48688608 -3.03763889]]
+[[0.23705806 0.        ]]
+lcb2 step 5.
+[[ 0.170901   -5.86871508]]
+[[0.02920715 0.        ]]
+lcb2 step 6.
+[[ 1.01628605 -6.22693174]]
+[[1.03283733 0.        ]]
+lcb2 step 7.
+[[ 0.20754184 -2.4776763 ]]
+[[0.04307361 0.        ]]
+lcb2 step 8.
+[[ 0.00490413 -3.66695828]]
+[[2.4050491e-05 0.0000000e+00]]
+lcb2 step 9.
+[[ 0.78928074 -1.46090571]]
+[[0.62296409 0.        ]]
+lcb2 step 10.
+[[ 0.0309037 -3.3294713]]
+[[0.00095504 0.        ]]
+lcb2 step 11.
+[[ 3.89447683e-04 -3.56978337e+00]]
+[[1.51669498e-07 0.00000000e+00]]
+lcb2 step 12.
+[[ 0.92000538 -9.12066232]]
+[[0.84640991 0.        ]]
+lcb2 step 13.
+[[ 0.08581639 -1.44098315]]
+[[0.00736445 0.        ]]
+lcb2 step 14.
+[[-0.06806682 -0.73442977]]
+[[0. 0.]]
+lcb2 step 15.
+[[ 0.01297942 -3.54296272]]
+[[0.00016847 0.        ]]
+lcb2 step 16.
+[[ 0.57929951 -2.47852723]]
+[[0.33558792 0.        ]]
+lcb2 step 17.
+[[ 0.86029444 -4.0295681 ]]
+[[0.74010653 0.        ]]
+lcb2 step 18.
+[[ 1.08378479 -4.23340785]]
+[[1.17458947 0.        ]]
+lcb2 step 19.
+[[-0.0364744  -2.58475671]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.387188656767149 and 0.999897688955559
+Constrs mean and sd ranges: [0.10976393 1.46187464] and [0.99989769 0.99989769]
+Obj mean and sd ranges: 4.812976475641287 and 0.9996835215670103
+Constrs mean and sd ranges: [0.26577904 6.63599128] and [0.99968352 0.99968352]
+Obj mean and sd ranges: 4.7896258746087605 and 0.9996278768882798
+Constrs mean and sd ranges: [ 0.67343307 14.45664816] and [0.99962788 0.99962788]
+Obj mean and sd ranges: 4.799914163375119 and 0.9587040460056614
+Constrs mean and sd ranges: [ 1.45322115 14.46012047] and [0.95870405 0.95870405]
+Obj mean and sd ranges: 5.07398209004403 and 0.9585377256819366
+Constrs mean and sd ranges: [ 1.98163999 14.73036961] and [0.95853773 0.95853773]
+Obj mean and sd ranges: 5.145006101501158 and 0.9584385183003845
+Constrs mean and sd ranges: [ 1.98196158 18.65833825] and [0.95843852 0.95843852]
+Obj mean and sd ranges: 15.765339301810966 and 0.8886467425591426
+Constrs mean and sd ranges: [ 1.9819289  21.56025562] and [0.88864674 0.88864674]
+Obj mean and sd ranges: 15.865276014558617 and 0.8773182538826765
+Constrs mean and sd ranges: [ 1.98582605 21.50296931] and [0.87731825 0.87731825]
+Obj mean and sd ranges: 15.91353866154672 and 0.8540260189974069
+Constrs mean and sd ranges: [ 1.99305022 21.52872849] and [0.85402602 0.85402602]
+Obj mean and sd ranges: 15.81466936490181 and 0.8498631314516314
+Constrs mean and sd ranges: [ 1.99461486 21.47408714] and [0.84986313 0.84986313]
+Obj mean and sd ranges: 15.681082552064616 and 0.8496328292541592
+Constrs mean and sd ranges: [ 1.99408563 21.92223751] and [0.84963283 0.84963283]
+Obj mean and sd ranges: 15.691997110924405 and 0.6412500874489576
+Constrs mean and sd ranges: [ 2.00943538 21.99904734] and [0.64125009 0.64125009]
+Obj mean and sd ranges: 15.664839791185557 and 0.6412793740743329
+Constrs mean and sd ranges: [ 2.0095763  22.10576474] and [0.64127937 0.64127937]
+Obj mean and sd ranges: 15.61358055041461 and 0.6090542057390916
+Constrs mean and sd ranges: [ 2.00701015 22.0491141 ] and [0.60905421 0.60905421]
+Obj mean and sd ranges: 15.6124548157496 and 0.44013777166165674
+Constrs mean and sd ranges: [ 2.0340773  22.01409219] and [0.44013777 0.44013777]
+Obj mean and sd ranges: 15.498804241846415 and 0.4369038248544223
+Constrs mean and sd ranges: [ 2.03227803 22.0541579 ] and [0.43690382 0.43690382]
+Obj mean and sd ranges: 15.50129451948223 and 0.4369168004692689
+Constrs mean and sd ranges: [ 2.03261099 22.04983298] and [0.4369168 0.4369168]
+Obj mean and sd ranges: 15.467328332885941 and 0.4200660070379626
+Constrs mean and sd ranges: [ 2.03561812 22.02982544] and [0.42006601 0.42006601]
+Obj mean and sd ranges: 15.463598220666654 and 0.4200737420528888
+Constrs mean and sd ranges: [ 2.03567283 22.01327496] and [0.42007374 0.42007374]
+Obj mean and sd ranges: 15.649575005715533 and 0.4166389869970726
+Constrs mean and sd ranges: [ 2.04189934 21.97678918] and [0.41663899 0.41663899]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b049c8430>, 'f_min': -1.5569192089305415, 'obj': <function get_config.<locals>.f at 0x7f3b049c8af0>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b049c8b80>, <function get_config.<locals>.g_2 at 0x7f3b049c8c10>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b04a20dc0>, <function get_config.<locals>.<lambda> at 0x7f3b04a20dc0>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b04a20f70>, <function get_config.<locals>.<lambda> at 0x7f3b04a20f70>], 'init_safe_points': array([[ 4.        , 81.21212121]]), 'init_points': array([[ 6.81818182, 97.87878788]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b049e63d0>, <GPy.kern.src.rbf.RBF object at 0x7f3b049e61c0>, <GPy.kern.src.rbf.RBF object at 0x7f3b049cc820>], 'active_points': [array([[ 6.        , 70.60606061],
+       [ 6.03030303, 70.60606061],
+       [ 5.90909091, 70.90909091],
+       [ 5.93939394, 70.90909091],
+       [ 5.81818182, 71.51515152],
+       [ 5.75757576, 71.81818182],
+       [ 5.63636364, 72.12121212],
+       [ 5.66666667, 72.42424242],
+       [ 5.54545455, 73.03030303],
+       [ 5.39393939, 73.63636364],
+       [ 5.24242424, 74.84848485],
+       [ 5.12121212, 75.15151515],
+       [ 4.81818182, 77.57575758],
+       [ 4.63636364, 78.78787879],
+       [ 4.54545455, 79.39393939],
+       [ 4.33333333, 80.60606061],
+       [ 4.3030303 , 81.21212121],
+       [ 4.09090909, 82.72727273]]), array([], shape=(0, 2), dtype=float64)]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22502775 -0.4114406 ]]
+[[1.50069298 0.        ]]
+lcb2 step 1.
+[[-0.014372    7.21207287]]
+[[ 0.         52.01399506]]
+lcb2 step 2.
+[[  0.68781282 -13.74349417]]
+[[0.47308647 0.        ]]
+lcb2 step 3.
+[[-0.71739953  4.20520793]]
+[[ 0.         17.68377377]]
+lcb2 step 4.
+[[ 0.47624948 -3.27682309]]
+[[0.22681357 0.        ]]
+lcb2 step 5.
+[[ 0.17214706 -6.04004957]]
+[[0.02963461 0.        ]]
+lcb2 step 6.
+[[ 1.03929654 -6.08405418]]
+[[1.0801373 0.       ]]
+lcb2 step 7.
+[[ 0.18056745 -2.74878349]]
+[[0.0326046 0.       ]]
+lcb2 step 8.
+[[ 0.75816103 -1.11713046]]
+[[0.57480814 0.        ]]
+lcb2 step 9.
+[[ 0.02968411 -4.06410948]]
+[[0.00088115 0.        ]]
+lcb2 step 10.
+[[ 0.14558816 -1.41573836]]
+[[0.02119591 0.        ]]
+lcb2 step 11.
+[[ 0.0484536  -2.44411643]]
+[[0.00234775 0.        ]]
+lcb2 step 12.
+[[ 0.00821121 -2.67829567]]
+[[6.74240088e-05 0.00000000e+00]]
+lcb2 step 13.
+[[-0.02923665 -2.90462749]]
+[[0. 0.]]
+lcb2 step 14.
+[[ 0.99858544 -0.44981644]]
+[[0.99717289 0.        ]]
+lcb2 step 15.
+[[ 0.85883403 -4.75095077]]
+[[0.73759589 0.        ]]
+lcb2 step 16.
+[[  0.47099346 -10.49551367]]
+[[0.22183484 0.        ]]
+lcb2 step 17.
+[[ 0.50713881 -5.77034386]]
+[[0.25718977 0.        ]]
+lcb2 step 18.
+[[-0.06597009 -2.75893053]]
+[[0. 0.]]
+lcb2 step 19.
+[[0.97396362 2.40173478]]
+[[0.94860513 5.76832995]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.396615525632235 and 0.9998981914594208
+Constrs mean and sd ranges: [0.13930517 1.92449801] and [0.99989819 0.99989819]
+Obj mean and sd ranges: 5.588376661145732 and 0.9998902856627683
+Constrs mean and sd ranges: [0.14878187 8.0723226 ] and [0.99989029 0.99989029]
+Obj mean and sd ranges: 5.465815433282999 and 0.9998500510912646
+Constrs mean and sd ranges: [ 0.6815881  14.13484964] and [0.99985005 0.99985005]
+Obj mean and sd ranges: 5.466500208496411 and 0.9822268517143117
+Constrs mean and sd ranges: [ 1.50162304 14.135682  ] and [0.98222685 0.98222685]
+Obj mean and sd ranges: 15.46734191022513 and 0.9228295354479104
+Constrs mean and sd ranges: [ 1.50651196 16.98447981] and [0.92282954 0.92282954]
+Obj mean and sd ranges: 15.581552476078578 and 0.9211869389127486
+Constrs mean and sd ranges: [ 1.43971673 20.74162189] and [0.92118694 0.92118694]
+Obj mean and sd ranges: 15.601386078746964 and 0.8703112045839019
+Constrs mean and sd ranges: [ 1.4658662  20.73879254] and [0.8703112 0.8703112]
+Obj mean and sd ranges: 15.713476878413923 and 0.8703042139947997
+Constrs mean and sd ranges: [ 1.97033591 20.7397655 ] and [0.87030421 0.87030421]
+Obj mean and sd ranges: 15.72394350759386 and 0.8665843405643682
+Constrs mean and sd ranges: [ 1.97036297 20.73212085] and [0.86658434 0.86658434]
+Obj mean and sd ranges: 15.72555757790207 and 0.6684782444617975
+Constrs mean and sd ranges: [ 1.98905744 20.8056281 ] and [0.66847824 0.66847824]
+Obj mean and sd ranges: 15.592295656836155 and 0.6629910207819496
+Constrs mean and sd ranges: [ 1.98884096 22.22519572] and [0.66299102 0.66299102]
+Obj mean and sd ranges: 15.582820135305225 and 0.5831846689151235
+Constrs mean and sd ranges: [ 2.01695246 22.20596313] and [0.58318467 0.58318467]
+Obj mean and sd ranges: 15.644447514017244 and 0.57462537019665
+Constrs mean and sd ranges: [ 2.01423229 22.19038976] and [0.57462537 0.57462537]
+Obj mean and sd ranges: 15.555418610175227 and 0.5617721168639521
+Constrs mean and sd ranges: [ 2.01422234 22.19355567] and [0.56177212 0.56177212]
+Obj mean and sd ranges: 15.527600270954606 and 0.5098642893489178
+Constrs mean and sd ranges: [ 2.01580233 22.13355193] and [0.50986429 0.50986429]
+Obj mean and sd ranges: 15.525891788356944 and 0.5098935785918115
+Constrs mean and sd ranges: [ 2.01456126 22.07451938] and [0.50989358 0.50989358]
+Obj mean and sd ranges: 15.418470016420013 and 0.5085194061116928
+Constrs mean and sd ranges: [ 2.01540851 22.12941593] and [0.50851941 0.50851941]
+Obj mean and sd ranges: 15.412765643313548 and 0.5085323816666473
+Constrs mean and sd ranges: [ 2.01508232 22.14275854] and [0.50853238 0.50853238]
+Obj mean and sd ranges: 15.4151865455955 and 0.3913200606175799
+Constrs mean and sd ranges: [ 2.01211829 22.06531653] and [0.39132006 0.39132006]
+Obj mean and sd ranges: 15.41471167006307 and 0.39132779558322645
+Constrs mean and sd ranges: [ 2.0127302  22.06914991] and [0.3913278 0.3913278]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b049c8040>, 'f_min': -1.5665585130537145, 'obj': <function get_config.<locals>.f at 0x7f3b049c84c0>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b049c8820>, <function get_config.<locals>.g_2 at 0x7f3b049c88b0>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b04a201f0>, <function get_config.<locals>.<lambda> at 0x7f3b04a201f0>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b04a20670>, <function get_config.<locals>.<lambda> at 0x7f3b04a20670>], 'init_safe_points': array([[ 4.        , 80.90909091]]), 'init_points': array([[ 5.63636364, 70.3030303 ]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04a59f40>, <GPy.kern.src.rbf.RBF object at 0x7f3b04a59760>, <GPy.kern.src.rbf.RBF object at 0x7f3b0e94e940>], 'active_points': [array([[ 5.87878788, 71.21212121],
+       [ 5.78787879, 71.81818182],
+       [ 5.75757576, 72.12121212],
+       [ 5.48484848, 73.03030303],
+       [ 5.42424242, 73.63636364],
+       [ 5.15151515, 75.45454545],
+       [ 5.        , 76.36363636],
+       [ 4.6969697 , 78.18181818],
+       [ 4.33333333, 80.90909091],
+       [ 4.3030303 , 81.21212121],
+       [ 4.15151515, 82.42424242]]), array([[ 6.66666667, 96.06060606]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.23330779 -0.46721403]]
+[[1.5210481 0.       ]]
+lcb2 step 1.
+[[2.71976819e-03 7.39350917e+00]]
+[[7.39713900e-06 5.46639778e+01]]
+lcb2 step 2.
+[[  0.67051654 -13.51407077]]
+[[0.44959243 0.        ]]
+lcb2 step 3.
+[[-0.74058474  4.10593183]]
+[[ 0.         16.85867616]]
+lcb2 step 4.
+[[ 0.46355871 -3.33178451]]
+[[0.21488668 0.        ]]
+lcb2 step 5.
+[[ 0.16996821 -5.83189124]]
+[[0.02888919 0.        ]]
+lcb2 step 6.
+[[ 1.03505249 -6.03881889]]
+[[1.07133366 0.        ]]
+lcb2 step 7.
+[[ 0.7415891  -1.62708612]]
+[[0.54995439 0.        ]]
+lcb2 step 8.
+[[ 0.1781023  -2.24391371]]
+[[0.03172043 0.        ]]
+lcb2 step 9.
+[[ 0.02938891 -3.77037017]]
+[[0.00086371 0.        ]]
+lcb2 step 10.
+[[ 0.02243279 -2.98575817]]
+[[0.00050323 0.        ]]
+lcb2 step 11.
+[[ 2.21755311e-03 -3.34566786e+00]]
+[[4.91754178e-06 0.00000000e+00]]
+lcb2 step 12.
+[[-0.01930774 -3.21545655]]
+[[0. 0.]]
+lcb2 step 13.
+[[-0.02594936 -3.36278533]]
+[[0. 0.]]
+lcb2 step 14.
+[[-0.01399445 -3.40037513]]
+[[0. 0.]]
+lcb2 step 15.
+[[-0.00974436 -3.36582255]]
+[[0. 0.]]
+lcb2 step 16.
+[[-0.00951544 -3.38752453]]
+[[0. 0.]]
+lcb2 step 17.
+[[-0.01013908 -3.38408203]]
+[[0. 0.]]
+lcb2 step 18.
+[[-0.01488801 -3.39278035]]
+[[0. 0.]]
+lcb2 step 19.
+[[-2.63854289e-03 -3.16824338e+00]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.365238975121417 and 0.9998983875804355
+Constrs mean and sd ranges: [0.14046296 1.81611955] and [0.99989839 0.99989839]
+Obj mean and sd ranges: 5.460565686154209 and 0.9998813602853972
+Constrs mean and sd ranges: [0.14092702 7.82459673] and [0.99988136 0.99988136]
+Obj mean and sd ranges: 5.374829011589185 and 0.9998387400480893
+Constrs mean and sd ranges: [ 0.68029048 14.15838021] and [0.99983874 0.99983874]
+Obj mean and sd ranges: 5.376477148622648 and 0.9765252158349134
+Constrs mean and sd ranges: [ 1.49714722 14.15964448] and [0.97652522 0.97652522]
+Obj mean and sd ranges: 15.413267415355799 and 0.91580669732698
+Constrs mean and sd ranges: [ 1.50164349 16.91840775] and [0.9158067 0.9158067]
+Obj mean and sd ranges: 15.550791237165527 and 0.9132245625987665
+Constrs mean and sd ranges: [ 1.43206568 20.99959427] and [0.91322456 0.91322456]
+Obj mean and sd ranges: 15.70054244694251 and 0.9109824178552036
+Constrs mean and sd ranges: [ 1.9684882  21.00989589] and [0.91098242 0.91098242]
+Obj mean and sd ranges: 15.721472450518661 and 0.8976627623060469
+Constrs mean and sd ranges: [ 1.97241176 20.96240548] and [0.89766276 0.89766276]
+Obj mean and sd ranges: 15.753364944528526 and 0.8527151542198164
+Constrs mean and sd ranges: [ 1.98083726 20.96246415] and [0.85271515 0.85271515]
+Obj mean and sd ranges: 15.757138516687895 and 0.6652648597681903
+Constrs mean and sd ranges: [ 1.99641695 21.05684028] and [0.66526486 0.66526486]
+Obj mean and sd ranges: 15.645946393037068 and 0.6601812938033687
+Constrs mean and sd ranges: [ 1.99535221 22.04301972] and [0.66018129 0.66018129]
+Obj mean and sd ranges: 15.640878488965452 and 0.5427846110224993
+Constrs mean and sd ranges: [ 2.03089195 22.02396588] and [0.54278461 0.54278461]
+Obj mean and sd ranges: 15.656756415454062 and 0.5191281202738272
+Constrs mean and sd ranges: [ 2.02820636 21.99385759] and [0.51912812 0.51912812]
+Obj mean and sd ranges: 16.26405549485809 and 0.5191275807521132
+Constrs mean and sd ranges: [ 2.03111134 21.98938713] and [0.51912758 0.51912758]
+Obj mean and sd ranges: 16.278214496512245 and 0.4776940496732251
+Constrs mean and sd ranges: [ 2.03591482 21.93375384] and [0.47769405 0.47769405]
+Obj mean and sd ranges: 15.879371901057851 and 0.4777230177061307
+Constrs mean and sd ranges: [ 2.0807341  22.28082275] and [0.47772302 0.47772302]
+Obj mean and sd ranges: 15.727077745179532 and 0.47695390854346953
+Constrs mean and sd ranges: [ 2.02776373 22.05872573] and [0.47695391 0.47695391]
+Obj mean and sd ranges: 15.800750139299623 and 0.47696683559887404
+Constrs mean and sd ranges: [ 2.02572398 22.06066613] and [0.47696684 0.47696684]
+Obj mean and sd ranges: 15.686855877077571 and 0.39722949602176666
+Constrs mean and sd ranges: [ 2.0232356  22.00901094] and [0.3972295 0.3972295]
+Obj mean and sd ranges: 15.545579105524737 and 0.397237210305433
+Constrs mean and sd ranges: [ 2.02376512 22.00964696] and [0.39723721 0.39723721]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b049c8ee0>, 'f_min': -1.5779216316277633, 'obj': <function get_config.<locals>.f at 0x7f3b049c80d0>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b049c8d30>, <function get_config.<locals>.g_2 at 0x7f3b049c8ca0>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b04a20ca0>, <function get_config.<locals>.<lambda> at 0x7f3b04a20ca0>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b04a200d0>, <function get_config.<locals>.<lambda> at 0x7f3b04a200d0>], 'init_safe_points': array([[ 4.        , 82.42424242]]), 'init_points': array([[ 5.27272727, 72.72727273]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04ae62e0>, <GPy.kern.src.rbf.RBF object at 0x7f3b04a59e50>, <GPy.kern.src.rbf.RBF object at 0x7f3b049a8a30>], 'active_points': [array([[ 5.84848485, 71.21212121],
+       [ 5.21212121, 74.54545455],
+       [ 5.03030303, 75.75757576],
+       [ 4.93939394, 76.66666667],
+       [ 4.87878788, 76.96969697],
+       [ 4.78787879, 77.27272727],
+       [ 4.48484848, 80.        ],
+       [ 4.3030303 , 81.21212121]]), array([[ 6.87878788, 97.87878788]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.21478428 -0.53807865]]
+[[1.47570084 0.        ]]
+lcb2 step 1.
+[[-0.02426067  7.15290965]]
+[[ 0.         51.16411652]]
+lcb2 step 2.
+[[  0.7062782  -13.90004673]]
+[[0.4988289 0.       ]]
+lcb2 step 3.
+[[-0.7279578   4.15469092]]
+[[ 0.         17.26145663]]
+lcb2 step 4.
+[[ 0.56396938 -3.28461398]]
+[[0.31806147 0.        ]]
+lcb2 step 5.
+[[ 0.21779718 -6.39661012]]
+[[0.04743561 0.        ]]
+lcb2 step 6.
+[[ 1.04254771 -6.07179429]]
+[[1.08690572 0.        ]]
+lcb2 step 7.
+[[ 0.2400008  -2.86977028]]
+[[0.05760038 0.        ]]
+lcb2 step 8.
+[[ 0.04659704 -4.34698702]]
+[[0.00217128 0.        ]]
+lcb2 step 9.
+[[ 0.04433133 -2.86641389]]
+[[0.00196527 0.        ]]
+lcb2 step 10.
+[[ 0.7862854 -1.250889 ]]
+[[0.61824474 0.        ]]
+lcb2 step 11.
+[[ 0.00721811 -3.36586377]]
+[[5.21010588e-05 0.00000000e+00]]
+lcb2 step 12.
+[[ 0.14515304 -1.8035359 ]]
+[[0.0210694 0.       ]]
+lcb2 step 13.
+[[-0.00389561 -2.46798558]]
+[[0. 0.]]
+lcb2 step 14.
+[[-0.01411771 -3.48293405]]
+[[0. 0.]]
+lcb2 step 15.
+[[ 0.87280561 -3.77758617]]
+[[0.76178963 0.        ]]
+lcb2 step 16.
+[[0.62692921 4.16273201]]
+[[ 0.39304023 17.3283378 ]]
+lcb2 step 17.
+[[ 0.93675481 -9.15416156]]
+[[0.87750958 0.        ]]
+lcb2 step 18.
+[[ 0.00867745 -3.64151009]]
+[[7.52980679e-05 0.00000000e+00]]
+lcb2 step 19.
+[[-0.01697419 -3.48470151]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.514343540195416 and 0.9998971896975224
+Constrs mean and sd ranges: [0.05703037 2.66650586] and [0.99989719 0.99989719]
+Obj mean and sd ranges: 5.030663480086741 and 0.999897189139989
+Constrs mean and sd ranges: [0.38300958 9.00357039] and [0.99989719 0.99989719]
+Obj mean and sd ranges: 4.790464673649647 and 0.9998605337897881
+Constrs mean and sd ranges: [ 0.74402366 13.74707303] and [0.99986053 0.99986053]
+Obj mean and sd ranges: 4.791486575030688 and 0.9972625066040863
+Constrs mean and sd ranges: [ 1.58594763 13.74754674] and [0.99726251 0.99726251]
+Obj mean and sd ranges: 15.616025119063579 and 0.9476378959341962
+Constrs mean and sd ranges: [ 1.58968345 16.84191136] and [0.9476379 0.9476379]
+Obj mean and sd ranges: 15.65606819911348 and 0.946383615487414
+Constrs mean and sd ranges: [ 1.58025674 20.73585733] and [0.94638362 0.94638362]
+Obj mean and sd ranges: 15.663992025099603 and 0.8682584620890558
+Constrs mean and sd ranges: [ 1.60964928 20.73980572] and [0.86825846 0.86825846]
+Obj mean and sd ranges: 15.664472230879252 and 0.8620713128725973
+Constrs mean and sd ranges: [ 1.64458273 20.78819665] and [0.86207131 0.86207131]
+Obj mean and sd ranges: 15.66985724479265 and 0.8614551067540537
+Constrs mean and sd ranges: [ 1.99817243 20.79160959] and [0.86145511 0.86145511]
+Obj mean and sd ranges: 15.667112533556983 and 0.861444987926985
+Constrs mean and sd ranges: [ 1.97199587 20.65877585] and [0.86144499 0.86144499]
+Obj mean and sd ranges: 15.667098319034878 and 0.6609761865675168
+Constrs mean and sd ranges: [ 1.98882442 20.73346764] and [0.66097619 0.66097619]
+Obj mean and sd ranges: 15.618962120107085 and 0.6608776224465703
+Constrs mean and sd ranges: [ 2.00724067 22.21046756] and [0.66087762 0.66087762]
+Obj mean and sd ranges: 15.742992694451875 and 0.6604793187713266
+Constrs mean and sd ranges: [ 2.00421194 22.21431625] and [0.66047932 0.66047932]
+Obj mean and sd ranges: 15.595892667063211 and 0.631600908332205
+Constrs mean and sd ranges: [ 2.00237854 22.21944976] and [0.63160091 0.63160091]
+Obj mean and sd ranges: 15.491519310857218 and 0.630782816132607
+Constrs mean and sd ranges: [ 2.00327325 22.22669823] and [0.63078282 0.63078282]
+Obj mean and sd ranges: 15.49697294770948 and 0.6308121049938834
+Constrs mean and sd ranges: [ 2.00049929 22.24343503] and [0.6308121 0.6308121]
+Obj mean and sd ranges: 15.48404111950126 and 0.41317678766942184
+Constrs mean and sd ranges: [ 2.00191933 22.17442953] and [0.41317679 0.41317679]
+Obj mean and sd ranges: 15.484880150142317 and 0.4131897632521152
+Constrs mean and sd ranges: [ 2.00018833 22.17168761] and [0.41318976 0.41318976]
+Obj mean and sd ranges: 15.487484725804801 and 0.4130915134049973
+Constrs mean and sd ranges: [ 1.9978604  22.16351187] and [0.41309151 0.41309151]
+Obj mean and sd ranges: 15.48752105968481 and 0.41309924839974266
+Constrs mean and sd ranges: [ 1.99798708 22.15544386] and [0.41309925 0.41309925]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b048f4160>, 'f_min': -1.549146625556209, 'obj': <function get_config.<locals>.f at 0x7f3b048f4820>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b048f48b0>, <function get_config.<locals>.g_2 at 0x7f3b048f4940>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b049c8940>, <function get_config.<locals>.<lambda> at 0x7f3b049c8940>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b049c89d0>, <function get_config.<locals>.<lambda> at 0x7f3b049c89d0>], 'init_safe_points': array([[ 4.06060606, 80.90909091]]), 'init_points': array([[ 6.27272727, 90.        ]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b0494deb0>, <GPy.kern.src.rbf.RBF object at 0x7f3b048dedf0>, <GPy.kern.src.rbf.RBF object at 0x7f3b048ee970>], 'active_points': [array([[ 5.63636364, 72.42424242],
+       [ 5.42424242, 73.63636364],
+       [ 5.3030303 , 74.24242424],
+       [ 5.12121212, 75.45454545],
+       [ 4.93939394, 76.36363636],
+       [ 4.81818182, 77.27272727],
+       [ 4.72727273, 77.87878788],
+       [ 4.66666667, 78.48484848],
+       [ 4.60606061, 79.09090909],
+       [ 4.33333333, 81.21212121],
+       [ 4.24242424, 81.81818182],
+       [ 4.06060606, 83.33333333]]), array([], shape=(0, 2), dtype=float64)]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22400912 -0.43758844]]
+[[1.49819832 0.        ]]
+lcb2 step 1.
+[[2.63377339e-04 7.42846677e+00]]
+[[6.93676229e-08 5.51821186e+01]]
+lcb2 step 2.
+[[  0.65388075 -13.26610826]]
+[[0.42756003 0.        ]]
+lcb2 step 3.
+[[-0.71901873  4.12116246]]
+[[ 0.         16.98398002]]
+lcb2 step 4.
+[[ 0.47274376 -3.22628368]]
+[[0.22348666 0.        ]]
+lcb2 step 5.
+[[ 0.17894036 -5.84700272]]
+[[0.03201965 0.        ]]
+lcb2 step 6.
+[[ 1.02935711 -6.13525089]]
+[[1.05957607 0.        ]]
+lcb2 step 7.
+[[ 0.20979865 -2.39206019]]
+[[0.04401547 0.        ]]
+lcb2 step 8.
+[[ 0.75899006 -1.30002806]]
+[[0.57606592 0.        ]]
+lcb2 step 9.
+[[ 0.01275559 -3.82915538]]
+[[0.00016271 0.        ]]
+lcb2 step 10.
+[[ 0.02718728 -3.37141167]]
+[[0.00073915 0.        ]]
+lcb2 step 11.
+[[ 3.2334158e-03 -3.5419868e+00]]
+[[1.04549777e-05 0.00000000e+00]]
+lcb2 step 12.
+[[-0.25230013  4.06510938]]
+[[ 0.         16.52511424]]
+lcb2 step 13.
+[[ 0.91309213 -9.20975197]]
+[[0.83373723 0.        ]]
+lcb2 step 14.
+[[ 0.048715   -1.58853539]]
+[[0.00237315 0.        ]]
+lcb2 step 15.
+[[-0.32198859  1.37101201]]
+[[0.         1.87967394]]
+lcb2 step 16.
+[[ 0.51446758 -0.92347442]]
+[[0.26467689 0.        ]]
+lcb2 step 17.
+[[-0.00500887 -3.37045449]]
+[[0. 0.]]
+lcb2 step 18.
+[[-0.03038547 -3.09687744]]
+[[0. 0.]]
+lcb2 step 19.
+[[-0.01339627 -3.48090599]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.3537330123884226 and 0.999897688955559
+Constrs mean and sd ranges: [0.115208   1.50977754] and [0.99989769 0.99989769]
+Obj mean and sd ranges: 5.408402144721382 and 0.9998159202797355
+Constrs mean and sd ranges: [0.18975885 7.3534941 ] and [0.99981592 0.99981592]
+Obj mean and sd ranges: 5.3616299611429 and 0.9997671843236066
+Constrs mean and sd ranges: [ 0.66755004 14.60579003] and [0.99976718 0.99976718]
+Obj mean and sd ranges: 5.365199182001763 and 0.9590613477137155
+Constrs mean and sd ranges: [ 1.45128264 14.60752215] and [0.95906135 0.95906135]
+Obj mean and sd ranges: 5.6008031232146624 and 0.9584556008458104
+Constrs mean and sd ranges: [ 1.95953891 14.81018482] and [0.9584556 0.9584556]
+Obj mean and sd ranges: 5.534330087476976 and 0.9581764434792889
+Constrs mean and sd ranges: [ 1.96324812 15.28873183] and [0.95817644 0.95817644]
+Obj mean and sd ranges: 15.58792656401043 and 0.8840106045377987
+Constrs mean and sd ranges: [ 1.96329154 17.8517604 ] and [0.8840106 0.8840106]
+Obj mean and sd ranges: 15.862324482914048 and 0.8839622580804258
+Constrs mean and sd ranges: [ 1.96225302 21.49692644] and [0.88396226 0.88396226]
+Obj mean and sd ranges: 15.92012311929386 and 0.8345201568620719
+Constrs mean and sd ranges: [ 1.97081575 21.55154421] and [0.83452016 0.83452016]
+Obj mean and sd ranges: 15.898182701012404 and 0.8254558048814228
+Constrs mean and sd ranges: [ 2.00259908 21.53960594] and [0.8254558 0.8254558]
+Obj mean and sd ranges: 15.767272007724657 and 0.8250054780757342
+Constrs mean and sd ranges: [ 2.00419113 21.47315946] and [0.82500548 0.82500548]
+Obj mean and sd ranges: 15.578245587483536 and 0.8249852851666469
+Constrs mean and sd ranges: [ 1.99336519 22.08958407] and [0.82498529 0.82498529]
+Obj mean and sd ranges: 15.578846744961377 and 0.44818842090130995
+Constrs mean and sd ranges: [ 2.00782756 22.1677008 ] and [0.44818842 0.44818842]
+Obj mean and sd ranges: 15.570446260176638 and 0.4482177093559446
+Constrs mean and sd ranges: [ 2.00763982 22.20913745] and [0.44821771 0.44821771]
+Obj mean and sd ranges: 15.545091465139393 and 0.39843683131305785
+Constrs mean and sd ranges: [ 2.00518436 22.21602991] and [0.39843683 0.39843683]
+Obj mean and sd ranges: 15.511819259803104 and 0.3982482810623672
+Constrs mean and sd ranges: [ 2.01596176 22.23802062] and [0.39824828 0.39824828]
+Obj mean and sd ranges: 15.505337392547125 and 0.395495341583557
+Constrs mean and sd ranges: [ 2.02289008 22.26997336] and [0.39549534 0.39549534]
+Obj mean and sd ranges: 15.504797457723 and 0.39550831672081843
+Constrs mean and sd ranges: [ 2.02291247 22.26269659] and [0.39550832 0.39550832]
+Obj mean and sd ranges: 15.489330428792234 and 0.3848518531569606
+Constrs mean and sd ranges: [ 2.024894   22.26244361] and [0.38485185 0.38485185]
+Obj mean and sd ranges: 15.49021022925632 and 0.3848595874276827
+Constrs mean and sd ranges: [ 2.02493875 22.25295284] and [0.38485959 0.38485959]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b049c8280>, 'f_min': -1.560854835681146, 'obj': <function get_config.<locals>.f at 0x7f3b048f44c0>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b048f4550>, <function get_config.<locals>.g_2 at 0x7f3b048f45e0>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b04b77e50>, <function get_config.<locals>.<lambda> at 0x7f3b04b77e50>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b04a20790>, <function get_config.<locals>.<lambda> at 0x7f3b04a20790>], 'init_safe_points': array([[ 4.03030303, 81.81818182]]), 'init_points': array([[ 6.90909091, 89.6969697 ]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04911730>, <GPy.kern.src.rbf.RBF object at 0x7f3b04911070>, <GPy.kern.src.rbf.RBF object at 0x7f3b04ae5b50>], 'active_points': [array([[ 6.12121212, 70.        ],
+       [ 5.81818182, 71.51515152],
+       [ 5.63636364, 72.42424242],
+       [ 5.57575758, 72.72727273],
+       [ 5.36363636, 74.24242424],
+       [ 5.18181818, 74.84848485],
+       [ 5.21212121, 75.15151515],
+       [ 4.66666667, 78.18181818],
+       [ 4.66666667, 78.48484848],
+       [ 4.18181818, 82.42424242]]), array([[ 5.72727273, 89.39393939]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22589442 -0.59627805]]
+[[1.50281713 0.        ]]
+lcb2 step 1.
+[[-0.00932124  7.14980191]]
+[[ 0.        51.1196673]]
+lcb2 step 2.
+[[  0.68274132 -13.93199462]]
+[[0.46613572 0.        ]]
+lcb2 step 3.
+[[-0.71795828  4.02072035]]
+[[ 0.         16.16619217]]
+lcb2 step 4.
+[[ 0.53464724 -3.29738753]]
+[[0.28584767 0.        ]]
+lcb2 step 5.
+[[ 0.18950257 -6.35586764]]
+[[0.03591122 0.        ]]
+lcb2 step 6.
+[[ 1.05615166 -6.05066599]]
+[[1.11545633 0.        ]]
+lcb2 step 7.
+[[ 0.21775102 -2.59289349]]
+[[0.04741551 0.        ]]
+lcb2 step 8.
+[[ 0.75316413 -1.12998527]]
+[[0.56725621 0.        ]]
+lcb2 step 9.
+[[ 0.03395421 -4.15175931]]
+[[0.00115289 0.        ]]
+lcb2 step 10.
+[[ 0.03294781 -3.26211934]]
+[[0.00108556 0.        ]]
+lcb2 step 11.
+[[ 0.00414278 -3.23097134]]
+[[1.7162614e-05 0.0000000e+00]]
+lcb2 step 12.
+[[ 0.02117361 -2.64503189]]
+[[0.00044832 0.        ]]
+lcb2 step 13.
+[[0.81881517 3.84098559]]
+[[ 0.67045828 14.75317033]]
+lcb2 step 14.
+[[-0.01176834 -3.42846285]]
+[[0. 0.]]
+lcb2 step 15.
+[[-0.33935838  0.74620497]]
+[[0.         0.55682185]]
+lcb2 step 16.
+[[0.75425573 1.27724118]]
+[[0.5689017  1.63134503]]
+lcb2 step 17.
+[[ 1.11554719 -4.08371099]]
+[[1.24444553 0.        ]]
+lcb2 step 18.
+[[-0.01301309 -3.06770259]]
+[[0. 0.]]
+lcb2 step 19.
+[[0.20069134 7.89972144]]
+[[4.02770159e-02 6.24055988e+01]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.4725724732569068 and 0.9998972885612576
+Constrs mean and sd ranges: [0.08116372 2.14792666] and [0.99989729 0.99989729]
+Obj mean and sd ranges: 5.961387315283858 and 0.9998971826212771
+Constrs mean and sd ranges: [0.3295413  8.84054002] and [0.99989718 0.99989718]
+Obj mean and sd ranges: 5.716849558095202 and 0.9998621308344183
+Constrs mean and sd ranges: [ 0.72748808 14.30353319] and [0.99986213 0.99986213]
+Obj mean and sd ranges: 5.718959610989491 and 0.9944114196201963
+Constrs mean and sd ranges: [ 1.5547684  14.30400084] and [0.99441142 0.99441142]
+Obj mean and sd ranges: 15.648243860725886 and 0.9447570675346609
+Constrs mean and sd ranges: [ 1.56174472 16.85069379] and [0.94475707 0.94475707]
+Obj mean and sd ranges: 15.700264096055465 and 0.943850737138375
+Constrs mean and sd ranges: [ 1.54102459 20.83717193] and [0.94385074 0.94385074]
+Obj mean and sd ranges: 15.695514814443456 and 0.8688185084287114
+Constrs mean and sd ranges: [ 1.56953477 20.84733405] and [0.86881851 0.86881851]
+Obj mean and sd ranges: 15.704443306611346 and 0.8685336511252648
+Constrs mean and sd ranges: [ 1.9585472  20.82369054] and [0.86853365 0.86853365]
+Obj mean and sd ranges: 15.713582210361373 and 0.8654489990762779
+Constrs mean and sd ranges: [ 1.9603577  20.77282395] and [0.865449 0.865449]
+Obj mean and sd ranges: 15.715625286273564 and 0.6899364848488622
+Constrs mean and sd ranges: [ 1.98051666 20.84317282] and [0.68993648 0.68993648]
+Obj mean and sd ranges: 15.651704682689012 and 0.6834466502427144
+Constrs mean and sd ranges: [ 1.97954117 22.16735654] and [0.68344665 0.68344665]
+Obj mean and sd ranges: 15.640527435421665 and 0.6461132562669717
+Constrs mean and sd ranges: [ 2.02057147 22.17199436] and [0.64611326 0.64611326]
+Obj mean and sd ranges: 15.779018509324946 and 0.6455856962940381
+Constrs mean and sd ranges: [ 2.01706159 22.17733679] and [0.6455857 0.6455857]
+Obj mean and sd ranges: 15.779380549601854 and 0.645614985442387
+Constrs mean and sd ranges: [ 2.01424518 22.14268514] and [0.64561499 0.64561499]
+Obj mean and sd ranges: 15.684497155814189 and 0.6452009825676475
+Constrs mean and sd ranges: [ 2.0145318  22.12690544] and [0.64520098 0.64520098]
+Obj mean and sd ranges: 15.681134138552068 and 0.6452139581164945
+Constrs mean and sd ranges: [ 2.01439667 22.15712673] and [0.64521396 0.64521396]
+Obj mean and sd ranges: 15.477980649185696 and 0.4491683466872449
+Constrs mean and sd ranges: [ 2.01559182 22.13561374] and [0.44916835 0.44916835]
+Obj mean and sd ranges: 15.477489424251559 and 0.4491760816709951
+Constrs mean and sd ranges: [ 2.01504665 22.11162655] and [0.44917608 0.44917608]
+Obj mean and sd ranges: 15.474658727007064 and 0.4144884312177304
+Constrs mean and sd ranges: [ 2.01246628 22.10546821] and [0.41448843 0.41448843]
+Obj mean and sd ranges: 15.475151869527394 and 0.41449370983021333
+Constrs mean and sd ranges: [ 2.01283694 22.1144347 ] and [0.41449371 0.41449371]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b048f4c10>, 'f_min': -1.5921467778693588, 'obj': <function get_config.<locals>.f at 0x7f3b048f40d0>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b048f4430>, <function get_config.<locals>.g_2 at 0x7f3b048f4a60>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b04a208b0>, <function get_config.<locals>.<lambda> at 0x7f3b04a208b0>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b04b771f0>, <function get_config.<locals>.<lambda> at 0x7f3b04b771f0>], 'init_safe_points': array([[ 4.03030303, 81.51515152]]), 'init_points': array([[ 5.60606061, 89.09090909]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04a89df0>, <GPy.kern.src.rbf.RBF object at 0x7f3b04977070>, <GPy.kern.src.rbf.RBF object at 0x7f3b048fe730>], 'active_points': [array([[ 5.54545455, 72.72727273],
+       [ 5.57575758, 72.72727273],
+       [ 5.51515152, 73.03030303],
+       [ 5.45454545, 73.33333333],
+       [ 5.39393939, 73.93939394],
+       [ 4.93939394, 76.66666667],
+       [ 4.78787879, 77.27272727],
+       [ 4.63636364, 78.78787879],
+       [ 4.45454545, 80.        ]]), array([[ 5.36363636, 86.66666667],
+       [ 6.75757576, 96.96969697]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22234863 -0.58754249]]
+[[1.49413618 0.        ]]
+lcb2 step 1.
+[[-0.01525129  7.26434887]]
+[[ 0.         52.77076455]]
+lcb2 step 2.
+[[  0.67843326 -13.82781168]]
+[[0.46027169 0.        ]]
+lcb2 step 3.
+[[-0.72413031  4.22800731]]
+[[ 0.         17.87604578]]
+lcb2 step 4.
+[[ 0.49424535 -3.19436715]]
+[[0.24427847 0.        ]]
+lcb2 step 5.
+[[ 0.19838614 -6.11374048]]
+[[0.03935706 0.        ]]
+lcb2 step 6.
+[[ 1.01129839 -6.25114742]]
+[[1.02272443 0.        ]]
+lcb2 step 7.
+[[ 0.22743859 -2.45833814]]
+[[0.05172831 0.        ]]
+lcb2 step 8.
+[[ 0.72739009 -1.16473521]]
+[[0.52909634 0.        ]]
+lcb2 step 9.
+[[ 0.03472306 -3.96646731]]
+[[0.00120569 0.        ]]
+lcb2 step 10.
+[[ 0.0398926  -3.07695362]]
+[[0.00159142 0.        ]]
+lcb2 step 11.
+[[ 0.22316183 -1.03284508]]
+[[0.0498012 0.       ]]
+lcb2 step 12.
+[[-0.01790691 -3.340968  ]]
+[[0. 0.]]
+lcb2 step 13.
+[[-0.25674741  1.8590328 ]]
+[[0.         3.45600296]]
+lcb2 step 14.
+[[-0.31553305  0.32052737]]
+[[0.         0.10273779]]
+lcb2 step 15.
+[[0.19174416 8.04930702]]
+[[3.67658220e-02 6.47913435e+01]]
+lcb2 step 16.
+[[-0.03610141 -1.47319508]]
+[[0. 0.]]
+lcb2 step 17.
+[[-0.00406705 -3.66395102]]
+[[0. 0.]]
+lcb2 step 18.
+[[ 1.13498247 -2.92697486]]
+[[1.28818521 0.        ]]
+lcb2 step 19.
+[[0.64617047 2.53377351]]
+[[0.41753627 6.42000821]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.4208812633718555 and 0.999897573698386
+Constrs mean and sd ranges: [0.09111291 1.8664496 ] and [0.99989757 0.99989757]
+Obj mean and sd ranges: 3.394260983738875 and 0.9992657139603252
+Constrs mean and sd ranges: [0.3802487  5.81991992] and [0.99926571 0.99926571]
+Obj mean and sd ranges: 3.3888900319500843 and 0.9992024455584689
+Constrs mean and sd ranges: [ 0.68779675 13.82879104] and [0.99920245 0.99920245]
+Obj mean and sd ranges: 3.6697884308252724 and 0.9771460389920172
+Constrs mean and sd ranges: [ 1.42732178 13.83535581] and [0.97714604 0.97714604]
+Obj mean and sd ranges: 3.924057974669367 and 0.9771453133374632
+Constrs mean and sd ranges: [ 1.95361472 14.40435954] and [0.97714531 0.97714531]
+Obj mean and sd ranges: 4.032178013954219 and 0.9771171996098007
+Constrs mean and sd ranges: [ 1.95369491 18.31086367] and [0.9771172 0.9771172]
+Obj mean and sd ranges: 15.76309379606519 and 0.8843511436226517
+Constrs mean and sd ranges: [ 1.95371361 21.76340871] and [0.88435114 0.88435114]
+Obj mean and sd ranges: 15.920458093640661 and 0.8682389812361977
+Constrs mean and sd ranges: [ 1.95669855 21.72334221] and [0.86823898 0.86823898]
+Obj mean and sd ranges: 15.957033207306402 and 0.8527713649101009
+Constrs mean and sd ranges: [ 1.96540636 21.77657916] and [0.85277136 0.85277136]
+Obj mean and sd ranges: 15.986027903962338 and 0.8471226544140404
+Constrs mean and sd ranges: [ 1.96663789 21.80368391] and [0.84712265 0.84712265]
+Obj mean and sd ranges: 15.913836910517912 and 0.8469760442740942
+Constrs mean and sd ranges: [ 1.96663773 21.96576838] and [0.84697604 0.84697604]
+Obj mean and sd ranges: 15.930752119856356 and 0.563660942674459
+Constrs mean and sd ranges: [ 1.98395184 22.08519922] and [0.56366094 0.56366094]
+Obj mean and sd ranges: 15.879637755614851 and 0.563690229813297
+Constrs mean and sd ranges: [ 1.98393955 22.06943161] and [0.56369023 0.56369023]
+Obj mean and sd ranges: 15.594078463063397 and 0.5348292404783113
+Constrs mean and sd ranges: [ 1.98258639 21.97998874] and [0.53482924 0.53482924]
+Obj mean and sd ranges: 15.463920104386629 and 0.5342562130436811
+Constrs mean and sd ranges: [ 1.9817195  22.00030159] and [0.53425621 0.53425621]
+Obj mean and sd ranges: 15.474376455145403 and 0.5342691883117309
+Constrs mean and sd ranges: [ 1.98175263 22.0316301 ] and [0.53426919 0.53426919]
+Obj mean and sd ranges: 15.473454478268916 and 0.5040026591335525
+Constrs mean and sd ranges: [ 2.00777118 21.98223396] and [0.50400266 0.50400266]
+Obj mean and sd ranges: 15.454538102344529 and 0.4539292542452804
+Constrs mean and sd ranges: [ 2.01391358 21.9754917 ] and [0.45392925 0.45392925]
+Obj mean and sd ranges: 15.453675423930257 and 0.4539369892427544
+Constrs mean and sd ranges: [ 2.01405216 21.99653401] and [0.45393699 0.45393699]
+Obj mean and sd ranges: 15.452467991838525 and 0.4469583918042077
+Constrs mean and sd ranges: [ 2.00534834 21.98992939] and [0.44695839 0.44695839]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b0482d040>, 'f_min': -1.5845146921506859, 'obj': <function get_config.<locals>.f at 0x7f3b0482d5e0>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b0482d670>, <function get_config.<locals>.g_2 at 0x7f3b0482d700>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b048f4e50>, <function get_config.<locals>.<lambda> at 0x7f3b048f4e50>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b048f4dc0>, <function get_config.<locals>.<lambda> at 0x7f3b048f4dc0>], 'init_safe_points': array([[ 4.        , 82.12121212]]), 'init_points': array([[ 7.        , 96.96969697]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04922580>, <GPy.kern.src.rbf.RBF object at 0x7f3b049227c0>, <GPy.kern.src.rbf.RBF object at 0x7f3b048744f0>], 'active_points': [array([[ 6.        , 70.3030303 ],
+       [ 5.87878788, 71.21212121],
+       [ 5.6969697 , 72.12121212],
+       [ 5.39393939, 73.63636364],
+       [ 5.42424242, 73.63636364],
+       [ 5.45454545, 73.63636364],
+       [ 4.96969697, 76.36363636],
+       [ 4.75757576, 77.87878788],
+       [ 4.54545455, 79.09090909],
+       [ 4.27272727, 81.21212121],
+       [ 4.06060606, 83.33333333]]), array([[ 6.51515152, 94.84848485]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.2282652  -0.51543718]]
+[[1.50863539 0.        ]]
+lcb2 step 1.
+[[-0.01100378  7.27909963]]
+[[ 0.         52.98529143]]
+lcb2 step 2.
+[[  0.68496215 -14.02752964]]
+[[0.46917314 0.        ]]
+lcb2 step 3.
+[[-0.73221232  4.22266552]]
+[[ 0.         17.83090413]]
+lcb2 step 4.
+[[ 0.53505691 -3.36601266]]
+[[0.2862859 0.       ]]
+lcb2 step 5.
+[[ 0.20761564 -6.37756616]]
+[[0.04310425 0.        ]]
+lcb2 step 6.
+[[ 1.04714769 -6.14617683]]
+[[1.09651829 0.        ]]
+lcb2 step 7.
+[[ 0.23116526 -2.49349828]]
+[[0.05343738 0.        ]]
+lcb2 step 8.
+[[ 0.77028525 -1.16928299]]
+[[0.59333936 0.        ]]
+lcb2 step 9.
+[[ 0.04445047 -4.09962069]]
+[[0.00197584 0.        ]]
+lcb2 step 10.
+[[ 0.01912868 -3.05569339]]
+[[0.00036591 0.        ]]
+lcb2 step 11.
+[[-0.00793558 -3.43100296]]
+[[0. 0.]]
+lcb2 step 12.
+[[-0.02252205 -3.37963276]]
+[[0. 0.]]
+lcb2 step 13.
+[[-1.03510724e-03 -3.58234390e+00]]
+[[0. 0.]]
+lcb2 step 14.
+[[ 0.00737807 -3.61149678]]
+[[5.44359144e-05 0.00000000e+00]]
+lcb2 step 15.
+[[-0.00917521 -3.34460142]]
+[[0. 0.]]
+lcb2 step 16.
+[[-0.00608683 -3.29715258]]
+[[0. 0.]]
+lcb2 step 17.
+[[ 0.36941634 -5.27205877]]
+[[0.13646843 0.        ]]
+lcb2 step 18.
+[[-0.00678372 -3.3282922 ]]
+[[0. 0.]]
+lcb2 step 19.
+[[ 0.00731749 -3.24478978]]
+[[5.3545694e-05 0.0000000e+00]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.480692106213239 and 0.9998974759772733
+Constrs mean and sd ranges: [0.08697343 2.4887824 ] and [0.99989748 0.99989748]
+Obj mean and sd ranges: 3.3436697951817123 and 0.9996591846504443
+Constrs mean and sd ranges: [0.28272121 6.70106075] and [0.99965918 0.99965918]
+Obj mean and sd ranges: 3.3192245941850267 and 0.9995962395665549
+Constrs mean and sd ranges: [ 0.65991301 13.23369115] and [0.99959624 0.99959624]
+Obj mean and sd ranges: 3.6570538747013686 and 0.9844319644885328
+Constrs mean and sd ranges: [ 1.42950871 13.23761177] and [0.98443196 0.98443196]
+Obj mean and sd ranges: 15.435751048455682 and 0.9060169107902851
+Constrs mean and sd ranges: [ 1.4306204  17.35621731] and [0.90601691 0.90601691]
+Obj mean and sd ranges: 15.548257667433408 and 0.8864111656120838
+Constrs mean and sd ranges: [ 1.35763219 21.28843498] and [0.88641117 0.88641117]
+Obj mean and sd ranges: 15.695450383841704 and 0.886276073342861
+Constrs mean and sd ranges: [ 1.96265896 21.38950446] and [0.88627607 0.88627607]
+Obj mean and sd ranges: 15.786552174849929 and 0.8795614914366257
+Constrs mean and sd ranges: [ 1.96763903 21.34988371] and [0.87956149 0.87956149]
+Obj mean and sd ranges: 15.82914211531853 and 0.8457359348641778
+Constrs mean and sd ranges: [ 1.97460707 21.36377893] and [0.84573593 0.84573593]
+Obj mean and sd ranges: 15.967734492405118 and 0.844344673865188
+Constrs mean and sd ranges: [ 1.97597423 21.37442905] and [0.84434467 0.84434467]
+Obj mean and sd ranges: 15.889939015192695 and 0.8441544806704341
+Constrs mean and sd ranges: [ 1.97557143 22.1271688 ] and [0.84415448 0.84415448]
+Obj mean and sd ranges: 15.901878880538515 and 0.5770829696170443
+Constrs mean and sd ranges: [ 1.98878266 22.22561544] and [0.57708297 0.57708297]
+Obj mean and sd ranges: 15.9073903833348 and 0.5771122569430895
+Constrs mean and sd ranges: [ 1.98869516 22.20311761] and [0.57711226 0.57711226]
+Obj mean and sd ranges: 15.58123944131782 and 0.553368183052124
+Constrs mean and sd ranges: [ 1.98617118 22.10917455] and [0.55336818 0.55336818]
+Obj mean and sd ranges: 15.470642452309834 and 0.5532839434597229
+Constrs mean and sd ranges: [ 1.98682222 22.14108056] and [0.55328394 0.55328394]
+Obj mean and sd ranges: 15.469583236384366 and 0.5532969188212347
+Constrs mean and sd ranges: [ 1.9868767  22.09620619] and [0.55329692 0.55329692]
+Obj mean and sd ranges: 15.469624094807752 and 0.5309811095513014
+Constrs mean and sd ranges: [ 2.00795111 22.06900082] and [0.53098111 0.53098111]
+Obj mean and sd ranges: 15.47302289068354 and 0.47367105061821874
+Constrs mean and sd ranges: [ 2.0116618  22.07719141] and [0.47367105 0.47367105]
+Obj mean and sd ranges: 15.47537030600472 and 0.4736787856325162
+Constrs mean and sd ranges: [ 2.01214987 22.04799003] and [0.47367879 0.47367879]
+Obj mean and sd ranges: 15.478330458359778 and 0.46872069115242243
+Constrs mean and sd ranges: [ 1.99812914 22.01331681] and [0.46872069 0.46872069]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b048f4040>, 'f_min': -1.5818750517735558, 'obj': <function get_config.<locals>.f at 0x7f3b0482d280>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b0482d310>, <function get_config.<locals>.g_2 at 0x7f3b0482d3a0>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b049c8670>, <function get_config.<locals>.<lambda> at 0x7f3b049c8670>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b049c8700>, <function get_config.<locals>.<lambda> at 0x7f3b049c8700>], 'init_safe_points': array([[ 4.06060606, 81.21212121]]), 'init_points': array([[ 4.        , 71.51515152]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04922940>, <GPy.kern.src.rbf.RBF object at 0x7f3b048054c0>, <GPy.kern.src.rbf.RBF object at 0x7f3b0493f820>], 'active_points': [array([[ 6.03030303, 70.60606061],
+       [ 5.96969697, 70.90909091],
+       [ 5.63636364, 72.42424242],
+       [ 5.54545455, 73.03030303],
+       [ 5.48484848, 73.33333333],
+       [ 5.27272727, 74.24242424],
+       [ 5.09090909, 75.75757576],
+       [ 4.75757576, 77.57575758],
+       [ 4.78787879, 77.57575758],
+       [ 4.39393939, 80.60606061],
+       [ 4.3030303 , 81.21212121],
+       [ 4.24242424, 81.51515152],
+       [ 4.21212121, 81.81818182]]), array([[ 6.15151515, 92.42424242]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.24235034 -0.55047833]]
+[[1.54343437 0.        ]]
+lcb2 step 1.
+[[0.00755855 7.44248419]]
+[[5.71316257e-05 5.53905710e+01]]
+lcb2 step 2.
+[[  0.6665473  -13.67950357]]
+[[0.44428531 0.        ]]
+lcb2 step 3.
+[[-0.73350732  4.10971111]]
+[[ 0.         16.88972542]]
+lcb2 step 4.
+[[ 0.50149753 -3.12474923]]
+[[0.25149977 0.        ]]
+lcb2 step 5.
+[[ 0.16136953 -5.90113774]]
+[[0.02604012 0.        ]]
+lcb2 step 6.
+[[ 1.02927835 -6.17411082]]
+[[1.05941392 0.        ]]
+lcb2 step 7.
+[[ 0.20767817 -2.34602126]]
+[[0.04313022 0.        ]]
+lcb2 step 8.
+[[ 0.75657904 -1.20111121]]
+[[0.57241185 0.        ]]
+lcb2 step 9.
+[[ 0.0207276  -3.84191992]]
+[[0.00042963 0.        ]]
+lcb2 step 10.
+[[ 0.01945697 -3.05872058]]
+[[0.00037857 0.        ]]
+lcb2 step 11.
+[[-0.02546043 -3.31178983]]
+[[0. 0.]]
+lcb2 step 12.
+[[ 0.01038036 -3.56340292]]
+[[0.00010775 0.        ]]
+lcb2 step 13.
+[[-0.00391596 -3.47283773]]
+[[0. 0.]]
+lcb2 step 14.
+[[-0.00802595 -3.44866282]]
+[[0. 0.]]
+lcb2 step 15.
+[[0.83362811 2.59621299]]
+[[0.69493582 6.74032189]]
+lcb2 step 16.
+[[ 1.13294682 -3.51335826]]
+[[1.28356849 0.        ]]
+lcb2 step 17.
+[[ 0.32737337 -4.40503184]]
+[[0.10717332 0.        ]]
+lcb2 step 18.
+[[ 0.49221313 -1.03905667]]
+[[0.24227377 0.        ]]
+lcb2 step 19.
+[[-0.11319923 -2.04732024]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.3936552294663054 and 0.9998974078596566
+Constrs mean and sd ranges: [0.10084153 1.74590669] and [0.99989741 0.99989741]
+Obj mean and sd ranges: 4.142684639259313 and 0.9995467856899914
+Constrs mean and sd ranges: [0.30898814 6.34561717] and [0.99954679 0.99954679]
+Obj mean and sd ranges: 4.129038136421391 and 0.9994865106838238
+Constrs mean and sd ranges: [ 0.66477253 13.98750442] and [0.99948651 0.99948651]
+Obj mean and sd ranges: 4.150167588803913 and 0.9677823229358973
+Constrs mean and sd ranges: [ 1.43837371 13.99246058] and [0.96778232 0.96778232]
+Obj mean and sd ranges: 4.4078701347154485 and 0.9677436724966001
+Constrs mean and sd ranges: [ 1.94743902 14.37452775] and [0.96774367 0.96774367]
+Obj mean and sd ranges: 4.475687861992997 and 0.9676589303119373
+Constrs mean and sd ranges: [ 1.94765707 18.15798121] and [0.96765893 0.96765893]
+Obj mean and sd ranges: 15.76677022862822 and 0.8870196740621451
+Constrs mean and sd ranges: [ 1.94762244 21.52371402] and [0.88701967 0.88701967]
+Obj mean and sd ranges: 15.881675887886118 and 0.8732516637667552
+Constrs mean and sd ranges: [ 1.95101913 21.46938381] and [0.87325166 0.87325166]
+Obj mean and sd ranges: 15.93543146986367 and 0.8538657933943499
+Constrs mean and sd ranges: [ 1.95980218 21.49542874] and [0.85386579 0.85386579]
+Obj mean and sd ranges: 15.874438858967299 and 0.8486692680730518
+Constrs mean and sd ranges: [ 1.96096708 21.47815221] and [0.84866927 0.84866927]
+Obj mean and sd ranges: 15.75641512676039 and 0.8483633467430572
+Constrs mean and sd ranges: [ 1.96100678 22.09848046] and [0.84836335 0.84836335]
+Obj mean and sd ranges: 15.777541202366123 and 0.6128400318374746
+Constrs mean and sd ranges: [ 1.97956558 22.18863457] and [0.61284003 0.61284003]
+Obj mean and sd ranges: 15.776488796349396 and 0.6128693191064644
+Constrs mean and sd ranges: [ 1.97956421 22.15631187] and [0.61286932 0.61286932]
+Obj mean and sd ranges: 15.604080692532733 and 0.5801758186478567
+Constrs mean and sd ranges: [ 1.97814773 22.08215076] and [0.58017582 0.58017582]
+Obj mean and sd ranges: 15.603377709536195 and 0.4766705107788731
+Constrs mean and sd ranges: [ 2.01097282 22.03936296] and [0.47667051 0.47667051]
+Obj mean and sd ranges: 15.5051986589918 and 0.47439142539176016
+Constrs mean and sd ranges: [ 2.00925529 22.07204379] and [0.47439143 0.47439143]
+Obj mean and sd ranges: 15.5078970310837 and 0.47440440101943865
+Constrs mean and sd ranges: [ 2.00892679 22.08545894] and [0.4744044 0.4744044]
+Obj mean and sd ranges: 15.462472840036668 and 0.44160748141413375
+Constrs mean and sd ranges: [ 2.01782953 22.08570588] and [0.44160748 0.44160748]
+Obj mean and sd ranges: 15.461446922096613 and 0.4416152164104008
+Constrs mean and sd ranges: [ 2.01791969 22.0886882 ] and [0.44161522 0.44161522]
+Obj mean and sd ranges: 15.639837960946153 and 0.4393158450512238
+Constrs mean and sd ranges: [ 2.02998354 22.10478894] and [0.43931585 0.43931585]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b0482d940>, 'f_min': -1.5584723793000568, 'obj': <function get_config.<locals>.f at 0x7f3b0482dca0>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b0482d0d0>, <function get_config.<locals>.g_2 at 0x7f3b0482d160>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b049c8a60>, <function get_config.<locals>.<lambda> at 0x7f3b049c8a60>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b049c8e50>, <function get_config.<locals>.<lambda> at 0x7f3b049c8e50>], 'init_safe_points': array([[ 4.       , 80.3030303]]), 'init_points': array([[  6.03030303, 100.        ]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b0486c4c0>, <GPy.kern.src.rbf.RBF object at 0x7f3b0499d3a0>, <GPy.kern.src.rbf.RBF object at 0x7f3b04855af0>], 'active_points': [array([[ 5.90909091, 70.90909091],
+       [ 5.42424242, 73.33333333],
+       [ 5.42424242, 73.63636364],
+       [ 5.45454545, 73.63636364],
+       [ 4.75757576, 77.27272727],
+       [ 4.75757576, 77.87878788],
+       [ 4.6969697 , 78.18181818],
+       [ 4.63636364, 78.78787879],
+       [ 4.57575758, 79.09090909],
+       [ 4.48484848, 79.6969697 ],
+       [ 4.51515152, 79.6969697 ]]), array([[ 5.51515152, 87.87878788]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22848843 -0.46523482]]
+[[1.50918382 0.        ]]
+lcb2 step 1.
+[[-0.01229841  7.30324258]]
+[[ 0.         53.33735216]]
+lcb2 step 2.
+[[  0.64429434 -13.17641605]]
+[[0.4151152 0.       ]]
+lcb2 step 3.
+[[-0.72663731  4.03931265]]
+[[ 0.        16.3160467]]
+lcb2 step 4.
+[[ 0.438775   -3.32084223]]
+[[0.1925235 0.       ]]
+lcb2 step 5.
+[[ 0.15832084 -5.80284929]]
+[[0.02506549 0.        ]]
+lcb2 step 6.
+[[ 1.01777439 -6.38869045]]
+[[1.03586472 0.        ]]
+lcb2 step 7.
+[[ 0.14059978 -2.45278625]]
+[[0.0197683 0.       ]]
+lcb2 step 8.
+[[ 0.74583249 -1.47990611]]
+[[0.55626611 0.        ]]
+lcb2 step 9.
+[[ 0.00847465 -3.60625016]]
+[[7.18196347e-05 0.00000000e+00]]
+lcb2 step 10.
+[[-8.57746139e-04 -3.05874390e+00]]
+[[0. 0.]]
+lcb2 step 11.
+[[-0.00464581 -3.39422621]]
+[[0. 0.]]
+lcb2 step 12.
+[[-0.38026132  0.9341798 ]]
+[[0.         0.87269189]]
+lcb2 step 13.
+[[ 0.01282428 -3.13441653]]
+[[0.00016446 0.        ]]
+lcb2 step 14.
+[[-0.01187394 -3.30198789]]
+[[0. 0.]]
+lcb2 step 15.
+[[ 4.24455124e-04 -3.38706991e+00]]
+[[1.80162152e-07 0.00000000e+00]]
+lcb2 step 16.
+[[-0.00781101 -3.36659462]]
+[[0. 0.]]
+lcb2 step 17.
+[[-0.01582802 -3.48079419]]
+[[0. 0.]]
+lcb2 step 18.
+[[-0.01891571 -3.38979501]]
+[[0. 0.]]
+lcb2 step 19.
+[[-0.02419192 -3.42693926]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.2896092420432144 and 0.999898725367867
+Constrs mean and sd ranges: [0.17578537 1.2932963 ] and [0.99989873 0.99989873]
+Obj mean and sd ranges: 4.558525438898921 and 0.9996829112491074
+Constrs mean and sd ranges: [0.3492729  6.30420709] and [0.99968291 0.99968291]
+Obj mean and sd ranges: 4.563384010532108 and 0.999629684667662
+Constrs mean and sd ranges: [ 0.71112719 14.65270073] and [0.99962968 0.99962968]
+Obj mean and sd ranges: 4.575112200970343 and 0.9592595037928553
+Constrs mean and sd ranges: [ 1.48609451 14.65588354] and [0.9592595 0.9592595]
+Obj mean and sd ranges: 4.937579496803535 and 0.9590563963772457
+Constrs mean and sd ranges: [ 1.94082623 14.91414287] and [0.9590564 0.9590564]
+Obj mean and sd ranges: 5.0616080086022235 and 0.9590315602748485
+Constrs mean and sd ranges: [ 1.94116546 18.78689135] and [0.95903156 0.95903156]
+Obj mean and sd ranges: 15.82165983667606 and 0.8883326109944131
+Constrs mean and sd ranges: [ 1.94113745 21.77290716] and [0.88833261 0.88833261]
+Obj mean and sd ranges: 15.923795966855291 and 0.8774240833695988
+Constrs mean and sd ranges: [ 1.94409544 21.7285145 ] and [0.87742408 0.87742408]
+Obj mean and sd ranges: 15.965645617040815 and 0.8564514761540146
+Constrs mean and sd ranges: [ 1.9534973  21.76834466] and [0.85645148 0.85645148]
+Obj mean and sd ranges: 15.833667438921443 and 0.8520152780476462
+Constrs mean and sd ranges: [ 1.95461716 21.72271484] and [0.85201528 0.85201528]
+Obj mean and sd ranges: 15.660229565299918 and 0.8519341771439076
+Constrs mean and sd ranges: [ 1.95399432 22.0569068 ] and [0.85193418 0.85193418]
+Obj mean and sd ranges: 15.670371079145688 and 0.6447968424202517
+Constrs mean and sd ranges: [ 1.97332224 22.12576577] and [0.64479684 0.64479684]
+Obj mean and sd ranges: 15.682647574821559 and 0.6448261276899516
+Constrs mean and sd ranges: [ 1.9740076 22.1692024] and [0.64482613 0.64482613]
+Obj mean and sd ranges: 15.655306760308733 and 0.613901913734247
+Constrs mean and sd ranges: [ 1.97157618 22.09737128] and [0.61390191 0.61390191]
+Obj mean and sd ranges: 15.65604572329551 and 0.4428984072591961
+Constrs mean and sd ranges: [ 2.00122681 22.06801492] and [0.44289841 0.44289841]
+Obj mean and sd ranges: 15.48966209439314 and 0.4401871468914526
+Constrs mean and sd ranges: [ 2.0011804  22.08831019] and [0.44018715 0.44018715]
+Obj mean and sd ranges: 15.493805644273152 and 0.4402001224938691
+Constrs mean and sd ranges: [ 2.0020125  22.10758071] and [0.44020012 0.44020012]
+Obj mean and sd ranges: 15.44500364412886 and 0.42307727538289686
+Constrs mean and sd ranges: [ 2.00742004 22.09931619] and [0.42307728 0.42307728]
+Obj mean and sd ranges: 15.437411678412843 and 0.4230850103895351
+Constrs mean and sd ranges: [ 2.00689722 22.10367109] and [0.42308501 0.42308501]
+Obj mean and sd ranges: 15.555981682477025 and 0.42299535042313596
+Constrs mean and sd ranges: [ 2.00690279 22.07941897] and [0.42299535 0.42299535]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b0482db80>, 'f_min': -1.5509448333659976, 'obj': <function get_config.<locals>.f at 0x7f3b047c0310>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b047c03a0>, <function get_config.<locals>.g_2 at 0x7f3b047c0430>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b049c8790>, <function get_config.<locals>.<lambda> at 0x7f3b049c8790>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b0482da60>, <function get_config.<locals>.<lambda> at 0x7f3b0482da60>], 'init_safe_points': array([[ 4.03030303, 81.21212121]]), 'init_points': array([[ 6.        , 87.57575758]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b047b0460>, <GPy.kern.src.rbf.RBF object at 0x7f3b047603a0>, <GPy.kern.src.rbf.RBF object at 0x7f3b047b7a90>], 'active_points': [array([[ 5.87878788, 71.51515152],
+       [ 5.66666667, 72.12121212],
+       [ 5.6969697 , 72.12121212],
+       [ 5.6969697 , 72.42424242],
+       [ 5.27272727, 74.24242424],
+       [ 5.3030303 , 74.24242424],
+       [ 5.3030303 , 74.54545455],
+       [ 4.96969697, 76.36363636],
+       [ 4.54545455, 79.09090909],
+       [ 4.36363636, 80.60606061],
+       [ 4.21212121, 82.12121212],
+       [ 4.18181818, 82.42424242]]), array([], shape=(0, 2), dtype=float64)]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.21005033 -0.43769635]]
+[[1.46422179 0.        ]]
+lcb2 step 1.
+[[-0.01376148  7.39407061]]
+[[ 0.         54.67228026]]
+lcb2 step 2.
+[[  0.67997411 -13.75249198]]
+[[0.46236479 0.        ]]
+lcb2 step 3.
+[[-0.7280171   4.22267043]]
+[[ 0.         17.83094559]]
+lcb2 step 4.
+[[ 0.49934787 -3.49854137]]
+[[0.24934829 0.        ]]
+lcb2 step 5.
+[[ 0.19008309 -6.03714024]]
+[[0.03613158 0.        ]]
+lcb2 step 6.
+[[ 1.03601571 -6.25459955]]
+[[1.07332856 0.        ]]
+lcb2 step 7.
+[[ 0.19032624 -2.63607516]]
+[[0.03622408 0.        ]]
+lcb2 step 8.
+[[ 0.75927446 -1.24156771]]
+[[0.57649771 0.        ]]
+lcb2 step 9.
+[[ 0.03348115 -3.96896699]]
+[[0.00112099 0.        ]]
+lcb2 step 10.
+[[ 0.03122497 -2.99826391]]
+[[0.000975 0.      ]]
+lcb2 step 11.
+[[-4.46418056e-04 -3.17477696e+00]]
+[[0. 0.]]
+lcb2 step 12.
+[[ 0.01828506 -3.24278957]]
+[[0.00033434 0.        ]]
+lcb2 step 13.
+[[-0.01831883 -3.27821983]]
+[[0. 0.]]
+lcb2 step 14.
+[[ 0.58697853 -6.79378233]]
+[[0.34454379 0.        ]]
+lcb2 step 15.
+[[-0.00567758 -3.0729009 ]]
+[[0. 0.]]
+lcb2 step 16.
+[[0.86792067 3.20623892]]
+[[ 0.7532863  10.27996802]]
+lcb2 step 17.
+[[ 0.96750499 -5.49990271]]
+[[0.93606591 0.        ]]
+lcb2 step 18.
+[[-0.18769135 -1.19094117]]
+[[0. 0.]]
+lcb2 step 19.
+[[0.00698868 0.90086018]]
+[[4.88416583e-05 8.11549060e-01]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.3943642025315777 and 0.9998978328339951
+Constrs mean and sd ranges: [0.11387791 1.69281594] and [0.99989783 0.99989783]
+Obj mean and sd ranges: 5.102038968660461 and 0.9998370015144283
+Constrs mean and sd ranges: [0.16304259 7.26102923] and [0.999837 0.999837]
+Obj mean and sd ranges: 5.0333935669718 and 0.9997877413417899
+Constrs mean and sd ranges: [ 0.66214307 14.27604658] and [0.99978774 0.99978774]
+Obj mean and sd ranges: 5.036437534986771 and 0.9689771051342904
+Constrs mean and sd ranges: [ 1.43699288 14.2779426 ] and [0.96897711 0.96897711]
+Obj mean and sd ranges: 15.41169619663522 and 0.9121187973544441
+Constrs mean and sd ranges: [ 1.4399112 17.3896875] and [0.9121188 0.9121188]
+Obj mean and sd ranges: 15.544147735883666 and 0.8988740096980439
+Constrs mean and sd ranges: [ 1.36566816 21.15965253] and [0.89887401 0.89887401]
+Obj mean and sd ranges: 15.722456898345165 and 0.8979354589574665
+Constrs mean and sd ranges: [ 1.93306236 21.22072036] and [0.89793546 0.89793546]
+Obj mean and sd ranges: 15.749783584107407 and 0.8853097204449084
+Constrs mean and sd ranges: [ 1.93657637 21.16786352] and [0.88530972 0.88530972]
+Obj mean and sd ranges: 15.806192486227488 and 0.8522822709989081
+Constrs mean and sd ranges: [ 1.94577751 21.17238282] and [0.85228227 0.85228227]
+Obj mean and sd ranges: 15.811044161955955 and 0.6496643217083705
+Constrs mean and sd ranges: [ 1.96700052 21.28682925] and [0.64966432 0.64966432]
+Obj mean and sd ranges: 15.675522275041246 and 0.6465299285623342
+Constrs mean and sd ranges: [ 1.96661609 22.21569106] and [0.64652993 0.64652993]
+Obj mean and sd ranges: 15.574142061347581 and 0.6442544428365582
+Constrs mean and sd ranges: [ 1.97112431 22.12854267] and [0.64425444 0.64425444]
+Obj mean and sd ranges: 15.578888671891022 and 0.6442837302932456
+Constrs mean and sd ranges: [ 1.97106657 22.12433026] and [0.64428373 0.64428373]
+Obj mean and sd ranges: 15.55907422406321 and 0.613654799754034
+Constrs mean and sd ranges: [ 1.96619745 22.08380161] and [0.6136548 0.6136548]
+Obj mean and sd ranges: 15.5584923434716 and 0.4375186369552943
+Constrs mean and sd ranges: [ 1.99963697 22.0596416 ] and [0.43751864 0.43751864]
+Obj mean and sd ranges: 15.458253078393966 and 0.4352735823527265
+Constrs mean and sd ranges: [ 1.99920208 22.11815809] and [0.43527358 0.43527358]
+Obj mean and sd ranges: 15.456482244128239 and 0.4352865579910146
+Constrs mean and sd ranges: [ 1.99971305 22.13250307] and [0.43528656 0.43528656]
+Obj mean and sd ranges: 15.439641890546312 and 0.4291783449390299
+Constrs mean and sd ranges: [ 2.00200153 22.11947404] and [0.42917834 0.42917834]
+Obj mean and sd ranges: 15.43949730307504 and 0.42918607995914176
+Constrs mean and sd ranges: [ 2.00178888 22.07636183] and [0.42918608 0.42918608]
+Obj mean and sd ranges: 15.592240922054316 and 0.4291737009763735
+Constrs mean and sd ranges: [ 1.99768635 22.04933111] and [0.4291737 0.4291737]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b0482d8b0>, 'f_min': -1.5584900312001448, 'obj': <function get_config.<locals>.f at 0x7f3b0482daf0>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b0482ddc0>, <function get_config.<locals>.g_2 at 0x7f3b0482d1f0>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b048f41f0>, <function get_config.<locals>.<lambda> at 0x7f3b048f41f0>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b048f4280>, <function get_config.<locals>.<lambda> at 0x7f3b048f4280>], 'init_safe_points': array([[ 4.09090909, 81.51515152]]), 'init_points': array([[ 5.27272727, 71.21212121]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04760220>, <GPy.kern.src.rbf.RBF object at 0x7f3b047c5fd0>, <GPy.kern.src.rbf.RBF object at 0x7f3b047c5a60>], 'active_points': [array([[ 6.18181818, 70.        ],
+       [ 5.63636364, 72.12121212],
+       [ 5.57575758, 72.72727273],
+       [ 5.51515152, 73.33333333],
+       [ 5.24242424, 74.54545455],
+       [ 4.63636364, 78.48484848],
+       [ 4.3030303 , 81.21212121],
+       [ 4.        , 83.93939394]]), array([[ 5.96969697, 90.90909091]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.23941547 -0.5144902 ]]
+[[1.5361507 0.       ]]
+lcb2 step 1.
+[[4.70675403e-03 7.44363074e+00]]
+[[2.21535335e-05 5.54076387e+01]]
+lcb2 step 2.
+[[  0.6741903  -13.83566461]]
+[[0.45453257 0.        ]]
+lcb2 step 3.
+[[-0.72178868  4.10768559]]
+[[ 0.         16.87308088]]
+lcb2 step 4.
+[[ 0.52880852 -3.19507844]]
+[[0.27963845 0.        ]]
+lcb2 step 5.
+[[ 0.19080178 -6.11249954]]
+[[0.03640532 0.        ]]
+lcb2 step 6.
+[[ 1.04023006 -6.22403459]]
+[[1.08207857 0.        ]]
+lcb2 step 7.
+[[ 0.23061521 -2.73512366]]
+[[0.05318338 0.        ]]
+lcb2 step 8.
+[[ 0.78925708 -1.01679825]]
+[[0.62292674 0.        ]]
+lcb2 step 9.
+[[ 0.01348659 -3.8529172 ]]
+[[0.00018189 0.        ]]
+lcb2 step 10.
+[[ 0.02002195 -2.9901057 ]]
+[[0.00040088 0.        ]]
+lcb2 step 11.
+[[-7.44654948e-04 -3.32557723e+00]]
+[[0. 0.]]
+lcb2 step 12.
+[[-0.00629801 -3.3836211 ]]
+[[0. 0.]]
+lcb2 step 13.
+[[-0.00587814 -2.96794417]]
+[[0. 0.]]
+lcb2 step 14.
+[[0.91144483 2.14946713]]
+[[0.83073167 4.62020896]]
+lcb2 step 15.
+[[-0.39568334  2.83652416]]
+[[0.         8.04586932]]
+lcb2 step 16.
+[[-0.43605305  1.64505599]]
+[[0.         2.70620921]]
+lcb2 step 17.
+[[-0.06061374  2.4067776 ]]
+[[0.         5.79257839]]
+lcb2 step 18.
+[[ 2.16266071e-03 -3.27382981e+00]]
+[[4.67710133e-06 0.00000000e+00]]
+lcb2 step 19.
+[[-0.17834701 -1.21775323]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.3704449604978082 and 0.9998965351863184
+Constrs mean and sd ranges: [0.07774993 1.65998236] and [0.99989654 0.99989654]
+Obj mean and sd ranges: 4.567993283999295 and 0.9996116726228388
+Constrs mean and sd ranges: [0.26415683 6.64785493] and [0.99961167 0.99961167]
+Obj mean and sd ranges: 4.546940188292741 and 0.9995511442462348
+Constrs mean and sd ranges: [ 0.65349411 14.07778543] and [0.99955114 0.99955114]
+Obj mean and sd ranges: 4.559838583465204 and 0.9615737573993053
+Constrs mean and sd ranges: [ 1.41571881 14.08250533] and [0.96157376 0.96157376]
+Obj mean and sd ranges: 4.7816865285613765 and 0.9614813737916202
+Constrs mean and sd ranges: [ 1.95431945 14.3456036 ] and [0.96148137 0.96148137]
+Obj mean and sd ranges: 4.86178198317518 and 0.9613324105437872
+Constrs mean and sd ranges: [ 1.95460574 18.38725222] and [0.96133241 0.96133241]
+Obj mean and sd ranges: 15.69844438751289 and 0.8875347308363264
+Constrs mean and sd ranges: [ 1.95456888 21.59177227] and [0.88753473 0.88753473]
+Obj mean and sd ranges: 15.829358141454026 and 0.8745681847202927
+Constrs mean and sd ranges: [ 1.95810881 21.55452523] and [0.87456818 0.87456818]
+Obj mean and sd ranges: 15.880265478309214 and 0.8548452361995599
+Constrs mean and sd ranges: [ 1.96679203 21.59094726] and [0.85484524 0.85484524]
+Obj mean and sd ranges: 15.791776389760319 and 0.8495768191927541
+Constrs mean and sd ranges: [ 1.96805887 21.55160993] and [0.84957682 0.84957682]
+Obj mean and sd ranges: 15.681302722070216 and 0.8493303931213487
+Constrs mean and sd ranges: [ 1.96802741 21.98792237] and [0.84933039 0.84933039]
+Obj mean and sd ranges: 15.70087091119838 and 0.6242225315850433
+Constrs mean and sd ranges: [ 1.98861345 22.06285347] and [0.62422253 0.62422253]
+Obj mean and sd ranges: 15.706920767263242 and 0.6242518191140762
+Constrs mean and sd ranges: [ 1.98854106 22.14182218] and [0.62425182 0.62425182]
+Obj mean and sd ranges: 15.56712919303527 and 0.5855839721974365
+Constrs mean and sd ranges: [ 1.98655861 22.08345808] and [0.58558397 0.58558397]
+Obj mean and sd ranges: 15.565762776928915 and 0.4597637645324623
+Constrs mean and sd ranges: [ 2.01134169 22.04906015] and [0.45976376 0.45976376]
+Obj mean and sd ranges: 15.445393966789382 and 0.45671527040965465
+Constrs mean and sd ranges: [ 2.00888878 22.08930668] and [0.45671527 0.45671527]
+Obj mean and sd ranges: 15.431608524216472 and 0.4567282460276537
+Constrs mean and sd ranges: [ 2.00891129 22.04904618] and [0.45672825 0.45672825]
+Obj mean and sd ranges: 15.372341768952992 and 0.42883221828867457
+Constrs mean and sd ranges: [ 2.01475619 22.05230078] and [0.42883222 0.42883222]
+Obj mean and sd ranges: 15.37946153609198 and 0.42883995324973556
+Constrs mean and sd ranges: [ 2.01492217 22.06255659] and [0.42883995 0.42883995]
+Obj mean and sd ranges: 15.563575644262585 and 0.4245517539054956
+Constrs mean and sd ranges: [ 2.02369093 22.18395792] and [0.42455175 0.42455175]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b047c0790>, 'f_min': -1.558001534460586, 'obj': <function get_config.<locals>.f at 0x7f3b047c01f0>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b047c05e0>, <function get_config.<locals>.g_2 at 0x7f3b047c0550>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b048f4310>, <function get_config.<locals>.<lambda> at 0x7f3b048f4310>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b048f4ee0>, <function get_config.<locals>.<lambda> at 0x7f3b048f4ee0>], 'init_safe_points': array([[ 4.        , 81.51515152]]), 'init_points': array([[ 5.6969697 , 86.06060606]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b049ec130>, <GPy.kern.src.rbf.RBF object at 0x7f3b049eca00>, <GPy.kern.src.rbf.RBF object at 0x7f3b0476e9d0>], 'active_points': [array([[ 5.90909091, 70.90909091],
+       [ 5.93939394, 70.90909091],
+       [ 5.63636364, 72.42424242],
+       [ 5.42424242, 73.63636364],
+       [ 5.48484848, 73.63636364],
+       [ 5.09090909, 75.45454545],
+       [ 4.90909091, 76.66666667],
+       [ 4.6969697 , 77.87878788],
+       [ 4.6969697 , 78.18181818],
+       [ 4.03030303, 83.63636364]]), array([[ 5.48484848, 87.87878788],
+       [ 6.09090909, 91.81818182],
+       [ 6.18181818, 92.42424242]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22989083 -0.46613363]]
+[[1.51263146 0.        ]]
+lcb2 step 1.
+[[-0.01015874  7.22345043]]
+[[ 0.         52.17823614]]
+lcb2 step 2.
+[[  0.67898506 -13.89230005]]
+[[0.46102072 0.        ]]
+lcb2 step 3.
+[[-0.72308448  4.0462788 ]]
+[[ 0.         16.37237216]]
+lcb2 step 4.
+[[ 0.49788584 -3.41160819]]
+[[0.24789031 0.        ]]
+lcb2 step 5.
+[[ 0.19150371 -6.21294743]]
+[[0.03667367 0.        ]]
+lcb2 step 6.
+[[ 1.04386119 -6.17085125]]
+[[1.08964618 0.        ]]
+lcb2 step 7.
+[[ 0.19045436 -2.58504035]]
+[[0.03627286 0.        ]]
+lcb2 step 8.
+[[ 0.75780819 -1.16129981]]
+[[0.57427325 0.        ]]
+lcb2 step 9.
+[[ 0.03559884 -3.96926586]]
+[[0.00126728 0.        ]]
+lcb2 step 10.
+[[ 0.03184725 -2.99358814]]
+[[0.00101425 0.        ]]
+lcb2 step 11.
+[[ 0.38703916 -0.63223722]]
+[[0.14979931 0.        ]]
+lcb2 step 12.
+[[-0.01597647 -3.41902647]]
+[[0. 0.]]
+lcb2 step 13.
+[[-0.2897684  -0.07549026]]
+[[0. 0.]]
+lcb2 step 14.
+[[-0.01841717 -3.21354844]]
+[[0. 0.]]
+lcb2 step 15.
+[[ 0.02053831 -3.55488655]]
+[[0.00042182 0.        ]]
+lcb2 step 16.
+[[-0.00769322 -3.36907957]]
+[[0. 0.]]
+lcb2 step 17.
+[[-0.02734454 -3.38360829]]
+[[0. 0.]]
+lcb2 step 18.
+[[-0.01183316 -3.44162396]]
+[[0. 0.]]
+lcb2 step 19.
+[[-0.02218621 -3.33164748]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.4441268473898266 and 0.999897975205944
+Constrs mean and sd ranges: [0.11761277 2.00167508] and [0.99989798 0.99989798]
+Obj mean and sd ranges: 5.285928227104067 and 0.9998866056435493
+Constrs mean and sd ranges: [0.1213638  7.97645278] and [0.99988661 0.99988661]
+Obj mean and sd ranges: 5.157433367939316 and 0.9998435925633171
+Constrs mean and sd ranges: [ 0.66848419 14.08064044] and [0.99984359 0.99984359]
+Obj mean and sd ranges: 5.157592843900538 and 0.9827354103253595
+Constrs mean and sd ranges: [ 1.47181585 14.08178816] and [0.98273541 0.98273541]
+Obj mean and sd ranges: 15.476357758039747 and 0.9179064443609865
+Constrs mean and sd ranges: [ 1.47646168 17.02750746] and [0.91790644 0.91790644]
+Obj mean and sd ranges: 15.594236540620637 and 0.9161690549450655
+Constrs mean and sd ranges: [ 1.40632799 21.05608122] and [0.91616905 0.91616905]
+Obj mean and sd ranges: 15.708047839665554 and 0.9128544232390031
+Constrs mean and sd ranges: [ 1.95686429 21.05878652] and [0.91285442 0.91285442]
+Obj mean and sd ranges: 15.726341558454582 and 0.9017056287309689
+Constrs mean and sd ranges: [ 1.96126248 20.99933132] and [0.90170563 0.90170563]
+Obj mean and sd ranges: 15.74807947927697 and 0.8492850186700673
+Constrs mean and sd ranges: [ 1.96884025 20.9993768 ] and [0.84928502 0.84928502]
+Obj mean and sd ranges: 15.75203113476478 and 0.6627706400096998
+Constrs mean and sd ranges: [ 1.98499715 21.10080252] and [0.66277064 0.66277064]
+Obj mean and sd ranges: 15.624397988883638 and 0.6578097870137629
+Constrs mean and sd ranges: [ 1.98330051 22.18143709] and [0.65780979 0.65780979]
+Obj mean and sd ranges: 15.609974696092102 and 0.5578712000421193
+Constrs mean and sd ranges: [ 2.02132037 22.16865108] and [0.5578712 0.5578712]
+Obj mean and sd ranges: 15.648648648093541 and 0.5368555545567213
+Constrs mean and sd ranges: [ 2.0176899  22.15142516] and [0.53685555 0.53685555]
+Obj mean and sd ranges: 15.568005583026324 and 0.5269244952525899
+Constrs mean and sd ranges: [ 2.01742378 22.14652055] and [0.5269245 0.5269245]
+Obj mean and sd ranges: 15.539344281766336 and 0.4844111343420442
+Constrs mean and sd ranges: [ 2.01899534 22.06948299] and [0.48441113 0.48441113]
+Obj mean and sd ranges: 15.558553698132243 and 0.484440423575366
+Constrs mean and sd ranges: [ 2.01706644 22.04971172] and [0.48444042 0.48444042]
+Obj mean and sd ranges: 15.441233090435626 and 0.48297900995391213
+Constrs mean and sd ranges: [ 2.01875398 22.09174059] and [0.48297901 0.48297901]
+Obj mean and sd ranges: 15.444162893203384 and 0.4829919854926945
+Constrs mean and sd ranges: [ 2.01924479 22.07926922] and [0.48299199 0.48299199]
+Obj mean and sd ranges: 15.454827854910498 and 0.4829516899523925
+Constrs mean and sd ranges: [ 2.01931259 22.07992196] and [0.48295169 0.48295169]
+Obj mean and sd ranges: 15.453328251175712 and 0.4829594249348793
+Constrs mean and sd ranges: [ 2.01837712 22.08187352] and [0.48295942 0.48295942]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b047c04c0>, 'f_min': -1.5370931464092168, 'obj': <function get_config.<locals>.f at 0x7f3b04665160>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b046651f0>, <function get_config.<locals>.g_2 at 0x7f3b04665280>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b048f49d0>, <function get_config.<locals>.<lambda> at 0x7f3b048f49d0>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b047c0670>, <function get_config.<locals>.<lambda> at 0x7f3b047c0670>], 'init_safe_points': array([[ 4.        , 80.60606061]]), 'init_points': array([[ 4.45454545, 85.75757576]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04737340>, <GPy.kern.src.rbf.RBF object at 0x7f3b04737b20>, <GPy.kern.src.rbf.RBF object at 0x7f3b0465d910>], 'active_points': [array([[ 5.87878788, 70.90909091],
+       [ 5.66666667, 72.12121212],
+       [ 5.60606061, 72.42424242],
+       [ 5.48484848, 73.33333333],
+       [ 5.09090909, 75.45454545],
+       [ 5.09090909, 75.75757576],
+       [ 4.93939394, 76.36363636],
+       [ 4.87878788, 76.96969697],
+       [ 4.06060606, 83.33333333]]), array([[ 5.96969697, 90.90909091],
+       [ 6.42424242, 94.24242424]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22457293 -0.52036422]]
+[[1.49957885 0.        ]]
+lcb2 step 1.
+[[-2.71013343e-03  7.35119001e+00]]
+[[ 0.         54.03999452]]
+lcb2 step 2.
+[[  0.66840202 -13.50225503]]
+[[0.44676126 0.        ]]
+lcb2 step 3.
+[[-0.72543763  4.15686654]]
+[[ 0.        17.2795394]]
+lcb2 step 4.
+[[ 0.46881448 -3.31193198]]
+[[0.21978702 0.        ]]
+lcb2 step 5.
+[[ 0.16846603 -5.86036855]]
+[[0.0283808 0.       ]]
+lcb2 step 6.
+[[ 1.01865756 -6.20887536]]
+[[1.03766323 0.        ]]
+lcb2 step 7.
+[[ 0.16866774 -2.3184441 ]]
+[[0.02844881 0.        ]]
+lcb2 step 8.
+[[ 0.73491131 -1.22119554]]
+[[0.54009463 0.        ]]
+lcb2 step 9.
+[[ 0.01553167 -3.74160958]]
+[[0.00024123 0.        ]]
+lcb2 step 10.
+[[ 0.04793095 -3.07000509]]
+[[0.00229738 0.        ]]
+lcb2 step 11.
+[[-0.012643   -3.64011341]]
+[[0. 0.]]
+lcb2 step 12.
+[[ 0.00907188 -3.57003921]]
+[[8.22990904e-05 0.00000000e+00]]
+lcb2 step 13.
+[[-0.00591873 -3.65520866]]
+[[0. 0.]]
+lcb2 step 14.
+[[ 0.00704417 -3.56624845]]
+[[4.96203847e-05 0.00000000e+00]]
+lcb2 step 15.
+[[-2.48342245e-03 -3.63982544e+00]]
+[[0. 0.]]
+lcb2 step 16.
+[[ 2.29055820e-03 -3.57657132e+00]]
+[[5.24665685e-06 0.00000000e+00]]
+lcb2 step 17.
+[[ 0.01034131 -3.55277552]]
+[[0.00010694 0.        ]]
+lcb2 step 18.
+[[-0.02017889 -3.38906589]]
+[[0. 0.]]
+lcb2 step 19.
+[[-0.00338677 -3.29943853]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.3455515485707248 and 0.9998985650715018
+Constrs mean and sd ranges: [0.16167933 1.51613047] and [0.99989857 0.99989857]
+Obj mean and sd ranges: 6.124610886363541 and 0.9998873826299032
+Constrs mean and sd ranges: [0.16304849 7.90631065] and [0.99988738 0.99988738]
+Obj mean and sd ranges: 6.039811326763283 and 0.9998468512414821
+Constrs mean and sd ranges: [ 0.68373929 14.56202008] and [0.99984685 0.99984685]
+Obj mean and sd ranges: 6.040734692355457 and 0.9757628012017575
+Constrs mean and sd ranges: [ 1.47625174 14.56320202] and [0.9757628 0.9757628]
+Obj mean and sd ranges: 15.449849656516397 and 0.9218075983394611
+Constrs mean and sd ranges: [ 1.4806988  17.05544154] and [0.9218076 0.9218076]
+Obj mean and sd ranges: 15.616181867061428 and 0.9202865148941626
+Constrs mean and sd ranges: [ 1.41275403 21.16136281] and [0.92028651 0.92028651]
+Obj mean and sd ranges: 15.651861689404654 and 0.872037783687052
+Constrs mean and sd ranges: [ 1.43869777 21.15551016] and [0.87203778 0.87203778]
+Obj mean and sd ranges: 15.793999112798822 and 0.8720363765796098
+Constrs mean and sd ranges: [ 1.94894874 21.12172289] and [0.87203638 0.87203638]
+Obj mean and sd ranges: 15.81748639146124 and 0.8684062611569868
+Constrs mean and sd ranges: [ 1.94907229 21.06901632] and [0.86840626 0.86840626]
+Obj mean and sd ranges: 15.819028005975403 and 0.6714265483201575
+Constrs mean and sd ranges: [ 1.9683493  21.16615448] and [0.67142655 0.67142655]
+Obj mean and sd ranges: 15.67957502482567 and 0.6666788096023569
+Constrs mean and sd ranges: [ 1.96793468 22.25708884] and [0.66667881 0.66667881]
+Obj mean and sd ranges: 15.667505948372824 and 0.567425636779497
+Constrs mean and sd ranges: [ 2.00662905 22.23193541] and [0.56742564 0.56742564]
+Obj mean and sd ranges: 15.736829883472126 and 0.5600610118842471
+Constrs mean and sd ranges: [ 2.00374574 22.22324991] and [0.56006101 0.56006101]
+Obj mean and sd ranges: 15.725827060904805 and 0.560090300991971
+Constrs mean and sd ranges: [ 2.00257027 22.23323419] and [0.5600903 0.5600903]
+Obj mean and sd ranges: 15.724999167423194 and 0.511140746555502
+Constrs mean and sd ranges: [ 2.00420259 22.18564348] and [0.51114075 0.51114075]
+Obj mean and sd ranges: 15.727776019541182 and 0.5111537220715946
+Constrs mean and sd ranges: [ 2.00344353 22.19716962] and [0.51115372 0.51115372]
+Obj mean and sd ranges: 15.62418154768191 and 0.5104841497295304
+Constrs mean and sd ranges: [ 2.00449439 22.24105477] and [0.51048415 0.51048415]
+Obj mean and sd ranges: 15.626547233238853 and 0.5104918847341015
+Constrs mean and sd ranges: [ 2.00459004 22.22950704] and [0.51049188 0.51049188]
+Obj mean and sd ranges: 15.441157332835894 and 0.38920382428828687
+Constrs mean and sd ranges: [ 2.00440585 22.15524451] and [0.38920382 0.38920382]
+Obj mean and sd ranges: 15.441888106277474 and 0.38920910291974586
+Constrs mean and sd ranges: [ 2.00388283 22.15262466] and [0.3892091 0.3892091]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b047c0b80>, 'f_min': -1.5794052183857794, 'obj': <function get_config.<locals>.f at 0x7f3b047c0af0>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b047c0dc0>, <function get_config.<locals>.g_2 at 0x7f3b047c0e50>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b0482dee0>, <function get_config.<locals>.<lambda> at 0x7f3b0482dee0>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b0482d4c0>, <function get_config.<locals>.<lambda> at 0x7f3b0482d4c0>], 'init_safe_points': array([[ 4.        , 80.90909091]]), 'init_points': array([[ 4.27272727, 86.36363636]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b0464c9a0>, <GPy.kern.src.rbf.RBF object at 0x7f3b0464cee0>, <GPy.kern.src.rbf.RBF object at 0x7f3b0473ab20>], 'active_points': [array([[ 6.15151515, 70.        ],
+       [ 6.        , 70.3030303 ],
+       [ 5.81818182, 70.90909091],
+       [ 5.72727273, 71.81818182],
+       [ 5.87878788, 71.81818182],
+       [ 5.57575758, 72.72727273],
+       [ 5.60606061, 72.72727273],
+       [ 5.48484848, 73.03030303],
+       [ 4.93939394, 76.66666667],
+       [ 4.75757576, 77.57575758],
+       [ 4.6969697 , 78.48484848],
+       [ 4.48484848, 79.6969697 ],
+       [ 4.39393939, 80.3030303 ],
+       [ 4.09090909, 83.03030303]]), array([[ 4.33333333, 80.3030303 ],
+       [ 5.81818182, 90.        ]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.2440853  -0.60321585]]
+[[1.54774823 0.        ]]
+lcb2 step 1.
+[[-5.90443762e-03  7.27830654e+00]]
+[[ 0.         52.97374605]]
+lcb2 step 2.
+[[  0.66092518 -13.58467036]]
+[[0.43682209 0.        ]]
+lcb2 step 3.
+[[-0.72824823  4.20859414]]
+[[ 0.         17.71226467]]
+lcb2 step 4.
+[[ 0.47011305 -3.26478979]]
+[[0.22100628 0.        ]]
+lcb2 step 5.
+[[ 0.16862164 -5.84138037]]
+[[0.02843326 0.        ]]
+lcb2 step 6.
+[[ 1.02927749 -6.26001841]]
+[[1.05941215 0.        ]]
+lcb2 step 7.
+[[ 0.74929221 -1.56905916]]
+[[0.56143882 0.        ]]
+lcb2 step 8.
+[[ 0.17699264 -2.38388504]]
+[[0.03132639 0.        ]]
+lcb2 step 9.
+[[ 1.06494511e-03 -3.77595644e+00]]
+[[1.13410809e-06 0.00000000e+00]]
+lcb2 step 10.
+[[ 0.06251961 -2.99271708]]
+[[0.0039087 0.       ]]
+lcb2 step 11.
+[[ 0.00956281 -3.2658114 ]]
+[[9.14473392e-05 0.00000000e+00]]
+lcb2 step 12.
+[[-0.04660366 -2.4635556 ]]
+[[0. 0.]]
+lcb2 step 13.
+[[-0.03708764 -2.89024239]]
+[[0. 0.]]
+lcb2 step 14.
+[[0.13808594 2.61660577]]
+[[0.01906773 6.84662575]]
+lcb2 step 15.
+[[-0.01240845 -3.05143971]]
+[[0. 0.]]
+lcb2 step 16.
+[[0.42421622 4.49654898]]
+[[ 0.1799594  20.21895272]]
+lcb2 step 17.
+[[-0.01392465 -2.97178825]]
+[[0. 0.]]
+lcb2 step 18.
+[[-0.01895013 -3.09409762]]
+[[0. 0.]]
+lcb2 step 19.
+[[-0.00749913 -3.11706963]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.3841175701955075 and 0.9998983875804355
+Constrs mean and sd ranges: [0.14210532 1.79641964] and [0.99989839 0.99989839]
+Obj mean and sd ranges: 5.515725684782824 and 0.9998813602853972
+Constrs mean and sd ranges: [0.14208995 7.71360556] and [0.99988136 0.99988136]
+Obj mean and sd ranges: 5.427995010118558 and 0.9998387400480893
+Constrs mean and sd ranges: [ 0.682641   14.18118756] and [0.99983874 0.99983874]
+Obj mean and sd ranges: 5.429617187442415 and 0.9765252158349134
+Constrs mean and sd ranges: [ 1.46922479 14.18260505] and [0.97652522 0.97652522]
+Obj mean and sd ranges: 15.424716733850001 and 0.91580669732698
+Constrs mean and sd ranges: [ 1.47356765 17.05266746] and [0.9158067 0.9158067]
+Obj mean and sd ranges: 15.568445296916147 and 0.9132245625987665
+Constrs mean and sd ranges: [ 1.40419753 20.96710556] and [0.91322456 0.91322456]
+Obj mean and sd ranges: 15.719746100741718 and 0.9109824178552036
+Constrs mean and sd ranges: [ 1.94908572 20.98913721] and [0.91098242 0.91098242]
+Obj mean and sd ranges: 15.738836656707363 and 0.8976627623060469
+Constrs mean and sd ranges: [ 1.95331925 20.93174168] and [0.89766276 0.89766276]
+Obj mean and sd ranges: 15.762352306453007 and 0.8495304655500867
+Constrs mean and sd ranges: [ 1.96187371 20.93172786] and [0.84953047 0.84953047]
+Obj mean and sd ranges: 15.767239108463214 and 0.6628341640409264
+Constrs mean and sd ranges: [ 1.97949522 21.03145325] and [0.66283416 0.66283416]
+Obj mean and sd ranges: 15.623900393930755 and 0.657742880537643
+Constrs mean and sd ranges: [ 1.9786048  22.20567329] and [0.65774288 0.65774288]
+Obj mean and sd ranges: 15.623840197426041 and 0.5407289527882855
+Constrs mean and sd ranges: [ 2.01251718 22.18772738] and [0.54072895 0.54072895]
+Obj mean and sd ranges: 15.604253764803522 and 0.5197544592785531
+Constrs mean and sd ranges: [ 2.00974319 22.14998543] and [0.51975446 0.51975446]
+Obj mean and sd ranges: 15.53806827947833 and 0.5122695818898294
+Constrs mean and sd ranges: [ 2.00980196 22.14415186] and [0.51226958 0.51226958]
+Obj mean and sd ranges: 15.51541600989753 and 0.4724453268887005
+Constrs mean and sd ranges: [ 2.01227673 22.10089865] and [0.47244533 0.47244533]
+Obj mean and sd ranges: 15.522444833282009 and 0.47247461613550445
+Constrs mean and sd ranges: [ 2.01242714 22.03501067] and [0.47247462 0.47247462]
+Obj mean and sd ranges: 15.41551662012402 and 0.4714599548091878
+Constrs mean and sd ranges: [ 2.01354287 22.07880196] and [0.47145995 0.47145995]
+Obj mean and sd ranges: 15.418543128013937 and 0.4714729303916527
+Constrs mean and sd ranges: [ 2.01254539 22.07493488] and [0.47147293 0.47147293]
+Obj mean and sd ranges: 15.51140115148998 and 0.47145680165366183
+Constrs mean and sd ranges: [ 2.01232875 22.08234397] and [0.4714568 0.4714568]
+Obj mean and sd ranges: 15.511975258176676 and 0.4714645366525939
+Constrs mean and sd ranges: [ 2.01149596 22.07910043] and [0.47146454 0.47146454]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b047c08b0>, 'f_min': -1.5974500026072833, 'obj': <function get_config.<locals>.f at 0x7f3b047c0940>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b04665790>, <function get_config.<locals>.g_2 at 0x7f3b04665820>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b28d28940>, <function get_config.<locals>.<lambda> at 0x7f3b28d28940>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b0482df70>, <function get_config.<locals>.<lambda> at 0x7f3b0482df70>], 'init_safe_points': array([[ 4.06060606, 80.90909091]]), 'init_points': array([[ 4.75757576, 90.        ]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04742f40>, <GPy.kern.src.rbf.RBF object at 0x7f3b047421f0>, <GPy.kern.src.rbf.RBF object at 0x7f3b047420a0>], 'active_points': [array([[ 5.42424242, 73.33333333],
+       [ 5.36363636, 73.93939394],
+       [ 5.3030303 , 74.24242424],
+       [ 5.15151515, 75.15151515],
+       [ 4.66666667, 78.18181818],
+       [ 4.27272727, 81.51515152],
+       [ 4.21212121, 82.12121212],
+       [ 4.        , 83.93939394]]), array([[ 5.15151515, 85.45454545],
+       [ 6.93939394, 97.87878788]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22018108 -0.42589702]]
+[[1.48884186 0.        ]]
+lcb2 step 1.
+[[0.02007411 7.3500716 ]]
+[[4.02970057e-04 5.40235525e+01]]
+lcb2 step 2.
+[[  0.6739048  -13.28111425]]
+[[0.45414768 0.        ]]
+lcb2 step 3.
+[[-0.71725832  4.17444577]]
+[[ 0.         17.42599747]]
+lcb2 step 4.
+[[ 0.48187324 -3.19338266]]
+[[0.23220182 0.        ]]
+lcb2 step 5.
+[[ 0.15946194 -5.89170322]]
+[[0.02542811 0.        ]]
+lcb2 step 6.
+[[ 1.01448225 -6.36086585]]
+[[1.02917424 0.        ]]
+lcb2 step 7.
+[[ 0.19189518 -2.4542513 ]]
+[[0.03682376 0.        ]]
+lcb2 step 8.
+[[ 0.75101654 -1.39935231]]
+[[0.56402584 0.        ]]
+lcb2 step 9.
+[[ 0.01613914 -3.71301589]]
+[[0.00026047 0.        ]]
+lcb2 step 10.
+[[ 0.0303651  -2.93920344]]
+[[0.00092204 0.        ]]
+lcb2 step 11.
+[[ 3.45174608e-04 -2.96321703e+00]]
+[[1.1914551e-07 0.0000000e+00]]
+lcb2 step 12.
+[[ 0.01944934 -2.12959875]]
+[[0.00037828 0.        ]]
+lcb2 step 13.
+[[ 1.87356629e-03 -3.28840750e+00]]
+[[3.51025065e-06 0.00000000e+00]]
+lcb2 step 14.
+[[0.18319258 4.41441021]]
+[[ 0.03355952 19.48701748]]
+lcb2 step 15.
+[[0.9543873  1.09742807]]
+[[0.91085512 1.20434838]]
+lcb2 step 16.
+[[-0.01563089 -3.0551754 ]]
+[[0. 0.]]
+lcb2 step 17.
+[[-0.0878233  -0.38229194]]
+[[0. 0.]]
+lcb2 step 18.
+[[-0.01453018 -3.01612252]]
+[[0. 0.]]
+lcb2 step 19.
+[[-0.01581614 -3.07967791]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.3200627602785195 and 0.999897688955559
+Constrs mean and sd ranges: [0.10009289 1.42930406] and [0.99989769 0.99989769]
+Obj mean and sd ranges: 6.524303432569267 and 0.9998867041087588
+Constrs mean and sd ranges: [0.11085505 7.9674487 ] and [0.9998867 0.9998867]
+Obj mean and sd ranges: 6.424606738708427 and 0.9998465780414122
+Constrs mean and sd ranges: [ 0.63436244 14.85091508] and [0.99984658 0.99984658]
+Obj mean and sd ranges: 6.425389258510389 and 0.9728163284499461
+Constrs mean and sd ranges: [ 1.43631161 14.85191218] and [0.97281633 0.97281633]
+Obj mean and sd ranges: 15.444774371102191 and 0.923124294680386
+Constrs mean and sd ranges: [ 1.44576932 17.23375897] and [0.92312429 0.92312429]
+Obj mean and sd ranges: 15.619979026554297 and 0.9220529469400343
+Constrs mean and sd ranges: [ 1.37480044 21.14131385] and [0.92205295 0.92205295]
+Obj mean and sd ranges: 15.643554869888263 and 0.8703273403029306
+Constrs mean and sd ranges: [ 1.40582935 21.13779388] and [0.87032734 0.87032734]
+Obj mean and sd ranges: 15.779079363496665 and 0.8703105160154028
+Constrs mean and sd ranges: [ 1.962295   21.07407343] and [0.87031052 0.87031052]
+Obj mean and sd ranges: 15.81860091242939 and 0.8665004988436099
+Constrs mean and sd ranges: [ 1.96241045 21.03395356] and [0.8665005 0.8665005]
+Obj mean and sd ranges: 15.819537782470107 and 0.6664662520668297
+Constrs mean and sd ranges: [ 1.97920556 21.1286897 ] and [0.66646625 0.66646625]
+Obj mean and sd ranges: 15.715019916292958 and 0.6634116008495414
+Constrs mean and sd ranges: [ 1.97913076 22.12296753] and [0.6634116 0.6634116]
+Obj mean and sd ranges: 15.700348529616875 and 0.5594296284616656
+Constrs mean and sd ranges: [ 2.00786282 22.10066851] and [0.55942963 0.55942963]
+Obj mean and sd ranges: 15.609151886642032 and 0.506891203615617
+Constrs mean and sd ranges: [ 2.00900233 22.04328519] and [0.5068912 0.5068912]
+Obj mean and sd ranges: 15.614758285339377 and 0.5069204925058346
+Constrs mean and sd ranges: [ 2.01183326 22.0662506 ] and [0.50692049 0.50692049]
+Obj mean and sd ranges: 15.70091871223047 and 0.5062549095682825
+Constrs mean and sd ranges: [ 2.00976929 22.06792744] and [0.50625491 0.50625491]
+Obj mean and sd ranges: 15.703433577270346 and 0.5062678850928873
+Constrs mean and sd ranges: [ 2.00963558 22.03010573] and [0.50626789 0.50626789]
+Obj mean and sd ranges: 15.56632125140969 and 0.5060917289141825
+Constrs mean and sd ranges: [ 2.00903271 22.12504365] and [0.50609173 0.50609173]
+Obj mean and sd ranges: 15.565208615189306 and 0.5060994639065527
+Constrs mean and sd ranges: [ 2.00885768 22.11768803] and [0.50609946 0.50609946]
+Obj mean and sd ranges: 15.468386693818946 and 0.3846050753130578
+Constrs mean and sd ranges: [ 2.00819222 22.03845711] and [0.38460508 0.38460508]
+Obj mean and sd ranges: 15.46837138286162 and 0.38461035394250465
+Constrs mean and sd ranges: [ 2.00766012 22.07139514] and [0.38461035 0.38461035]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b046658b0>, 'f_min': -1.5746066740130606, 'obj': <function get_config.<locals>.f at 0x7f3b04665e50>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b04665ee0>, <function get_config.<locals>.g_2 at 0x7f3b04665f70>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b047c0ca0>, <function get_config.<locals>.<lambda> at 0x7f3b047c0ca0>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b0482de50>, <function get_config.<locals>.<lambda> at 0x7f3b0482de50>], 'init_safe_points': array([[ 4.        , 80.90909091]]), 'init_points': array([[ 4.33333333, 76.66666667]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04737880>, <GPy.kern.src.rbf.RBF object at 0x7f3b04737c70>, <GPy.kern.src.rbf.RBF object at 0x7f3b04896b50>], 'active_points': [array([[ 5.6969697 , 72.12121212],
+       [ 5.51515152, 73.03030303],
+       [ 5.39393939, 73.63636364],
+       [ 5.15151515, 75.15151515],
+       [ 4.63636364, 78.48484848],
+       [ 4.54545455, 79.09090909],
+       [ 4.45454545, 80.        ],
+       [ 4.12121212, 82.72727273]]), array([[ 4.36363636, 80.3030303 ],
+       [ 6.09090909, 91.81818182]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22309558 -0.60748526]]
+[[1.49596279 0.        ]]
+lcb2 step 1.
+[[1.66398262e-03 7.29727935e+00]]
+[[2.76883815e-06 5.32502859e+01]]
+lcb2 step 2.
+[[  0.65619188 -13.6375169 ]]
+[[0.43058778 0.        ]]
+lcb2 step 3.
+[[-0.73082609  4.2300987 ]]
+[[ 0.       17.893735]]
+lcb2 step 4.
+[[ 0.46983731 -3.29048653]]
+[[0.22074709 0.        ]]
+lcb2 step 5.
+[[ 0.17799787 -5.87702113]]
+[[0.03168324 0.        ]]
+lcb2 step 6.
+[[ 1.02471651 -6.17628058]]
+[[1.05004393 0.        ]]
+lcb2 step 7.
+[[ 0.18569409 -2.41788898]]
+[[0.03448229 0.        ]]
+lcb2 step 8.
+[[ 0.75466144 -1.33095034]]
+[[0.56951389 0.        ]]
+lcb2 step 9.
+[[ 0.03538684 -4.05138931]]
+[[0.00125223 0.        ]]
+lcb2 step 10.
+[[ 0.0338968  -2.94777397]]
+[[0.00114899 0.        ]]
+lcb2 step 11.
+[[-0.02454391 -3.34111149]]
+[[0. 0.]]
+lcb2 step 12.
+[[ 1.30865999e-03 -3.57305005e+00]]
+[[1.71259096e-06 0.00000000e+00]]
+lcb2 step 13.
+[[ 0.00713479 -3.62172585]]
+[[5.09051736e-05 0.00000000e+00]]
+lcb2 step 14.
+[[ 0.01667738 -3.4887619 ]]
+[[0.00027814 0.        ]]
+lcb2 step 15.
+[[-0.01254293 -3.33050684]]
+[[0. 0.]]
+lcb2 step 16.
+[[-0.01976792 -3.39420618]]
+[[0. 0.]]
+lcb2 step 17.
+[[-0.00518322 -3.30036587]]
+[[0. 0.]]
+lcb2 step 18.
+[[-0.00852736 -3.43253773]]
+[[0. 0.]]
+lcb2 step 19.
+[[-0.01174042 -3.44698699]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.364850321199076 and 0.9998983875804355
+Constrs mean and sd ranges: [0.15317554 1.69352422] and [0.99989839 0.99989839]
+Obj mean and sd ranges: 4.446442311989239 and 0.9997701797102014
+Constrs mean and sd ranges: [0.27581927 6.72129897] and [0.99977018 0.99977018]
+Obj mean and sd ranges: 4.4234914279889335 and 0.9997174114239779
+Constrs mean and sd ranges: [ 0.70721697 14.05656092] and [0.99971741 0.99971741]
+Obj mean and sd ranges: 4.432149071378693 and 0.9701538529418015
+Constrs mean and sd ranges: [ 1.46983762 14.05997117] and [0.97015385 0.97015385]
+Obj mean and sd ranges: 15.372916740058184 and 0.9099259139382876
+Constrs mean and sd ranges: [ 1.4716484  17.46893509] and [0.90992591 0.90992591]
+Obj mean and sd ranges: 15.52320623324221 and 0.890224926468797
+Constrs mean and sd ranges: [ 1.41330227 21.46666355] and [0.89022493 0.89022493]
+Obj mean and sd ranges: 15.740317101562532 and 0.8900658752729335
+Constrs mean and sd ranges: [ 1.954397   21.55700253] and [0.89006588 0.89006588]
+Obj mean and sd ranges: 15.78463368803285 and 0.8819431158863235
+Constrs mean and sd ranges: [ 1.95879587 21.49341111] and [0.88194312 0.88194312]
+Obj mean and sd ranges: 15.835055052565941 and 0.851567800020073
+Constrs mean and sd ranges: [ 1.96621438 21.51651372] and [0.8515678 0.8515678]
+Obj mean and sd ranges: 15.755289227855735 and 0.8497113024898217
+Constrs mean and sd ranges: [ 1.9687581  21.47560027] and [0.8497113 0.8497113]
+Obj mean and sd ranges: 15.536209211246518 and 0.8495487501220483
+Constrs mean and sd ranges: [ 1.96725692 22.03003731] and [0.84954875 0.84954875]
+Obj mean and sd ranges: 15.55046467158786 and 0.6273895505497612
+Constrs mean and sd ranges: [ 1.98453573 22.133373  ] and [0.62738955 0.62738955]
+Obj mean and sd ranges: 15.555004806530846 and 0.6274188377979244
+Constrs mean and sd ranges: [ 1.98456394 22.13073382] and [0.62741884 0.62741884]
+Obj mean and sd ranges: 15.487643817538626 and 0.6009997727315204
+Constrs mean and sd ranges: [ 1.98125735 22.0625522 ] and [0.60099977 0.60099977]
+Obj mean and sd ranges: 15.487810230457324 and 0.45796664334001014
+Constrs mean and sd ranges: [ 2.01654999 22.03150061] and [0.45796664 0.45796664]
+Obj mean and sd ranges: 15.418113115243813 and 0.45452468693536224
+Constrs mean and sd ranges: [ 2.01697199 22.05242463] and [0.45452469 0.45452469]
+Obj mean and sd ranges: 15.418659661832713 and 0.4545376625710929
+Constrs mean and sd ranges: [ 2.01667535 22.04243007] and [0.45453766 0.45453766]
+Obj mean and sd ranges: 15.408141266589169 and 0.437613600530676
+Constrs mean and sd ranges: [ 2.01960653 22.03515692] and [0.4376136 0.4376136]
+Obj mean and sd ranges: 15.409394929532937 and 0.4376213355500652
+Constrs mean and sd ranges: [ 2.01967105 22.03520892] and [0.43762134 0.43762134]
+Obj mean and sd ranges: 15.586134213875667 and 0.43754828297883913
+Constrs mean and sd ranges: [ 2.01967193 22.01709391] and [0.43754828 0.43754828]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b04665700>, 'f_min': -1.5484527874508496, 'obj': <function get_config.<locals>.f at 0x7f3b04665430>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b04665b80>, <function get_config.<locals>.g_2 at 0x7f3b04665c10>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b047c0c10>, <function get_config.<locals>.<lambda> at 0x7f3b047c0c10>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b048f4790>, <function get_config.<locals>.<lambda> at 0x7f3b048f4790>], 'init_safe_points': array([[ 4.        , 81.51515152]]), 'init_points': array([[ 6.51515152, 74.84848485]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b0e94ea00>, <GPy.kern.src.rbf.RBF object at 0x7f3b0e94e5b0>, <GPy.kern.src.rbf.RBF object at 0x7f3b046dfa90>], 'active_points': [array([[ 5.87878788, 71.51515152],
+       [ 5.90909091, 71.51515152],
+       [ 5.75757576, 71.81818182],
+       [ 5.63636364, 72.72727273],
+       [ 5.51515152, 73.33333333],
+       [ 5.18181818, 75.15151515],
+       [ 5.09090909, 75.45454545],
+       [ 4.96969697, 76.66666667]]), array([[ 4.27272727, 79.6969697 ],
+       [ 6.03030303, 91.51515152]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.23293814 -0.44837012]]
+[[1.52013646 0.        ]]
+lcb2 step 1.
+[[-0.02283146  7.19283722]]
+[[ 0.         51.73690732]]
+lcb2 step 2.
+[[  0.69364633 -13.91431695]]
+[[0.48114523 0.        ]]
+lcb2 step 3.
+[[-0.72777045  4.05646303]]
+[[ 0.         16.45489235]]
+lcb2 step 4.
+[[ 0.4993597  -3.36692165]]
+[[0.24936011 0.        ]]
+lcb2 step 5.
+[[ 0.21116529 -6.30613266]]
+[[0.04459078 0.        ]]
+lcb2 step 6.
+[[ 1.03905147 -6.15536073]]
+[[1.07962795 0.        ]]
+lcb2 step 7.
+[[ 0.22210421 -2.5827262 ]]
+[[0.04933028 0.        ]]
+lcb2 step 8.
+[[ 0.76320383 -1.24735224]]
+[[0.58248008 0.        ]]
+lcb2 step 9.
+[[ 0.04827529 -4.13152538]]
+[[0.0023305 0.       ]]
+lcb2 step 10.
+[[ 0.02854708 -3.03223757]]
+[[0.00081494 0.        ]]
+lcb2 step 11.
+[[-0.01516985 -3.29546018]]
+[[0. 0.]]
+lcb2 step 12.
+[[-0.00413009 -3.31824125]]
+[[0. 0.]]
+lcb2 step 13.
+[[-0.00856333 -3.49752221]]
+[[0. 0.]]
+lcb2 step 14.
+[[-0.22743329 -0.25030566]]
+[[0. 0.]]
+lcb2 step 15.
+[[0.8016851 4.0037972]]
+[[ 0.64269899 16.030392  ]]
+lcb2 step 16.
+[[ 0.00677951 -3.33791073]]
+[[4.59617219e-05 0.00000000e+00]]
+lcb2 step 17.
+[[-0.00967755 -3.42101741]]
+[[0. 0.]]
+lcb2 step 18.
+[[-0.01064723 -3.44655726]]
+[[0. 0.]]
+lcb2 step 19.
+[[-0.01132805 -3.406763  ]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.4043805121220563 and 0.999897975205944
+Constrs mean and sd ranges: [0.11932136 2.04101844] and [0.99989798 0.99989798]
+Obj mean and sd ranges: 4.257350856814625 and 0.999803833529649
+Constrs mean and sd ranges: [0.22085356 7.0709072 ] and [0.99980383 0.99980383]
+Obj mean and sd ranges: 4.214555875720904 and 0.9997502578779298
+Constrs mean and sd ranges: [ 0.66735097 13.87535658] and [0.99975026 0.99975026]
+Obj mean and sd ranges: 4.221759871205717 and 0.977326394705117
+Constrs mean and sd ranges: [ 1.44718285 13.87801639] and [0.97732639 0.97732639]
+Obj mean and sd ranges: 15.373309108427652 and 0.9106057382151821
+Constrs mean and sd ranges: [ 1.44904198 17.43229085] and [0.91060574 0.91060574]
+Obj mean and sd ranges: 15.511887340473098 and 0.8909165644495686
+Constrs mean and sd ranges: [ 1.38309861 21.07454601] and [0.89091656 0.89091656]
+Obj mean and sd ranges: 15.676775263828997 and 0.8905913179102568
+Constrs mean and sd ranges: [ 1.93229811 21.16552646] and [0.89059132 0.89059132]
+Obj mean and sd ranges: 15.715079536717033 and 0.8837712979697148
+Constrs mean and sd ranges: [ 1.93749775 21.11926746] and [0.8837713 0.8837713]
+Obj mean and sd ranges: 15.76609876219301 and 0.8485910972188815
+Constrs mean and sd ranges: [ 1.94509467 21.12442758] and [0.8485911 0.8485911]
+Obj mean and sd ranges: 15.771070245120805 and 0.6302123901389006
+Constrs mean and sd ranges: [ 1.96260085 21.24776409] and [0.63021239 0.63021239]
+Obj mean and sd ranges: 15.62224669774538 and 0.6272154500169241
+Constrs mean and sd ranges: [ 1.96207635 22.27972409] and [0.62721545 0.62721545]
+Obj mean and sd ranges: 15.626860580342187 and 0.6227529537041301
+Constrs mean and sd ranges: [ 1.96501546 22.20029425] and [0.62275295 0.62275295]
+Obj mean and sd ranges: 15.63012000135609 and 0.6227822410651037
+Constrs mean and sd ranges: [ 1.96481335 22.14529605] and [0.62278224 0.62278224]
+Obj mean and sd ranges: 15.49162020498322 and 0.596913382053321
+Constrs mean and sd ranges: [ 1.96080696 22.08992566] and [0.59691338 0.59691338]
+Obj mean and sd ranges: 15.491716217963424 and 0.48630389339412256
+Constrs mean and sd ranges: [ 1.98855343 22.061588  ] and [0.48630389 0.48630389]
+Obj mean and sd ranges: 15.408145179659925 and 0.48187689197445177
+Constrs mean and sd ranges: [ 1.98919544 22.102405  ] and [0.48187689 0.48187689]
+Obj mean and sd ranges: 15.408794649738638 and 0.4818898676127975
+Constrs mean and sd ranges: [ 1.98994399 22.09392943] and [0.48188987 0.48188987]
+Obj mean and sd ranges: 15.399953671652753 and 0.45579047740944567
+Constrs mean and sd ranges: [ 1.99268614 22.09598552] and [0.45579048 0.45579048]
+Obj mean and sd ranges: 15.398342441158462 and 0.4557982124314305
+Constrs mean and sd ranges: [ 1.99278604 22.08166162] and [0.45579821 0.45579821]
+Obj mean and sd ranges: 15.514383197594924 and 0.4557945864766704
+Constrs mean and sd ranges: [ 1.99221063 22.08415567] and [0.45579459 0.45579459]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b04665a60>, 'f_min': -1.5776377733751994, 'obj': <function get_config.<locals>.f at 0x7f3b04665af0>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b046653a0>, <function get_config.<locals>.g_2 at 0x7f3b04665dc0>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b048f4f70>, <function get_config.<locals>.<lambda> at 0x7f3b048f4f70>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b047c0a60>, <function get_config.<locals>.<lambda> at 0x7f3b047c0a60>], 'init_safe_points': array([[ 4.03030303, 81.21212121]]), 'init_points': array([[ 6.12121212, 80.        ]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b0463db20>, <GPy.kern.src.rbf.RBF object at 0x7f3b0463d730>, <GPy.kern.src.rbf.RBF object at 0x7f3b0486e160>], 'active_points': [array([[ 5.6969697 , 72.12121212],
+       [ 5.42424242, 73.63636364],
+       [ 5.09090909, 75.45454545],
+       [ 5.15151515, 75.45454545],
+       [ 4.75757576, 77.87878788],
+       [ 4.60606061, 78.78787879],
+       [ 4.3030303 , 81.21212121],
+       [ 4.21212121, 81.81818182]]), array([[ 5.90909091, 90.60606061],
+       [ 6.3030303 , 93.33333333]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.2269538  -0.56122072]]
+[[1.50541563 0.        ]]
+lcb2 step 1.
+[[0.00746177 7.18616443]]
+[[5.56779736e-05 5.16409592e+01]]
+lcb2 step 2.
+[[  0.68832982 -13.78599629]]
+[[0.47379794 0.        ]]
+lcb2 step 3.
+[[-0.72621014  4.07029429]]
+[[ 0.         16.56729557]]
+lcb2 step 4.
+[[ 0.49222388 -3.22866548]]
+[[0.24228434 0.        ]]
+lcb2 step 5.
+[[ 0.18256932 -6.03686764]]
+[[0.03333156 0.        ]]
+lcb2 step 6.
+[[ 1.03447477 -6.17206002]]
+[[1.07013806 0.        ]]
+lcb2 step 7.
+[[ 0.17909608 -2.58252972]]
+[[0.03207541 0.        ]]
+lcb2 step 8.
+[[ 0.76253108 -1.13331828]]
+[[0.58145365 0.        ]]
+lcb2 step 9.
+[[ 0.03078522 -4.04449161]]
+[[0.00094773 0.        ]]
+lcb2 step 10.
+[[ 0.03090274 -3.35968194]]
+[[0.00095498 0.        ]]
+lcb2 step 11.
+[[-2.12058456e-03 -3.60565750e+00]]
+[[0. 0.]]
+lcb2 step 12.
+[[-0.27109773  3.36492163]]
+[[ 0.        11.3226976]]
+lcb2 step 13.
+[[-0.41098372  1.22997094]]
+[[0.         1.51282851]]
+lcb2 step 14.
+[[-0.08570011  0.28092999]]
+[[0.         0.07892166]]
+lcb2 step 15.
+[[ 0.01354059 -3.55722756]]
+[[0.00018335 0.        ]]
+lcb2 step 16.
+[[-0.00879245 -3.38239589]]
+[[0. 0.]]
+lcb2 step 17.
+[[0.84898464 3.388784  ]]
+[[ 0.72077493 11.48385701]]
+lcb2 step 18.
+[[ 0.00452386 -3.4489385 ]]
+[[2.04652788e-05 0.00000000e+00]]
+lcb2 step 19.
+[[-0.02050777 -3.31970125]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.4003696560285983 and 0.9998978328339951
+Constrs mean and sd ranges: [0.11944014 1.86230765] and [0.99989783 0.99989783]
+Obj mean and sd ranges: 3.4902241205953075 and 0.9993419012533253
+Constrs mean and sd ranges: [0.39701105 5.81255629] and [0.9993419 0.9993419]
+Obj mean and sd ranges: 3.485479255534207 and 0.9992815961757998
+Constrs mean and sd ranges: [ 0.69539672 13.63002023] and [0.9992816 0.9992816]
+Obj mean and sd ranges: 3.6083844732234875 and 0.9758665876682836
+Constrs mean and sd ranges: [ 1.44530924 13.63563366] and [0.97586659 0.97586659]
+Obj mean and sd ranges: 3.883932973376083 and 0.9758650823986081
+Constrs mean and sd ranges: [ 1.94066457 14.29520433] and [0.97586508 0.97586508]
+Obj mean and sd ranges: 3.960526168781848 and 0.9758361220806568
+Constrs mean and sd ranges: [ 1.94076534 18.15214479] and [0.97583612 0.97583612]
+Obj mean and sd ranges: 15.705459428905273 and 0.8850477728959061
+Constrs mean and sd ranges: [ 1.94078548 21.53777105] and [0.88504777 0.88504777]
+Obj mean and sd ranges: 15.798232175071535 and 0.8695639956007483
+Constrs mean and sd ranges: [ 1.94426282 21.48762639] and [0.869564 0.869564]
+Obj mean and sd ranges: 15.840449117576824 and 0.8520897925394023
+Constrs mean and sd ranges: [ 1.95354287 21.52562599] and [0.85208979 0.85208979]
+Obj mean and sd ranges: 15.850682488186656 and 0.8467166616887675
+Constrs mean and sd ranges: [ 1.95491447 21.54133223] and [0.84671666 0.84671666]
+Obj mean and sd ranges: 15.644495022672693 and 0.8465105698728208
+Constrs mean and sd ranges: [ 1.95507379 22.07925516] and [0.84651057 0.84651057]
+Obj mean and sd ranges: 15.66814365116878 and 0.5741018475361587
+Constrs mean and sd ranges: [ 1.97302752 22.19108694] and [0.57410185 0.57410185]
+Obj mean and sd ranges: 15.672379652612435 and 0.5741311350352557
+Constrs mean and sd ranges: [ 1.9730713  22.17859705] and [0.57413114 0.57413114]
+Obj mean and sd ranges: 15.442308817098692 and 0.5506715481642117
+Constrs mean and sd ranges: [ 1.97115489 22.07474146] and [0.55067155 0.55067155]
+Obj mean and sd ranges: 15.381332283153332 and 0.5502982974142098
+Constrs mean and sd ranges: [ 1.96993224 22.10335405] and [0.5502983 0.5502983]
+Obj mean and sd ranges: 15.381724351605996 and 0.5503112726003492
+Constrs mean and sd ranges: [ 1.9698895 22.0846969] and [0.55031127 0.55031127]
+Obj mean and sd ranges: 15.380641199431341 and 0.4944837032594908
+Constrs mean and sd ranges: [ 1.99924869 22.03014815] and [0.4944837 0.4944837]
+Obj mean and sd ranges: 15.365044401591215 and 0.4507520185282736
+Constrs mean and sd ranges: [ 2.00412304 22.0469434 ] and [0.45075202 0.45075202]
+Obj mean and sd ranges: 15.363075914676898 and 0.45075975353781045
+Constrs mean and sd ranges: [ 2.00319185 22.03474634] and [0.45075975 0.45075975]
+Obj mean and sd ranges: 15.362537537759636 and 0.44517815147655604
+Constrs mean and sd ranges: [ 1.99247666 22.02511178] and [0.44517815 0.44517815]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b045df3a0>, 'f_min': -1.581227055864425, 'obj': <function get_config.<locals>.f at 0x7f3b045df940>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b045df9d0>, <function get_config.<locals>.g_2 at 0x7f3b045dfa60>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b046659d0>, <function get_config.<locals>.<lambda> at 0x7f3b046659d0>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b04665d30>, <function get_config.<locals>.<lambda> at 0x7f3b04665d30>], 'init_safe_points': array([[ 4.06060606, 81.51515152]]), 'init_points': array([[ 5.48484848, 88.48484848]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b047b7dc0>, <GPy.kern.src.rbf.RBF object at 0x7f3b04889670>, <GPy.kern.src.rbf.RBF object at 0x7f3b045f4370>], 'active_points': [array([[ 5.93939394, 70.90909091],
+       [ 5.78787879, 71.51515152],
+       [ 5.6969697 , 72.12121212],
+       [ 5.39393939, 73.93939394],
+       [ 5.12121212, 75.45454545],
+       [ 4.81818182, 77.57575758],
+       [ 4.63636364, 78.48484848],
+       [ 4.33333333, 80.90909091],
+       [ 4.18181818, 82.12121212]]), array([[ 4.48484848, 81.21212121],
+       [ 5.12121212, 85.45454545],
+       [ 6.15151515, 92.42424242]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.23017651 -0.49692664]]
+[[1.51333424 0.        ]]
+lcb2 step 1.
+[[-0.01371464  7.30969009]]
+[[ 0.         53.43156927]]
+lcb2 step 2.
+[[  0.68207857 -13.60960998]]
+[[0.46523117 0.        ]]
+lcb2 step 3.
+[[-0.71722382  4.10237051]]
+[[ 0.         16.82944382]]
+lcb2 step 4.
+[[ 0.52848694 -3.2900387 ]]
+[[0.27929845 0.        ]]
+lcb2 step 5.
+[[ 0.18316008 -6.15982657]]
+[[0.03354761 0.        ]]
+lcb2 step 6.
+[[ 1.03281941 -6.26194132]]
+[[1.06671594 0.        ]]
+lcb2 step 7.
+[[ 0.233353   -2.74102162]]
+[[0.05445362 0.        ]]
+lcb2 step 8.
+[[ 0.7683893  -1.13090748]]
+[[0.59042212 0.        ]]
+lcb2 step 9.
+[[ 0.03815297 -4.07903536]]
+[[0.00145565 0.        ]]
+lcb2 step 10.
+[[ 0.0053961  -3.16404117]]
+[[2.91179088e-05 0.00000000e+00]]
+lcb2 step 11.
+[[ 0.03435941 -2.72904057]]
+[[0.00118057 0.        ]]
+lcb2 step 12.
+[[ 0.46289532 -5.81148766]]
+[[0.21427208 0.        ]]
+lcb2 step 13.
+[[ 1.09700676 -3.9924514 ]]
+[[1.20342383 0.        ]]
+lcb2 step 14.
+[[-0.02877353 -3.19858062]]
+[[0. 0.]]
+lcb2 step 15.
+[[-1.44483731e-04 -3.27078253e+00]]
+[[0. 0.]]
+lcb2 step 16.
+[[ 0.89856974 -3.16268652]]
+[[0.80742758 0.        ]]
+lcb2 step 17.
+[[0.66734347 5.12947123]]
+[[ 0.44534731 26.31147514]]
+lcb2 step 18.
+[[-0.28119521 -0.30677756]]
+[[0. 0.]]
+lcb2 step 19.
+[[ 0.02415429 -3.29714962]]
+[[0.00058343 0.        ]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.429101451057953 and 0.9998970979083149
+Constrs mean and sd ranges: [0.08327014 1.75110154] and [0.9998971 0.9998971]
+Obj mean and sd ranges: 5.46027925323664 and 0.9998588828593216
+Constrs mean and sd ranges: [0.11209911 7.57562713] and [0.99985888 0.99985888]
+Obj mean and sd ranges: 5.36978637022769 and 0.9998117272684655
+Constrs mean and sd ranges: [ 0.63781314 14.33700867] and [0.99981173 0.99981173]
+Obj mean and sd ranges: 5.37152441988623 and 0.9701422488855747
+Constrs mean and sd ranges: [ 1.42764032 14.33860726] and [0.97014225 0.97014225]
+Obj mean and sd ranges: 15.46717218917808 and 0.9124044568312293
+Constrs mean and sd ranges: [ 1.43089209 17.3012526 ] and [0.91240446 0.91240446]
+Obj mean and sd ranges: 15.615398053021178 and 0.9046545706253898
+Constrs mean and sd ranges: [ 1.3509656  21.46078151] and [0.90465457 0.90465457]
+Obj mean and sd ranges: 15.760077359129006 and 0.902783456020709
+Constrs mean and sd ranges: [ 1.95991474 21.46425202] and [0.90278346 0.90278346]
+Obj mean and sd ranges: 15.80143393748764 and 0.8866712282213023
+Constrs mean and sd ranges: [ 1.96331972 21.41089083] and [0.88667123 0.88667123]
+Obj mean and sd ranges: 15.869982441489839 and 0.8539912991793835
+Constrs mean and sd ranges: [ 1.97008252 21.41882531] and [0.8539913 0.8539913]
+Obj mean and sd ranges: 15.87365787708131 and 0.6570311218812747
+Constrs mean and sd ranges: [ 1.98858423 21.53475739] and [0.65703112 0.65703112]
+Obj mean and sd ranges: 15.80858872658837 and 0.6546854464654277
+Constrs mean and sd ranges: [ 1.98849574 22.1060913 ] and [0.65468545 0.65468545]
+Obj mean and sd ranges: 15.699645268720905 and 0.653064397991772
+Constrs mean and sd ranges: [ 1.99300916 22.01052155] and [0.6530644 0.6530644]
+Obj mean and sd ranges: 15.692269381696661 and 0.6530936855203096
+Constrs mean and sd ranges: [ 1.99320156 22.01534102] and [0.65309369 0.65309369]
+Obj mean and sd ranges: 15.664784551354956 and 0.46427278576987735
+Constrs mean and sd ranges: [ 2.02272291 21.97065465] and [0.46427279 0.46427279]
+Obj mean and sd ranges: 15.657063598063727 and 0.45185018484508177
+Constrs mean and sd ranges: [ 2.01965054 21.95835145] and [0.45185018 0.45185018]
+Obj mean and sd ranges: 15.552558266116819 and 0.44957750851221917
+Constrs mean and sd ranges: [ 2.01900009 22.00055055] and [0.44957751 0.44957751]
+Obj mean and sd ranges: 15.552505696662735 and 0.44959048412428726
+Constrs mean and sd ranges: [ 2.01980203 21.97835213] and [0.44959048 0.44959048]
+Obj mean and sd ranges: 15.632480514308945 and 0.4493644999873888
+Constrs mean and sd ranges: [ 2.022295   21.96634003] and [0.4493645 0.4493645]
+Obj mean and sd ranges: 15.632742005222951 and 0.4493722349633474
+Constrs mean and sd ranges: [ 2.02254869 21.97561395] and [0.44937223 0.44937223]
+Obj mean and sd ranges: 15.552578264344664 and 0.43967692658831237
+Constrs mean and sd ranges: [ 2.02594623 21.95660709] and [0.43967693 0.43967693]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b045df040>, 'f_min': -1.5520462374054471, 'obj': <function get_config.<locals>.f at 0x7f3b045df430>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b045df5e0>, <function get_config.<locals>.g_2 at 0x7f3b045df550>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b04665310>, <function get_config.<locals>.<lambda> at 0x7f3b04665310>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b047c0040>, <function get_config.<locals>.<lambda> at 0x7f3b047c0040>], 'init_safe_points': array([[ 4.03030303, 80.60606061]]), 'init_points': array([[  4.81818182, 100.        ]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04b807f0>, <GPy.kern.src.rbf.RBF object at 0x7f3b04a386a0>, <GPy.kern.src.rbf.RBF object at 0x7f3b04789cd0>], 'active_points': [array([[ 6.        , 70.3030303 ],
+       [ 5.84848485, 71.51515152],
+       [ 5.6969697 , 72.12121212],
+       [ 5.72727273, 72.12121212],
+       [ 5.57575758, 73.03030303],
+       [ 5.36363636, 73.93939394],
+       [ 5.33333333, 74.24242424],
+       [ 5.27272727, 74.54545455],
+       [ 5.15151515, 75.15151515],
+       [ 4.90909091, 76.66666667],
+       [ 4.87878788, 76.96969697],
+       [ 4.78787879, 77.57575758],
+       [ 4.6969697 , 78.18181818],
+       [ 4.6969697 , 78.48484848],
+       [ 4.60606061, 78.78787879]]), array([], shape=(0, 2), dtype=float64)]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.22277326 -0.40111848]]
+[[1.49517444 0.        ]]
+lcb2 step 1.
+[[5.44641071e-03 7.36357188e+00]]
+[[2.96633897e-05 5.42221908e+01]]
+lcb2 step 2.
+[[  0.65786275 -13.35164704]]
+[[0.4327834 0.       ]]
+lcb2 step 3.
+[[-0.72353221  4.09765857]]
+[[ 0.         16.79080577]]
+lcb2 step 4.
+[[ 0.45858321 -3.17942644]]
+[[0.21029856 0.        ]]
+lcb2 step 5.
+[[ 0.1912205  -5.88870536]]
+[[0.03656528 0.        ]]
+lcb2 step 6.
+[[ 1.03140009 -6.34827948]]
+[[1.06378615 0.        ]]
+lcb2 step 7.
+[[ 0.17590548 -2.41047269]]
+[[0.03094274 0.        ]]
+lcb2 step 8.
+[[ 0.75703093 -1.33066654]]
+[[0.57309583 0.        ]]
+lcb2 step 9.
+[[ 0.02029666 -3.75746782]]
+[[0.00041195 0.        ]]
+lcb2 step 10.
+[[ 0.03528889 -2.93459322]]
+[[0.00124531 0.        ]]
+lcb2 step 11.
+[[-0.00470286 -3.45911277]]
+[[0. 0.]]
+lcb2 step 12.
+[[-0.00510683 -3.45729078]]
+[[0. 0.]]
+lcb2 step 13.
+[[ 0.03417736 -0.4636695 ]]
+[[0.00116809 0.        ]]
+lcb2 step 14.
+[[-0.0121372  -3.45762225]]
+[[0. 0.]]
+lcb2 step 15.
+[[-0.01609284 -3.4457972 ]]
+[[0. 0.]]
+lcb2 step 16.
+[[-0.01066737 -3.30288612]]
+[[0. 0.]]
+lcb2 step 17.
+[[-0.0077992  -3.40559182]]
+[[0. 0.]]
+lcb2 step 18.
+[[-3.35533985e-03 -3.39955773e+00]]
+[[0. 0.]]
+lcb2 step 19.
+[[-0.00836882 -3.45861881]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.3310188063606379 and 0.9998982805317149
+Constrs mean and sd ranges: [0.1244459  1.41824997] and [0.99989828 0.99989828]
+Obj mean and sd ranges: 1.4110789687432825 and 0.9997551434215741
+Constrs mean and sd ranges: [0.91636542 2.98428249] and [0.99975514 0.99975514]
+Obj mean and sd ranges: 8.495628740418242 and 0.9920800372358535
+Constrs mean and sd ranges: [0.94237312 9.85254772] and [0.99208004 0.99208004]
+Obj mean and sd ranges: 8.209607261795089 and 0.9902921843414947
+Constrs mean and sd ranges: [ 0.98429796 16.22781815] and [0.99029218 0.99029218]
+Obj mean and sd ranges: 8.213854619937818 and 0.9708853207935711
+Constrs mean and sd ranges: [ 1.50057073 16.23168238] and [0.97088532 0.97088532]
+Obj mean and sd ranges: 9.720945087202102 and 0.7613391440630645
+Constrs mean and sd ranges: [ 1.52917864 16.72427568] and [0.76133914 0.76133914]
+Obj mean and sd ranges: 9.874393993275833 and 0.7429670495509344
+Constrs mean and sd ranges: [ 1.47600946 20.94671669] and [0.74296705 0.74296705]
+Obj mean and sd ranges: 9.91774073936482 and 0.7080456626355578
+Constrs mean and sd ranges: [ 1.98508057 20.37481394] and [0.70804566 0.70804566]
+Obj mean and sd ranges: 9.919957338860291 and 0.7073766793201567
+Constrs mean and sd ranges: [ 1.98010439 20.3257614 ] and [0.70737668 0.70737668]
+Obj mean and sd ranges: 10.258505671393849 and 0.7010430162125844
+Constrs mean and sd ranges: [ 1.97577186 20.2837622 ] and [0.70104302 0.70104302]
+Obj mean and sd ranges: 9.899165489104394 and 0.7010256339030525
+Constrs mean and sd ranges: [ 1.97337521 20.58329582] and [0.70102563 0.70102563]
+Obj mean and sd ranges: 9.879043888081263 and 0.7010256337633186
+Constrs mean and sd ranges: [ 2.01555526 20.59098426] and [0.70102563 0.70102563]
+Obj mean and sd ranges: 15.62190485857397 and 0.5918898756263933
+Constrs mean and sd ranges: [ 2.01674157 22.06630479] and [0.59188988 0.59188988]
+Obj mean and sd ranges: 15.650826898357025 and 0.5919191645387439
+Constrs mean and sd ranges: [ 2.01692781 22.05436024] and [0.59191916 0.59191916]
+Obj mean and sd ranges: 15.604471441997458 and 0.591801812831708
+Constrs mean and sd ranges: [ 2.01596421 22.06880466] and [0.59180181 0.59180181]
+Obj mean and sd ranges: 15.573973905724326 and 0.5918147884090144
+Constrs mean and sd ranges: [ 2.01640465 22.12222873] and [0.59181479 0.59181479]
+Obj mean and sd ranges: 15.576072716762479 and 0.5381548534189676
+Constrs mean and sd ranges: [ 2.01725037 22.14653582] and [0.53815485 0.53815485]
+Obj mean and sd ranges: 15.561690239483681 and 0.5381625883944998
+Constrs mean and sd ranges: [ 2.01651408 22.15682123] and [0.53816259 0.53816259]
+Obj mean and sd ranges: 15.440534521929262 and 0.5381619035232571
+Constrs mean and sd ranges: [ 2.02085248 22.15326374] and [0.5381619 0.5381619]
+Obj mean and sd ranges: 15.45043920218621 and 0.538167182132986
+Constrs mean and sd ranges: [ 2.02077842 22.1627361 ] and [0.53816718 0.53816718]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b045df310>, 'f_min': -1.5416650874249573, 'obj': <function get_config.<locals>.f at 0x7f3b045df280>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b045dfd30>, <function get_config.<locals>.g_2 at 0x7f3b045dfca0>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b047c0700>, <function get_config.<locals>.<lambda> at 0x7f3b047c0700>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b045df0d0>, <function get_config.<locals>.<lambda> at 0x7f3b045df0d0>], 'init_safe_points': array([[ 4.        , 81.81818182]]), 'init_points': array([[ 5.27272727, 89.6969697 ]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b046274f0>, <GPy.kern.src.rbf.RBF object at 0x7f3b04a322b0>, <GPy.kern.src.rbf.RBF object at 0x7f3b047e2a90>], 'active_points': [array([[ 6.06060606, 70.3030303 ],
+       [ 5.90909091, 70.90909091],
+       [ 5.63636364, 72.42424242],
+       [ 5.57575758, 72.72727273],
+       [ 5.45454545, 73.33333333],
+       [ 5.24242424, 74.54545455],
+       [ 5.09090909, 75.45454545],
+       [ 4.51515152, 79.6969697 ],
+       [ 4.24242424, 81.51515152],
+       [ 4.09090909, 82.72727273]]), array([[ 5.21212121, 85.75757576],
+       [ 6.33333333, 93.93939394]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.20898979 -0.54681635]]
+[[1.46165632 0.        ]]
+lcb2 step 1.
+[[-0.02699858  7.24204458]]
+[[ 0.         52.44720964]]
+lcb2 step 2.
+[[  0.70075716 -13.98767087]]
+[[0.4910606 0.       ]]
+lcb2 step 3.
+[[-0.70357438  4.13005745]]
+[[ 0.         17.05737458]]
+lcb2 step 4.
+[[ 0.51854927 -3.34980217]]
+[[0.26889335 0.        ]]
+lcb2 step 5.
+[[ 0.20073071 -6.37371184]]
+[[0.04029282 0.        ]]
+lcb2 step 6.
+[[ 1.03912806 -6.14461543]]
+[[1.07978712 0.        ]]
+lcb2 step 7.
+[[ 0.22228746 -2.51788632]]
+[[0.04941172 0.        ]]
+lcb2 step 8.
+[[ 0.76915163 -1.30541055]]
+[[0.59159424 0.        ]]
+lcb2 step 9.
+[[ 0.04772751 -4.03246227]]
+[[0.00227792 0.        ]]
+lcb2 step 10.
+[[ 0.03073457 -2.8569485 ]]
+[[0.00094461 0.        ]]
+lcb2 step 11.
+[[ 0.05112524 -2.20433101]]
+[[0.00261379 0.        ]]
+lcb2 step 12.
+[[0.81680424 3.83227625]]
+[[ 0.66716917 14.68634125]]
+lcb2 step 13.
+[[ 1.47518285e-03 -3.24611134e+00]]
+[[2.17616445e-06 0.00000000e+00]]
+lcb2 step 14.
+[[0.56701024 1.93240577]]
+[[0.32150061 3.73419206]]
+lcb2 step 15.
+[[-0.02857025 -3.19516432]]
+[[0. 0.]]
+lcb2 step 16.
+[[-0.01610528 -3.07844352]]
+[[0. 0.]]
+lcb2 step 17.
+[[-1.29807247e-03 -3.28670939e+00]]
+[[0. 0.]]
+lcb2 step 18.
+[[-0.01298676 -2.99233378]]
+[[0. 0.]]
+lcb2 step 19.
+[[ 0.68874316 -8.06641651]]
+[[0.47436714 0.        ]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.447086652846737 and 0.9998977372537272
+Constrs mean and sd ranges: [0.0791813  2.23075551] and [0.99989774 0.99989774]
+Obj mean and sd ranges: 3.773943383936162 and 0.9997261940890452
+Constrs mean and sd ranges: [0.24765837 6.63646524] and [0.99972619 0.99972619]
+Obj mean and sd ranges: 3.742965679571187 and 0.9996669644625973
+Constrs mean and sd ranges: [ 0.5999765  13.66626393] and [0.99966696 0.99966696]
+Obj mean and sd ranges: 3.7589870895044766 and 0.980514225204802
+Constrs mean and sd ranges: [ 1.40852023 13.6700431 ] and [0.98051423 0.98051423]
+Obj mean and sd ranges: 15.418001536816831 and 0.9076530031235234
+Constrs mean and sd ranges: [ 1.40988917 17.71410641] and [0.907653 0.907653]
+Obj mean and sd ranges: 15.54754686181679 and 0.8876992027495925
+Constrs mean and sd ranges: [ 1.32587794 21.19145381] and [0.8876992 0.8876992]
+Obj mean and sd ranges: 15.705508120355297 and 0.8875465087747373
+Constrs mean and sd ranges: [ 1.96955    21.29398076] and [0.88754651 0.88754651]
+Obj mean and sd ranges: 15.771295200075349 and 0.8809730562198709
+Constrs mean and sd ranges: [ 1.97326613 21.25661296] and [0.88097306 0.88097306]
+Obj mean and sd ranges: 15.821257641779555 and 0.8484488008656046
+Constrs mean and sd ranges: [ 1.98103043 21.26446479] and [0.8484488 0.8484488]
+Obj mean and sd ranges: 15.862855944304147 and 0.8470636563837391
+Constrs mean and sd ranges: [ 1.98298663 21.25243603] and [0.84706366 0.84706366]
+Obj mean and sd ranges: 15.737112351587932 and 0.8468526176609229
+Constrs mean and sd ranges: [ 1.98333228 22.09831737] and [0.84685262 0.84685262]
+Obj mean and sd ranges: 15.746132968458918 and 0.6026852117375251
+Constrs mean and sd ranges: [ 1.99850435 22.18575286] and [0.60268521 0.60268521]
+Obj mean and sd ranges: 15.75541549128883 and 0.6027144990679263
+Constrs mean and sd ranges: [ 1.99858385 22.16543087] and [0.6027145 0.6027145]
+Obj mean and sd ranges: 15.52882324196375 and 0.5735171924888507
+Constrs mean and sd ranges: [ 1.99501849 22.10398715] and [0.57351719 0.57351719]
+Obj mean and sd ranges: 15.529053254933928 and 0.5198332859586825
+Constrs mean and sd ranges: [ 2.02189309 22.06910287] and [0.51983329 0.51983329]
+Obj mean and sd ranges: 15.453716383392077 and 0.516598658802331
+Constrs mean and sd ranges: [ 2.02195641 22.10218894] and [0.51659866 0.51659866]
+Obj mean and sd ranges: 15.455012123309572 and 0.5166116344275116
+Constrs mean and sd ranges: [ 2.02242348 22.07654181] and [0.51661163 0.51661163]
+Obj mean and sd ranges: 15.45514824563952 and 0.46780787307624005
+Constrs mean and sd ranges: [ 2.02678819 22.0825366 ] and [0.46780787 0.46780787]
+Obj mean and sd ranges: 15.453715731840987 and 0.4678156080932441
+Constrs mean and sd ranges: [ 2.02682457 22.08574773] and [0.46781561 0.46781561]
+Obj mean and sd ranges: 15.53167778612421 and 0.4677698496124335
+Constrs mean and sd ranges: [ 2.02783867 22.09918474] and [0.46776985 0.46776985]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b04044280>, 'f_min': -1.5706590859447431, 'obj': <function get_config.<locals>.f at 0x7f3b04044940>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b040449d0>, <function get_config.<locals>.g_2 at 0x7f3b04044a60>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b045df670>, <function get_config.<locals>.<lambda> at 0x7f3b045df670>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b045dfc10>, <function get_config.<locals>.<lambda> at 0x7f3b045dfc10>], 'init_safe_points': array([[ 4.        , 81.21212121]]), 'init_points': array([[ 5.63636364, 70.90909091]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b047e5fa0>, <GPy.kern.src.rbf.RBF object at 0x7f3b047e5640>, <GPy.kern.src.rbf.RBF object at 0x7f3b040bfa30>], 'active_points': [array([[ 6.06060606, 70.        ],
+       [ 5.96969697, 70.60606061],
+       [ 5.66666667, 72.42424242],
+       [ 5.57575758, 72.72727273],
+       [ 5.36363636, 73.93939394],
+       [ 5.21212121, 74.84848485],
+       [ 5.09090909, 75.75757576],
+       [ 4.87878788, 76.96969697],
+       [ 4.72727273, 78.18181818],
+       [ 4.45454545, 80.        ],
+       [ 4.21212121, 81.81818182],
+       [ 4.06060606, 83.03030303]]), array([], shape=(0, 2), dtype=float64)]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.21975499 -0.42882785]]
+[[1.48780223 0.        ]]
+lcb2 step 1.
+[[-3.41834797e-03  7.20685369e+00]]
+[[ 0.         51.93874008]]
+lcb2 step 2.
+[[  0.6706561  -13.76036272]]
+[[0.44977961 0.        ]]
+lcb2 step 3.
+[[-0.71727586  4.10985933]]
+[[ 0.         16.89094369]]
+lcb2 step 4.
+[[ 0.4784735  -3.27454617]]
+[[0.22893689 0.        ]]
+lcb2 step 5.
+[[ 0.19758274 -6.10833599]]
+[[0.03903894 0.        ]]
+lcb2 step 6.
+[[ 1.01742886 -6.1871742 ]]
+[[1.03516149 0.        ]]
+lcb2 step 7.
+[[ 0.17966834 -2.40295204]]
+[[0.03228071 0.        ]]
+lcb2 step 8.
+[[ 0.7513212  -1.18130102]]
+[[0.56448355 0.        ]]
+lcb2 step 9.
+[[ 0.05325438 -3.99522314]]
+[[0.00283603 0.        ]]
+lcb2 step 10.
+[[ 0.00345446 -2.76094083]]
+[[1.19333124e-05 0.00000000e+00]]
+lcb2 step 11.
+[[-0.03570664 -3.22057649]]
+[[0. 0.]]
+lcb2 step 12.
+[[-0.01880321 -3.46432607]]
+[[0. 0.]]
+lcb2 step 13.
+[[ 0.00396101 -3.39569338]]
+[[1.56896132e-05 0.00000000e+00]]
+lcb2 step 14.
+[[-9.93519125e-04 -3.31580145e+00]]
+[[0. 0.]]
+lcb2 step 15.
+[[0.83408719 3.79208665]]
+[[ 0.69570145 14.37992115]]
+lcb2 step 16.
+[[ 0.02924865 -3.31406054]]
+[[0.00085548 0.        ]]
+lcb2 step 17.
+[[ 1.75362570e-03 -3.34209628e+00]]
+[[3.07520309e-06 0.00000000e+00]]
+lcb2 step 18.
+[[-0.02121579 -3.53319   ]]
+[[0. 0.]]
+lcb2 step 19.
+[[-0.01333312 -3.38597346]]
+[[0. 0.]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.416871964254115 and 0.9998981914594208
+Constrs mean and sd ranges: [0.1464917  1.79214963] and [0.99989819 0.99989819]
+Obj mean and sd ranges: 5.815631187452688 and 0.9998916892856612
+Constrs mean and sd ranges: [0.15954278 8.03518171] and [0.99989169 0.99989169]
+Obj mean and sd ranges: 5.676992729781459 and 0.9998508871495033
+Constrs mean and sd ranges: [ 0.708682   14.30189421] and [0.99985089 0.99985089]
+Obj mean and sd ranges: 5.677298251277227 and 0.9825077998777668
+Constrs mean and sd ranges: [ 1.50131065 14.30269612] and [0.9825078 0.9825078]
+Obj mean and sd ranges: 15.528123378376522 and 0.9255799590579418
+Constrs mean and sd ranges: [ 1.50687561 16.96699194] and [0.92557996 0.92557996]
+Obj mean and sd ranges: 15.664937070915421 and 0.9239095749678701
+Constrs mean and sd ranges: [ 1.44762978 20.99748241] and [0.92390957 0.92390957]
+Obj mean and sd ranges: 15.684046329113007 and 0.8702920257212854
+Constrs mean and sd ranges: [ 1.47458775 20.99577973] and [0.87029203 0.87029203]
+Obj mean and sd ranges: 15.787883029530828 and 0.8702797558552263
+Constrs mean and sd ranges: [ 1.97062514 20.96317522] and [0.87027976 0.87027976]
+Obj mean and sd ranges: 15.816501182680993 and 0.8664206249934202
+Constrs mean and sd ranges: [ 1.97076457 20.91729784] and [0.86642062 0.86642062]
+Obj mean and sd ranges: 15.817866151063088 and 0.6679283623897836
+Constrs mean and sd ranges: [ 1.99031066 21.0120341 ] and [0.66792836 0.66792836]
+Obj mean and sd ranges: 15.684961228882097 and 0.6633113484880174
+Constrs mean and sd ranges: [ 1.98991219 21.99283352] and [0.66331135 0.66331135]
+Obj mean and sd ranges: 15.6801561212832 and 0.5868154578185629
+Constrs mean and sd ranges: [ 2.02092848 21.97677477] and [0.58681546 0.58681546]
+Obj mean and sd ranges: 15.740564652141519 and 0.580304690911225
+Constrs mean and sd ranges: [ 2.0176214  21.96874591] and [0.58030469 0.58030469]
+Obj mean and sd ranges: 15.65706251905979 and 0.5659197258284396
+Constrs mean and sd ranges: [ 2.01782696 21.96887397] and [0.56591973 0.56591973]
+Obj mean and sd ranges: 15.629336915046517 and 0.5157544240056259
+Constrs mean and sd ranges: [ 2.01889509 21.93412384] and [0.51575442 0.51575442]
+Obj mean and sd ranges: 15.649590143231308 and 0.5157837129449456
+Constrs mean and sd ranges: [ 2.01863309 22.03953514] and [0.51578371 0.51578371]
+Obj mean and sd ranges: 15.50387869038564 and 0.5149477336277738
+Constrs mean and sd ranges: [ 2.01975427 22.08867165] and [0.51494773 0.51494773]
+Obj mean and sd ranges: 15.507552850338996 and 0.5149607090109581
+Constrs mean and sd ranges: [ 2.02008136 22.10157147] and [0.51496071 0.51496071]
+Obj mean and sd ranges: 15.507868330134903 and 0.38757553845491394
+Constrs mean and sd ranges: [ 2.01825467 21.99082163] and [0.38757554 0.38757554]
+Obj mean and sd ranges: 15.510342798631314 and 0.3875832733764762
+Constrs mean and sd ranges: [ 2.01892851 21.98336645] and [0.38758327 0.38758327]
+Start running one instance!
+{'problem_name': 'WO', 'var_dim': 2, 'discretize_num_list': [100, 100], 'num_constrs': 2, 'bounds': [(4, 7), (70, 100)], 'train_X': array([[  4.,  70.],
+       [  7.,  70.],
+       [  4., 100.],
+       [  7., 100.]]), 'eval_simu': False, 'eta_func': <function get_config.<locals>.<lambda> at 0x7f3b04044310>, 'f_min': -1.5586897495282093, 'obj': <function get_config.<locals>.f at 0x7f3b04044790>, 'constrs_list': [<function get_config.<locals>.g_1 at 0x7f3b04044820>, <function get_config.<locals>.g_2 at 0x7f3b040448b0>], 'vio_cost_funcs_list': [<function get_config.<locals>.<lambda> at 0x7f3b04665670>, <function get_config.<locals>.<lambda> at 0x7f3b04665670>], 'vio_cost_funcs_inv_list': [<function get_config.<locals>.<lambda> at 0x7f3b046655e0>, <function get_config.<locals>.<lambda> at 0x7f3b046655e0>], 'init_safe_points': array([[ 4.        , 80.60606061]]), 'init_points': array([[ 6.06060606, 70.3030303 ]]), 'init_safe': True, 'kernel': [<GPy.kern.src.rbf.RBF object at 0x7f3b04066370>, <GPy.kern.src.rbf.RBF object at 0x7f3b0495f4f0>, <GPy.kern.src.rbf.RBF object at 0x7f3b047e2460>], 'active_points': [array([[ 6.12121212, 70.        ],
+       [ 5.84848485, 71.21212121],
+       [ 5.87878788, 71.21212121],
+       [ 5.42424242, 73.63636364],
+       [ 5.18181818, 75.15151515],
+       [ 4.60606061, 78.78787879],
+       [ 4.18181818, 81.81818182],
+       [ 4.18181818, 82.12121212],
+       [ 4.        , 83.63636364]]), array([[ 4.51515152, 81.21212121],
+       [ 6.12121212, 92.12121212]])]}
+Start running lcb2 optimizer!
+Get initial value
+gps constructed.
+lcb2 step 0.
+[[ 1.21277708 -0.43464404]]
+[[1.47082824 0.        ]]
+lcb2 step 1.
+[[2.50196956e-03 7.34538209e+00]]
+[[6.25985168e-06 5.39546381e+01]]
+lcb2 step 2.
+[[  0.64341332 -13.32387233]]
+[[0.4139807 0.       ]]
+lcb2 step 3.
+[[-0.72412567  4.08687358]]
+[[ 0.         16.70253564]]
+lcb2 step 4.
+[[ 0.46032343 -3.24072234]]
+[[0.21189766 0.        ]]
+lcb2 step 5.
+[[ 0.175344   -5.93105937]]
+[[0.03074552 0.        ]]
+lcb2 step 6.
+[[ 1.01941982 -6.34306219]]
+[[1.03921676 0.        ]]
+lcb2 step 7.
+[[ 0.15459599 -2.33993145]]
+[[0.02389992 0.        ]]
+lcb2 step 8.
+[[ 0.76483658 -1.29840365]]
+[[0.58497499 0.        ]]
+lcb2 step 9.
+[[ 0.02493719 -3.93524067]]
+[[0.00062186 0.        ]]
+lcb2 step 10.
+[[ 0.0266828  -2.91754664]]
+[[0.00071197 0.        ]]
+lcb2 step 11.
+[[ 0.01468363 -2.43832141]]
+[[0.00021561 0.        ]]
+lcb2 step 12.
+[[-0.01082056 -3.07121416]]
+[[0. 0.]]
+lcb2 step 13.
+[[-0.38213561  2.09033024]]
+[[0.         4.36948051]]
+lcb2 step 14.
+[[0.18708957 7.99261571]]
+[[3.50025064e-02 6.38819058e+01]]
+lcb2 step 15.
+[[-0.37960842  0.83336224]]
+[[0.         0.69449262]]
+lcb2 step 16.
+[[0.96609986 0.73457929]]
+[[0.93334893 0.53960674]]
+lcb2 step 17.
+[[-0.00964606 -2.76596364]]
+[[0. 0.]]
+lcb2 step 18.
+[[ 0.83742664 -9.43430549]]
+[[0.70128337 0.        ]]
+lcb2 step 19.
+[[-0.16065357  0.27187018]]
+[[0.         0.07391339]]
+Stop running lcb2 optimizer!
+Obj mean and sd ranges: 1.3537379859258398 and 0.9998985650715018
+Constrs mean and sd ranges: [0.16528153 1.56906124] and [0.99989857 0.99989857]
+Obj mean and sd ranges: 4.199291840721712 and 0.9996564275762658
+Constrs mean and sd ranges: [0.35998757 6.22819117] and [0.99965643 0.99965643]
+Obj mean and sd ranges: 4.2062334910858965 and 0.9996023572315946
+Constrs mean and sd ranges: [ 0.69577072 14.05516333] and [0.99960236 0.99960236]
+Obj mean and sd ranges: 4.221813360610758 and 0.9682481088681054
+Constrs mean and sd ranges: [ 1.47913826 14.05936501] and [0.96824811 0.96824811]
+Obj mean and sd ranges: 15.341798009144174 and 0.908088129819174
+Constrs mean and sd ranges: [ 1.4800217  17.68953708] and [0.90808813 0.90808813]
+Obj mean and sd ranges: 15.55181360072261 and 0.8877817406265067
+Constrs mean and sd ranges: [ 1.41459913 21.43383319] and [0.88778174 0.88778174]
+Obj mean and sd ranges: 15.80418082020693 and 0.8876952153956158
+Constrs mean and sd ranges: [ 1.95097629 21.53523022] and [0.88769522 0.88769522]
+Obj mean and sd ranges: 15.883161045480431 and 0.8771958609563565
+Constrs mean and sd ranges: [ 1.95437559 21.49338117] and [0.87719586 0.87719586]
+Obj mean and sd ranges: 15.926257766882133 and 0.8531684505251862
+Constrs mean and sd ranges: [ 1.96458055 21.52417078] and [0.85316845 0.85316845]
+Obj mean and sd ranges: 15.85236411349532 and 0.8494050575111198
+Constrs mean and sd ranges: [ 1.96627577 21.49595671] and [0.84940506 0.84940506]
+Obj mean and sd ranges: 15.652608124273138 and 0.8492761272278045
+Constrs mean and sd ranges: [ 1.96634479 22.03334873] and [0.84927613 0.84927613]
+Obj mean and sd ranges: 15.668621186883138 and 0.6135581981016922
+Constrs mean and sd ranges: [ 1.98384122 22.12731892] and [0.6135582 0.6135582]
+Obj mean and sd ranges: 15.65454330065785 and 0.6135874854173571
+Constrs mean and sd ranges: [ 1.98378425 22.10146044] and [0.61358749 0.61358749]
+Obj mean and sd ranges: 15.553052567005466 and 0.5851719221818619
+Constrs mean and sd ranges: [ 1.97798224 22.0187189 ] and [0.58517192 0.58517192]
+Obj mean and sd ranges: 15.553693284904583 and 0.4706734536171934
+Constrs mean and sd ranges: [ 2.01191785 21.9824301 ] and [0.47067345 0.47067345]
+Obj mean and sd ranges: 15.434642458698079 and 0.4680039814186642
+Constrs mean and sd ranges: [ 2.01184518 22.00219207] and [0.46800398 0.46800398]
+Obj mean and sd ranges: 15.434565115373545 and 0.46801695702699836
+Constrs mean and sd ranges: [ 2.01150445 22.04068315] and [0.46801696 0.46801696]
+Obj mean and sd ranges: 15.425312340589244 and 0.4397154795162074
+Constrs mean and sd ranges: [ 2.01513718 22.04737466] and [0.43971548 0.43971548]
+Obj mean and sd ranges: 15.425412155237915 and 0.4397232145280918
+Constrs mean and sd ranges: [ 2.01543395 22.07490114] and [0.43972321 0.43972321]
+Obj mean and sd ranges: 15.593895243300238 and 0.4396305638352535
+Constrs mean and sd ranges: [ 2.0154701  22.06342916] and [0.43963056 0.43963056]
